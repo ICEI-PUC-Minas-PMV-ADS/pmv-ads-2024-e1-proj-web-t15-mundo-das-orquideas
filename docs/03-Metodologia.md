@@ -25,6 +25,8 @@ As tarefas do projeto, estão divididas em quatro etapas:
 - In progress: As tarefas que já foram iniciadas e estão em processo.
 - Done: Colocaremos as tarefas que já foram finalizadas.
 
+O quadro kanban do grupo no GitHub está disponível no link https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1045 e é apresentado, no estado atual, na figura abaixo:
+
 ### Ferramentas
 
 As ferramentas empregadas no projeto são:
