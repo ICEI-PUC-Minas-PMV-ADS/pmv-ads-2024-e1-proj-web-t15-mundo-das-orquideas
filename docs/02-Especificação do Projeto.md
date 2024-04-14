@@ -43,7 +43,7 @@
 
 |  Eu como...        |  ...quero/desejo...        |     ...para...               |
 |------------------- |----------------------------|------------------------------|
-| Cuidaddor Iniciante        | Ser capaz de pesquisar tipos de orquídeas          | Possa identificiar com mais facilidade a orquídea    |
+| Cuidador Iniciante        | Ser capaz de pesquisar tipos de orquídeas          | Possa identificiar com mais facilidade a orquídea    |
 | Cuidador Iniciante  | Ser capaz de fazer cadastro  | poder acessar o fórum |
 | Cuidador Iniciante  | Conseguir fazer perguntas no fórum  | Com isso posso sanar as minhas dúvidas |
 | Cuidador Especialista  | Consiga responder ás perguntas do usuário | Eu receba likes |
