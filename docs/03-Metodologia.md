@@ -28,9 +28,27 @@ As tarefas do projeto, estão divididas em quatro etapas:
 O quadro kanban do grupo no GitHub está disponível no link https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1045 e é apresentado, no estado atual, na figura abaixo:
 
 <figure>
-  <img scr=https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-mundo-das-orquideas/blob/main/docs/img/Product%20Backlog.png>
+  <img src=
+    "https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-mundo-das-orquideas/blob/main/docs/img/Product%20Backlog.png">
     <figcaption>Figura 1 - Tela do kanban no GitHub utilizada pelo grupo</figcaption>
 </figure>
+
+<h3>Etiquetas</h3>
+<p>As tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:</p>
+
+<ul>
+  <li>Bug (Erro no código)</li>
+  <li>Desenvolvimento (Development)</li>
+  <li>Documentação (Documentation)</li>
+  <li>Gerência de Projetos (Project Management)</li>
+  <li>Infraestrutura (Infrastructure)</li>
+  <li>Testes (Tests)</li>
+</ul>
+
+<figure> 
+  <img src="https://user-images.githubusercontent.com/100447878/164068979-9eed46e1-9b44-461e-ab88-c2388e6767a1.png"
+    <figcaption>Figura 2 - Tela do esquema de cores e categorias</figcaption>
+</figure> 
 
 ### Ferramentas
 
