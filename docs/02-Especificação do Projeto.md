@@ -44,13 +44,15 @@
 |  Eu como...        |  ...quero/desejo...        |     ...para...               |
 |------------------- |----------------------------|------------------------------|
 | Cuidador Iniciante        | Ser capaz de pesquisar tipos de orquídeas          | Possa identificiar com mais facilidade a orquídea    |
-| Cuidador Iniciante  | Ser capaz de fazer cadastro  | poder acessar o fórum |
+| Cuidador Iniciante  | Ser capaz de fazer cadastro  | Poder acessar o fórum |
 | Cuidador Iniciante  | Conseguir fazer perguntas no fórum  | Com isso posso sanar as minhas dúvidas |
 | Cuidador Especialista  | Consiga responder ás perguntas do usuário | Eu receba likes |
+| Cuidador Iniciante | Dar linke nos comentários | Mostrar que ele foi de ajuda |
 | Cuidador Iniciante | Ver informações das orquídeas | Consiga cuidar das minhas plantas|
 | Cuidador Intermediário  | Ver imagem de cada orquídea cadastrada  | Possibilite uma maior facilidade ao localizar a espécie |
 | Cuidador Especialista | Ser capaz de acessar o meu perfil |  Verificar as minhas informações do site |
-| Cuidador Iniciante | Conseguir pesquisar a minha orquídea via foto |  possa localizar minha orquídea com maior rapidez |
+| Cuidador Iniciante | Conseguir pesquisar a minha orquídea via foto |  Possa localizar minha orquídea com maior rapidez |
+| Cuidador Iniciante | Preencher um formulário sobre orquídeas | Saber meu nível de conhecimento |
 
 ## Requisitos do Projeto
 
