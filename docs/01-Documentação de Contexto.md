@@ -11,10 +11,9 @@ O problema em questão é a falta de informação e conhecimento das pessoas em 
 
 ## Objetivos
 
-<p>O objetivo geral deste projeto é o desenvolvimento de uma solução usabilidade fácil e amigável que permita aos usuários a busca de conhecimento e troca de informações com outras pessoas que buscam o cultivo das Orchidaceae.
+<p>O objetivo geral deste projeto é o desenvolvimento de uma solução usabilidade fácil e amigável que permita aos usuários a busca de conhecimento e troca de informações com outras pessoas que buscam o cultivo das Orchidaceae.</p>
 
-Como objetivos específicos, destacamos:
-<ul>
+<p>Como objetivos específicos, destacamos:<ul>
 <li>Disponibilizar aos usuários pesquisa sobre as variedades de cada espécie das plantas da família das Orchidaceae, como identificação e características e suas peculiaridades;</li>
 <li>Oferecer guia detalhado sobre o correto cultivo das orquídeas;</li>
 <li>Canal de comunicação com demais usuários para interação para esclarecimento de dúvidas frequentes.</li>
@@ -22,14 +21,14 @@ Como objetivos específicos, destacamos:
 
 ## Justificativa
 
- Nosso site de orquídeas é uma plataforma dedicada a atender às necessidades dos entusiastas dessa planta tão especial. Reconhecemos que o interesse pelas orquídeas vai além do simples hobby; é uma paixão que une pessoas de diferentes origens e níveis de experiência em todo o mundo.
- A justificativa para este site reside na crescente demanda por informações confiáveis e práticas sobre o cultivo e cuidado das orquídeas. Com tantas variedades e peculiaridades, é fácil entender por que os cultivadores, sejam novatos ou experientes, buscam orientações claras e precisas para garantir o sucesso no cultivo dessas flores.
- Além disso, há uma necessidade urgente de promover práticas sustentáveis de cultivo de orquídeas para preservar sua diversidade e habitats naturais. Nosso site se propõe a desempenhar um papel ativo nesse aspecto, fornecendo informações sobre técnicas de cultivo responsáveis e conscientizando sobre a importância da conservação das orquídeas em seus ambientes naturais.
- Assim, nosso objetivo é oferecer uma plataforma abrangente e acessível que atenda às necessidades da comunidade de orquidófilos, fornecendo recursos práticos e objetivos para o cultivo bem-sucedido de orquídeas, ao mesmo tempo em que promove a conscientização sobre questões de conservação. Estamos empenhados em ser uma fonte confiável de informações para todos aqueles que compartilham nossa paixão pelas orquídeas e que desejam contribuir para sua preservação e apreciação contínuas.
+<p> Nosso site de orquídeas é uma plataforma dedicada a atender às necessidades dos entusiastas dessa planta tão especial. Reconhecemos que o interesse pelas orquídeas vai além do simples hobby; é uma paixão que une pessoas de diferentes origens e níveis de experiência em todo o mundo.</p>
+ <p>A justificativa para este site reside na crescente demanda por informações confiáveis e práticas sobre o cultivo e cuidado das orquídeas. Com tantas variedades e peculiaridades, é fácil entender por que os cultivadores, sejam novatos ou experientes, buscam orientações claras e precisas para garantir o sucesso no cultivo dessas flores.</p>
+ <p>Além disso, há uma necessidade urgente de promover práticas sustentáveis de cultivo de orquídeas para preservar sua diversidade e habitats naturais. Nosso site se propõe a desempenhar um papel ativo nesse aspecto, fornecendo informações sobre técnicas de cultivo responsáveis e conscientizando sobre a importância da conservação das orquídeas em seus ambientes naturais.</p>
+<p> Assim, nosso objetivo é oferecer uma plataforma abrangente e acessível que atenda às necessidades da comunidade de orquidófilos, fornecendo recursos práticos e objetivos para o cultivo bem-sucedido de orquídeas, ao mesmo tempo em que promove a conscientização sobre questões de conservação. Estamos empenhados em ser uma fonte confiável de informações para todos aqueles que compartilham nossa paixão pelas orquídeas e que desejam contribuir para sua preservação e apreciação contínuas.</p>
 
 ## Público-Alvo
 
- Foco deste trabalho está ligado ao público que queiram aprender como ter o cuidado com as orquídeas.
- Estabeleceu-se como público-alvo pessoas que queiram adquirir o conhecimento no trato com as orquídeas, pois, no decorrer do processo possa acontecer desafios, dificuldades, anseios e aprendizados de como cultivar as orquídeas.
- Realizada entrevista com público-alvo sendo iniciantes que, adquiriram através de presente, primeira compra, e outro com uma breve experiência com a planta e esse público apresentam algumas ações e características comuns entre eles, sendo elas:
- O projeto também envolve pessoas que tenham experiências  com as espécies de orquídeas e que pretendam dissertar, esclarecer dúvidas quanto aos cuidados com a planta.
+ <p>Foco deste trabalho está ligado ao público que queiram aprender como ter o cuidado com as orquídeas.
+ <p>Estabeleceu-se como público-alvo pessoas que queiram adquirir o conhecimento no trato com as orquídeas, pois, no decorrer do processo possa acontecer desafios, dificuldades, anseios e aprendizados de como cultivar as orquídeas.
+ <p>Realizada entrevista com público-alvo sendo iniciantes que, adquiriram através de presente, primeira compra, e outro com uma breve experiência com a planta e esse público apresentam algumas ações e características comuns entre eles, sendo elas:
+ <p>O projeto também envolve pessoas que tenham experiências  com as espécies de orquídeas e que pretendam dissertar, esclarecer dúvidas quanto aos cuidados com a planta.
