@@ -1,16 +1,17 @@
 # Introdução
 
-A beleza das orquídeas, arbustos da família da Orchidaceae, é algo que encanta e atrai milhares de pessoas para o cultivo e cuidados com as plantas. Por toda parte existem pessoas que possuem ou, em algum momento, já tiveram ou foram presenteadas com uma orquídea e se viram em uma situação de falta de conhecimento e manejo no trato das plantas. 
-As principais dificuldades encontradas são em relação à falta de conhecimento e informações quanto aos cuidados necessários diante da quantidade de diferentes espécies existentes.
-Diante disso, se faz necessário uma fonte de informação frequentes para garantir que suas orquídeas floresçam e prosperem e que as pessoas possam nutrir e apreciar a beleza única das orquídeas.
+<p>A beleza das orquídeas, arbustos da família da Orchidaceae, é algo que encanta e atrai milhares de pessoas para o cultivo e cuidados com as plantas. Por toda parte existem pessoas que possuem ou, em algum momento, já tiveram ou foram presenteadas com uma orquídea e se viram em uma situação de falta de conhecimento e manejo no trato das plantas. 
+<p>As principais dificuldades encontradas são em relação à falta de conhecimento e informações quanto aos cuidados necessários diante da quantidade de diferentes espécies existentes.
+<p></p>Diante disso, se faz necessário uma fonte de informação frequentes para garantir que suas orquídeas floresçam e prosperem e que as pessoas possam nutrir e apreciar a beleza única das orquídeas.
 
 
 ## Problema
+
 O problema em questão é a falta de informação e conhecimento das pessoas em geral de como cultivar as orquídeas. Ao longo de um ano existem várias datas comemorativas que são oportunas para presentear uma pessoa amada com uma orquídea. Porém ao ganhar a flor muitos não sabem como fazer para que ela fique linda por mais tempo e volte a florescer novamente nos proximo ano.
 
 ## Objetivos
 
-O objetivo geral deste projeto é o desenvolvimento de uma solução usabilidade fácil e amigável que permita aos usuários a busca de conhecimento e troca de informações com outras pessoas que buscam o cultivo das Orchidaceae.
+<p>O objetivo geral deste projeto é o desenvolvimento de uma solução usabilidade fácil e amigável que permita aos usuários a busca de conhecimento e troca de informações com outras pessoas que buscam o cultivo das Orchidaceae.
 
 Como objetivos específicos, destacamos:
 <ul>
