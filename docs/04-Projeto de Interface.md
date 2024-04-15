@@ -13,14 +13,7 @@
 ## Tela - Home Page
 
 <p>No home page é possível vizualizer banner com alguns tipos de orquídeas e acessar seus artigos, cadastro, ferramenta de busca de tipos de orquídeas, forum de discurção, com destaque da pergunta mais relevante até o momento. </p>
-
-
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+   <Figure>
+      <img src=https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-mundo-das-orquideas/blob/2638a80b2b9acd6995352effc01412f965ddcac0/docs/img/User%20flow.jpeg>
+      <figurecaption>Figura 4 - Home Page</figurecaption>
+   </Figure>
