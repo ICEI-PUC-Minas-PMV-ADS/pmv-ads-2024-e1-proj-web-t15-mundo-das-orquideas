@@ -17,3 +17,19 @@
       <img src=https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-mundo-das-orquideas/blob/2638a80b2b9acd6995352effc01412f965ddcac0/docs/img/User%20flow.jpeg>
       <figurecaption>Figura 4 - Home Page</figurecaption>
    </Figure>
+   
+## Tela - Cadastro
+
+<p> Nessa tela é possível fazer o cadastro no site.</p>
+
+## Tela - Login
+
+<p> Nessa tela é possível fazer o login para acesso ao fórum.</p>
+
+## Tela - Conteúdo 
+
+<p>É possivel verificar o conteúdo da orquidea selecionada</p>
+
+## Tela - Forum
+
+<p>O forum é possível verificar as postagem das dúvidas dos outros usuários, fazer perguntas, responder e curtir os comentários.</p>
