@@ -1,9 +1,9 @@
 
 # Projeto de Interface
 
-##User Flow
+## User Flow
 
-<p> O fluxograma apresentado na figura </p>
+<p> O fluxograma apresentado na figura 3 mostra o fluxo de navegação de um usuário pelas telas do sistema, na seção do protótipo de baixa fidelidade será possível vizualizar cada tela. </p>
 
 ## Diagrama de Fluxo
 
