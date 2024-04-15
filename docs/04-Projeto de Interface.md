@@ -4,7 +4,9 @@
 ## User Flow
 
 <p> O fluxograma apresentado na figura 3 mostra o fluxo de navegação de um usuário pelas telas do sistema, na seção do protótipo de baixa fidelidade será possível vizualizar cada tela. </p>
-
+ <figure>
+   <figurecaption>docs/img/Geral.jpg</figurecaption>
+ </figure>
 ## Diagrama de Fluxo
 
 O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema interativo e  muitas vezes sem a necessidade do desenho do design das telas da interface. Isso permite que o design das interações seja bem planejado e gere impacto na qualidade no design do wireframe interativo que será desenvolvido logo em seguida.
