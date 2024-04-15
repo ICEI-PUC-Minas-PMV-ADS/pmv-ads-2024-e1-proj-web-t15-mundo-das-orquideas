@@ -21,15 +21,38 @@
 ## Tela - Cadastro
 
 <p> Nessa tela é possível fazer o cadastro no site.</p>
-
+   <figure>
+      <img src=https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-mundo-das-orquideas/blob/0217250fd1d36209a7e2a7316f75b1b1aeb62ade/docs/img/10.png>
+      <figurecaption>Figura 5 - Cadastro</figurecaption>
+   </figure>
+   
 ## Tela - Login
 
 <p> Nessa tela é possível fazer o login para acesso ao fórum.</p>
+   <figure>
+       <img src=https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-mundo-das-orquideas/blob/0217250fd1d36209a7e2a7316f75b1b1aeb62ade/docs/img/9.png>
+       <figurecaption>Figura 6 - Logim</figurecaption>
+   </figure>
 
 ## Tela - Conteúdo 
 
-<p>É possivel verificar o conteúdo da orquidea selecionada</p>
+<p>É possivel verificar o conteúdo específico da orquidea selecionada</p>
+   <figure>
+      <img src=https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-mundo-das-orquideas/blob/0217250fd1d36209a7e2a7316f75b1b1aeb62ade/docs/img/Artigos.jpeg>
+      <figurecaption>Figura 7 - Conteúdo das orquídeas</figurecaption>
+   </figure>
 
-## Tela - Forum
+## Tela - Fórum
 
-<p>O forum é possível verificar as postagem das dúvidas dos outros usuários, fazer perguntas, responder e curtir os comentários.</p>
+<p>O forum é possível verificar as postagem das dúvidas dos outros usuários.</p>
+   <figure>
+      <img src=https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-mundo-das-orquideas/blob/0217250fd1d36209a7e2a7316f75b1b1aeb62ade/docs/img/Forum.jpeg>
+      <Figurecaption>Figura 8 - Tela do Forum</Figurecaption>
+   </figure>
+## Tela - Comentários
+
+<p> Vizualização da pergunta selecionda no fórum e as respostas dos demais usuários, possiilita também você inserir um comentário</p>
+   <figure>
+      <img src=https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-mundo-das-orquideas/blob/0217250fd1d36209a7e2a7316f75b1b1aeb62ade/docs/img/Coment%C3%A1rios.jpeg>
+      <figurecaption>Figura 9 - Tela de comentários</figurecaption>
+   </figure>
