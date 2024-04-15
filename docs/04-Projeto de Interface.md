@@ -49,6 +49,7 @@
       <img src=https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-mundo-das-orquideas/blob/0217250fd1d36209a7e2a7316f75b1b1aeb62ade/docs/img/Forum.jpeg>
       <Figurecaption>Figura 8 - Tela do Forum</Figurecaption>
    </figure>
+   
 ## Tela - Comentários
 
 <p> Vizualização da pergunta selecionda no fórum e as respostas dos demais usuários, possiilita também você inserir um comentário</p>
