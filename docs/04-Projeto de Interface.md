@@ -6,7 +6,7 @@
 <p> O fluxograma apresentado na figura 3 mostra o fluxo de navegação de um usuário pelas telas do sistema, na seção do protótipo de baixa fidelidade será possível vizualizar cada tela. </p>
 
    <Figure>
-     <img src="docs/img/Geral.jpg">
+     <img src=["docs/img/Geral.jpg"](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-mundo-das-orquideas/blob/d8af07004636fc3beecafc9e37d63f17ca988ade/docs/img/Geral.jpg)>
      <figurecaption> Figura 3 - Fluxo de telas </figurecaption>
  </Figure>
  
