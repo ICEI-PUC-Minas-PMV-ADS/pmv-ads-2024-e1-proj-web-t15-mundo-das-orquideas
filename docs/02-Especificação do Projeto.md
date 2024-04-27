@@ -69,7 +69,7 @@
 | RF-07 | A aplicação deve mostrar uma imagem para cada tipo de orquídea cadastrada; | Média |
 | RF-08 | A aplicação deve permitir ao usuário verificar as informações de cadastro na página Perfil, após fazer seu login; | Baixa |
 | RF-09 | A aplicação deve ter um formulário de pesquisa vinculado ao google lens para pesquisar via foto qual é a orquídea dele; | Média |
-| RF-10 | Classificação do usuário a partir de um formulário quando for feito o cadastro. Cuidado iniciante, cuidador intermediário, cuidador especialista; | Médio |
+| RF-10 | Classificação do usuário a partir de um formulário quando for feito o cadastro. Cuidado iniciante, cuidador especialista; | Médio |
 
  **Prioridade: Alta / Média / Baixa. 
  
@@ -77,7 +77,7 @@
 
 | ID    | Descrição                                               | Prioridade |
 |-------|---------------------------------------------------------|------------|
-| RNF-01 | A aplicação deve ser responsiva, podendo ser utilizada em smartphone, notebook e tabelet; | Alta |
+| RNF-01 | A aplicação deve ser responsiva, podendo ser utilizada em smartphone, notebook e tablet; | Alta |
 | RNF-02 | Aplicação de permitir configurar o tamanho da fonte e o contraste do fundo e texto; | Alta |
 | RNF-03 | A aplicação deve responder e abrir a página principal em menos de 1 minuto; | Média |
 | RNF-04 | A aplicação deve ser compatível com os seguinte navegadores Google Chrome, Firefox e Microsoft Edge. | Alta |
