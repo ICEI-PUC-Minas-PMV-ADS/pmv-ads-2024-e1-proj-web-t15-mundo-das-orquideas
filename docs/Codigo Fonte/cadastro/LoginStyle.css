@@ -1,0 +1,89 @@
+body {
+
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.Pagina {
+   
+    background: #DEDBE0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.Login {
+    width: 50%;
+    max-width: 450px;
+    background-color: #FFFFFFBB;
+    padding: 60px;
+    border-radius: 28px;
+    box-shadow: 0 20px 20px 0px rgba(138, 138, 138, 0.671)
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.campo {
+
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid rgba(110, 110, 110, 0.87);
+    transition: all linear 190ms;
+    font-size: 0.9em;
+    
+}
+
+.campo::placeholder{
+    color: #666;
+
+}
+
+.campo:focus{
+    border-color: rgb(0, 0, 0);
+}
+
+.botao {
+    padding: 10px;
+    color: #FFFFFF;
+    font-weight: 600;
+    border: none;   
+    border-radius: 10px;
+    background-color: #666;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: all linear 190ms;
+}
+
+.botao:hover{
+    transform: scale(1.05);
+    background-color: rgb(134, 134, 134);
+}
+p{
+    font-size: 0,9rem;
+}
+
+form a {
+    margin: 3px;
+    font-size: 0.8em;
+color: #666;
+
+}
+
+h2{
+
+font-size: 1,8em;
+font-weight: 600;
+text-align: center;
+color:#2c2c2c
+}
