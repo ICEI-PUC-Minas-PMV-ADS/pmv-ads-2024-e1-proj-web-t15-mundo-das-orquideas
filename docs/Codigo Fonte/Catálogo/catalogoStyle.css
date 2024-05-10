@@ -6,7 +6,7 @@ body{
   background-color:#DEDBE0;
 }
 p{
-  font-family: Arial, Helvetica, URW Bookman L, serif;
+  font-family: Bookman,Arial, Helvetica,, serif;
 }
 #menu{ 
   width: 100%; /*largura do menu todo*/
@@ -71,9 +71,9 @@ p{
   color:#DEDBE0;
   width: 100px; 
   margin-left: auto;
-  margin-right: auto; 
+  margin-right: auto;
   text-align: center;
-  padding: 10px 20px ;
+  padding: 10px 20px;
   /*margin: 10px 500px;*/
   border-radius: 10px; /*arredonda as pontas*/
   
