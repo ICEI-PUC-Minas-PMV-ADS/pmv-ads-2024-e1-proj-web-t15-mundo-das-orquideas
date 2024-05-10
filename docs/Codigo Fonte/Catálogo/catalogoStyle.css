@@ -6,7 +6,7 @@ body{
   background-color:#DEDBE0;
 }
 p{
-  font-family: Bookman,Arial, Helvetica,, serif;
+  font-family: Bookman,Arial, Helvetica, serif; 
 }
 #menu{ 
   width: 100%; /*largura do menu todo*/
