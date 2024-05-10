@@ -3,10 +3,11 @@ html {
   width: 100%;
 }
 body{
-  background-color:#DEDBE0;
+  background-color:#C9C3CB;
 }
 p{
   font-family: Bookman,Arial, Helvetica, serif; 
+  background-color:#6;
 }
 #menu{ 
   width: 100%; /*largura do menu todo*/
@@ -41,7 +42,7 @@ p{
     padding: 10px 70px; /*distancia entre os botões *Não mexer* */
 }
 #menu ul li a:hover { 
-  background-color:#D6D6D6;
+  background-color:#DEDBE0;
   color: #6D6D6D;
   border-bottom:3px solid#867B8C;
 
@@ -68,7 +69,7 @@ p{
   width: 500px;
 }
 #subtitulo{
-  color:#DEDBE0;
+  color:#564E5A;
   width: 100px; 
   margin-left: auto;
   margin-right: auto;
@@ -76,7 +77,7 @@ p{
   padding: 10px 20px;
   /*margin: 10px 500px;*/
   border-radius: 10px; /*arredonda as pontas*/
-  
+  font-size: 20px;
 }
 
 .conteudo{
