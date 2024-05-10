@@ -7,7 +7,7 @@ body{
 }
 p{
   font-family: Bookman,Arial, Helvetica, serif; 
-  background-color:#6;
+
 }
 #menu{ 
   width: 100%; /*largura do menu todo*/
@@ -70,14 +70,16 @@ p{
 }
 #subtitulo{
   color:#564E5A;
-  width: 100px; 
+  width: 300px; 
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  padding: 10px 20px;
+  padding: 10px 10px;
   /*margin: 10px 500px;*/
-  border-radius: 10px; /*arredonda as pontas*/
-  font-size: 20px;
+  border-radius: 100px; /*arredonda as pontas*/
+  font-size: 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .conteudo{
@@ -125,7 +127,7 @@ button:disabled {
   display: flex; 
   flex-direction: row; 
   justify-content: space-between; 
-  padding-left: 200px;  
+  padding-left: 160px;  
   padding-bottom: 50px; 
   background-color: #C9C3CB; 
 }
