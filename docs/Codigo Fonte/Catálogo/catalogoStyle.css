@@ -3,19 +3,21 @@ html {
   width: 100%;
 }
 body{
-  background-color:#DEDBE0;
+  background-color:#C9C3CB;
 }
 p{
-  font-family: Arial, Helvetica, URW Bookman L, serif;
+  font-family: Bookman,Arial, Helvetica, serif; 
+
 }
-#menu{
+#menu{ 
   width: 100%; /*largura do menu todo*/
   height: 73px;/*tem que ser desse tamanho para não deixar um espaço em branco abaixo do menu*/
   line-height: 50px; /* centraliza na vertical */
-  background-color: #f1f1f1;
-  /*border: 1px dashed #ccc;*/
-  margin: 0 auto;
-  font-family: Arial, Helvetica, URW Bookman L, serif;
+  background-color: #f1f1f1; 
+  /*border: 1px dashed #ccc;*/ 
+  margin: 0 auto; 
+  font-family:Bookman, Helvetica, URW Bookman L, serif; /*Coloca a fonte da letra como arial preferencialmente, caso não
+  tenha é escolhido as outras*/
 }
 #menu ul { 
   padding:0px;
@@ -26,7 +28,7 @@ p{
 }
 #menu ul li { 
   margin-left: 35px; /*distancia entre os botões*/
-  margin-right: 35px;
+  margin-right: 35px; /*distância entre os botões (pela direita)*/
   display: inline; }
 
 #menu ul li a { 
@@ -40,15 +42,12 @@ p{
     padding: 10px 70px; /*distancia entre os botões *Não mexer* */
 }
 #menu ul li a:hover { 
-  background-color:#D6D6D6;
+  background-color:#DEDBE0;
   color: #6D6D6D;
   border-bottom:3px solid#867B8C;
 
 }
-.imagemelink {
 
-  
-}
 .coluna img{
   margin-top: 40px; /*distancia dos elementos da parte de cima para as imagens*/
   border-radius: 10px; /*arredonda a imagem*/
@@ -60,9 +59,7 @@ p{
   transform: scale(1.1); /*aumenta a imagem quando o mouse passa por cima*/
 
 }
-.coluna p image:hover{
-  
-}
+
 .coluna p{
   max-width: 225px;
  
@@ -72,18 +69,20 @@ p{
   width: 500px;
 }
 #subtitulo{
-  color:#DEDBE0;
-  width: 100px; 
+  color:#564E5A;
+  width: 300px; 
   margin-left: auto;
-  margin-right: auto; 
+  margin-right: auto;
   text-align: center;
-  padding: 10px 20px ;
+  padding: 10px 10px;
   /*margin: 10px 500px;*/
-  border-radius: 10px; /*arredonda as pontas*/
-  
+  border-radius: 100px; /*arredonda as pontas*/
+  font-size: 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
-.conteudo{
 
+.conteudo{
   padding-top: 50px;
 }
 
@@ -115,20 +114,20 @@ button:active {
 }
 
 button:hover:not(:disabled) {
- background: #564E5A;
- color: white;
- text-shadow: 0 0.0.2rem #bcb4b4;
+ background: #564E5A; 
+ color: white; 
+ text-shadow: 0 0.0.2rem #bcb4b4; 
 }
 
 button:disabled {
- cursor: auto;
- color: grey;
+ cursor: auto; 
+ color: grey; 
 }
 .linha{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-left: 200px;
-  padding-bottom: 50px;
-  background-color: #C9C3CB;
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-between; 
+  padding-left: 160px;  
+  padding-bottom: 50px; 
+  background-color: #C9C3CB; 
 }
