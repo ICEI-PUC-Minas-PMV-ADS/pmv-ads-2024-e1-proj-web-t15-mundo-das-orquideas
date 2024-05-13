@@ -45,10 +45,7 @@ p{
   border-bottom:3px solid#867B8C;
 
 }
-.imagemelink {
 
-  
-}
 .coluna img{
   margin-top: 40px; /distancia dos elementos da parte de cima para as imagens/
   border-radius: 10px; /arredonda a imagem/
@@ -60,9 +57,7 @@ p{
   transform: scale(1.1); /aumenta a imagem quando o mouse passa por cima/
 
 }
-.coluna p image:hover{
-  
-}
+
 .coluna p{
   max-width: 225px;
  
@@ -72,15 +67,15 @@ p{
   width: 500px;
 }
 #subtitulo{
-  color:#DEDBE0;
-  width: 100px; 
+  color: #564E5A; 
+  width: 350px; 
   margin-left: auto;
   margin-right: auto; 
   text-align: center;
-  padding: 10px 20px ;
+  padding: 10px 50px ;
   /margin: 10px 500px;/
   border-radius: 10px; /arredonda as pontas/
-  
+  font-size: 30px;
 }
 .conteudo{
 
