@@ -21,10 +21,10 @@ O problema em questão é a falta de informação e conhecimento das pessoas em 
 
 ## Justificativa
 
-<p> Nosso site de orquídeas é uma plataforma dedicada a atender às necessidades dos entusiastas dessa planta tão especial. Reconhecemos que o interesse pelas orquídeas vai além do simples hobby; é uma paixão que une pessoas de diferentes origens e níveis de experiência em todo o mundo.</p>
- <p>A justificativa para este site reside na crescente demanda por informações confiáveis e práticas sobre o cultivo e cuidado das orquídeas. Com tantas variedades e peculiaridades, é fácil entender por que os cultivadores, sejam novatos ou experientes, buscam orientações claras e precisas para garantir o sucesso no cultivo dessas flores.</p>
- <p>Além disso, há uma necessidade urgente de promover práticas sustentáveis de cultivo de orquídeas para preservar sua diversidade e habitats naturais. Nosso site se propõe a desempenhar um papel ativo nesse aspecto, fornecendo informações sobre técnicas de cultivo responsáveis e conscientizando sobre a importância da conservação das orquídeas em seus ambientes naturais.</p>
-<p> Assim, nosso objetivo é oferecer uma plataforma abrangente e acessível que atenda às necessidades da comunidade de orquidófilos, fornecendo recursos práticos e objetivos para o cultivo bem-sucedido de orquídeas, ao mesmo tempo em que promove a conscientização sobre questões de conservação. Estamos empenhados em ser uma fonte confiável de informações para todos aqueles que compartilham nossa paixão pelas orquídeas e que desejam contribuir para sua preservação e apreciação contínuas.</p>
+<p> Nosso site de orquídeas é uma plataforma dedicada a atender às necessidades dos cuidadores dessa planta tão especial. Reconhecemos que o interesse pelas orquídeas vai além do simples hobby; é uma paixão que une pessoas de diferentes origens e níveis de experiência em todo o mundo.</p>
+ <p>A justificativa para este site reside na crescente demanda por informações confiáveis e práticas sobre o cultivo e cuidado das orquídeas. Com tantas variedades e peculiaridades, é fácil entender por que os cultivadores, buscam orientações claras e precisas para garantir o cultivo dessas flores.</p>
+ <p>Além disso, há uma necessidade de promover práticas sustentáveis de cultivo de orquídeas para preservar sua diversidade e habitats naturais. Nosso site se propõe a desempenhar um papel ativo nesse aspecto, fornecendo informações sobre técnicas de cultivo responsáveis e conscientizando sobre a importância da conservação das orquídeas em seus ambientes naturais.</p>
+<p> Assim, nosso objetivo é oferecer uma plataforma abrangente e acessível que atenda às necessidades da comunidade de orquidófilos, fornecendo recursos práticos e objetivos para o cultivo bem-sucedido de orquídeas, ao mesmo tempo em que promove a conscientização sobre questões de conservação.</p>
 
 ## Público-Alvo
 
