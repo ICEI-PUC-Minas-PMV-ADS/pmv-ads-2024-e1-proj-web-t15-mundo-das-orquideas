@@ -75,10 +75,13 @@ p {
     width: calc(33, 33%-16px);
     padding: 8px;
     vertical-align: auto;
+    text-align: center;
     /* background-color: white;
     border-radius: 100px; */
 }
-
+.box p{
+    strong
+}
 .box img {
     display: flex;
     justify-content: space-between;
