@@ -16,6 +16,7 @@ html {
 
 body {
     background-color: #DEDBE0;
+    S
 }
 
 p {
@@ -71,23 +72,38 @@ p {
 
 .box {
     display: inline-block;
-    width: 20%;
-    padding: 30px %;
+    width: calc(33, 33%-16px);
+    padding: 8px;
     vertical-align: auto;
     /* background-color: white;
     border-radius: 100px; */
 }
 
 .box img {
-    width: 100%;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    max-width: 225px;
+    padding: 0px 80px;
     margin-bottom: 30px;
-    
+    /* background-color: white; */
 
 }
 
+.dest h2 {
+    margin-bottom: -20px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+
 .destaque {
-    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
     /* background-color: #777; */
 }
 
@@ -103,4 +119,10 @@ p {
     box-shadow: 0 0.4rem #dfd9d9;
     cursor: pointer;
     text-align: center;
+}
+
+.forum-destaque{
+
+    height: 500px;
+    background-color: #867B8C;
 }
