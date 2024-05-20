@@ -9,14 +9,15 @@ html {
 
     text-align: center;
     padding: 10px;
-    background-color: #f1f1f1;
+    background: linear-gradient(to right, #000000, #9b9896);
     font-size: large;
     font-size: 60px;
+
 }
 
 body {
     background-color: #DEDBE0;
-    S
+
 }
 
 p {
@@ -79,25 +80,25 @@ p {
     /* background-color: white;
     border-radius: 100px; */
 }
-.box p{
-    strong
-}
+
 .box img {
     display: flex;
     justify-content: space-between;
     max-width: 225px;
     padding: 0px 80px;
     margin-bottom: 30px;
+    /* border-radius: 50px; */
     /* background-color: white; */
 
 }
 
-.dest h2 {
-    margin-bottom: -20px;
+.dest {
+    position: relative;
     text-align: center;
-    font-size: 30px;
-    border-radius: 5px;
-    width: 100%;
+    font-size: 35px;
+    /* width: 30%; */
+    /* border: 2px solid; */
+    border-radius: 30px;
 }
 
 
@@ -124,7 +125,7 @@ p {
     text-align: center;
 }
 
-.forum-destaque{
+.forum-destaque {
 
     height: 500px;
     background-color: #867B8C;

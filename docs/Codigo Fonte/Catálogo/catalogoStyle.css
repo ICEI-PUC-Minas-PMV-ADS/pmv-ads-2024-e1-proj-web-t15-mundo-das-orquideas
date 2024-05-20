@@ -127,3 +127,6 @@ button:disabled {
   padding-bottom: 50px;
   
 }
+img{
+  border-radius: 50px;
+}
