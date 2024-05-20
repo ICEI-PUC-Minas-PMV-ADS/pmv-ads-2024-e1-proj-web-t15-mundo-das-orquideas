@@ -9,11 +9,11 @@ p{
   font-family: Arial, Helvetica, URW Bookman L, serif;
 }
 #menu{
-  width: 100%; /largura do menu todo/
-  height: 73px;/tem que ser desse tamanho para não deixar um espaço em branco abaixo do menu/
+  width: 100%; /*largura do menu todo*/
+  height: 73px;/*tem que ser desse tamanho para não deixar um espaço em branco abaixo do menu*/
   line-height: 50px; /* centraliza na vertical */
   background-color: #f1f1f1;
-  /border: 1px dashed #ccc;/
+  /*border: 1px dashed #ccc;*/
   margin: 0 auto;
   font-family: Arial, Helvetica, URW Bookman L, serif;
 }
@@ -25,7 +25,7 @@ p{
   text-align: center;
 }
 #menu ul li { 
-  margin-left: 35px; /distancia entre os botões/
+  margin-left: 35px; /*distancia entre os botões*/
   margin-right: 35px;
   display: inline; }
 
@@ -37,7 +37,7 @@ p{
     text-decoration: none; 
     border-bottom:3px solid #C9C3CB; 
     border-radius: 6px;
-    padding: 10px 70px; /distancia entre os botões *Não mexer */
+    padding: 10px 70px; /*distancia entre os botões *Não mexer */
 }
 #menu ul li a:hover { 
   background-color:#D6D6D6;
@@ -47,14 +47,14 @@ p{
 }
 
 .coluna img{
-  margin-top: 40px; /distancia dos elementos da parte de cima para as imagens/
-  border-radius: 10px; /arredonda a imagem/
+  margin-top: 40px; /*distancia dos elementos da parte de cima para as imagens*/
+  border-radius: 10px; /*arredonda a imagem*/
 
 
 }
-.coluna img:hover{ /Quando passa o mouse acima da imagem/
+.coluna img:hover{ /*Quando passa o mouse acima da imagem*/
   border: 2px solid #867B8C;
-  transform: scale(1.1); /aumenta a imagem quando o mouse passa por cima/
+  transform: scale(1.1); /*aumenta a imagem quando o mouse passa por cima*/
 
 }
 
@@ -73,8 +73,8 @@ p{
   margin-right: auto; 
   text-align: center;
   padding: 10px 50px ;
-  /margin: 10px 500px;/
-  border-radius: 10px; /arredonda as pontas/
+  /*margin: 10px 500px;*/
+  border-radius: 10px; /*aredonda as pontas*/
   font-size: 30px;
 }
 .conteudo{
@@ -89,7 +89,7 @@ p{
   color:#564E5A;
   font-family: Arial, Helvetica, sans-serif;
 }
-/Botão de ver mais/
+/*otão de ver mais*/
 button {
  margin-left: 30px;
  background-color: #eee;
