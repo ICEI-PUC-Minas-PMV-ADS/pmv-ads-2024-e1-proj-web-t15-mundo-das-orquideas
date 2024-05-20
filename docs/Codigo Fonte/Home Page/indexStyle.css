@@ -89,7 +89,7 @@ p {
     padding: 0px 80px;
     margin-bottom: 30px;
     /* background-color: white; */
-
+    border: radius 1px;
 }
 
 .dest h2 {
