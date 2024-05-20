@@ -86,7 +86,7 @@ body {
     margin-bottom: 30px;
     /* border-radius: 50px; */
     /* background-color: white; */
-
+    border: radius 1px;
 }
 
 .dest {
