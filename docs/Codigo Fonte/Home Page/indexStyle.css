@@ -5,15 +5,7 @@ html {
     margin: 0;
 }
 
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 400 to 700
 
-.dancing-script-<uniquifier> {
-  font-family: "Dancing Script", cursive;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
 
 .cabecalho {
 
@@ -134,3 +126,4 @@ body {
     height: 500px;
     background-color: #867B8C;
 }
+iu
