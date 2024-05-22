@@ -76,35 +76,31 @@ body {
     padding: 8px;
     vertical-align: auto;
     text-align: center;
-    /* background-color: white;
-    border-radius: 100px; */
+    /* background-color: white; */
+    margin-left: 100px;
+    margin-right: 100px;
+    transform: (-50px; -50px);
 }
 
 .box img {
+
     display: flex;
     justify-content: space-between;
     max-width: 225px;
     margin-bottom: 30px;
     border-radius: 10px;
-}
 
-.dest {
-    position: relative;
-    text-align: center;
-    font-size: 35px;
-    /* width: 30%; */
-    /* border: 2px solid; */
-    border-radius: 30px;
-}
 
+}
 
 .destaque {
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     height: 400px;
-    /* background-color: #777; */
+
 }
 
 .bot {
@@ -125,4 +121,17 @@ body {
 
     height: 500px;
     background-color: #867B8C;
+}
+
+.dest {
+    color: white;
+    position: relative;
+    left: calc(50%);
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 35px;
+    width: 250px;
+    /* border: 2px solid; */
+    border-radius: 10px;
+    background-color: #000000;
 }
