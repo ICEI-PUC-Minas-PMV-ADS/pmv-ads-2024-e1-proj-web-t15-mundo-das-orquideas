@@ -47,7 +47,7 @@
 | Cuidador Iniciante  | Ser capaz de fazer cadastro  | Poder acessar o fórum |
 | Cuidador Iniciante  | Conseguir fazer perguntas no fórum  | Com isso posso sanar as minhas dúvidas |
 | Cuidador Especialista  | Consiga responder ás perguntas do usuário | Eu receba likes |
-| Cuidador Iniciante | Dar linke nos comentários | Mostrar que ele foi de ajuda |
+| Cuidador Iniciante | Dar like nos comentários | Mostrar que ele foi de ajuda |
 | Cuidador Iniciante | Ver informações das orquídeas | Consiga cuidar das minhas plantas|
 | Cuidador Intermediário  | Ver imagem de cada orquídea cadastrada  | Possibilite uma maior facilidade ao localizar a espécie |
 | Cuidador Especialista | Ser capaz de acessar o meu perfil |  Verificar as minhas informações do site |
