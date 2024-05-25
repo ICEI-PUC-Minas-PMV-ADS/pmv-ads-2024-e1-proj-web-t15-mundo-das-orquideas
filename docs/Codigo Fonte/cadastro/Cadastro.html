@@ -8,6 +8,7 @@
         <meta name="viewport" content="width=device-width">
         <title>Cadastro</title>
         <link href="/docs/Codigo Fonte/cadastro/cadastroStyle.css" rel="stylesheet" type="text/css" />
+    <script> defer src="./cadastro.js" </script>
     </head>
 </head>
 
@@ -34,19 +35,19 @@
                 <h2>Cadastre-se</h2>
                 <p> Inserir os dados para cadastro:</p>
                 <label for="Nome"> Nome completo:</label>
-                <input class="campo" type="Telefone" placeholder="Digite seu nome" autofocus="true" />
+                <input id="camponome" class="campo" type="Telefone" placeholder="Digite seu nome" autofocus="true" />
 
                 <label for="Telefone"> Telefone:</label>
-                <input class="campo" type="tel" required placeholder="(XX) XXXXX-XXXX" autofocus="true" />
+                <input id="campotelefone"class="campo" type="tel" required placeholder="(XX) XXXXX-XXXX" autofocus="true" />
 
                 <label for="email"> E-mail:</label>
-                <input class="campo" type="email" placeholder="Digite seu e-mail" autofocus="true" />
+                <input id="campoemail" class="campo" type="email" placeholder="Digite seu e-mail" autofocus="true" />
 
                 <label for="senha">Senha:</label>
-                <input class="campo" type="password" id="senha" placeholder="Digite sua senha">
+                <input id="camposenha" class="campo" type="password" id="senha" placeholder="Digite sua senha">
 
                 <label for="senha">Confirmar Senha:</label>
-                <input class="campo" type="password" id="senha" placeholder="Digite sua senha">
+                <input id="campoconfsenha" class="campo" type="password" id="senha" placeholder="Digite sua senha">
 
                 <input type="submit" value="Enviar" class="botao" />
 
