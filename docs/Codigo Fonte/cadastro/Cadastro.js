@@ -30,6 +30,9 @@ function cadastrar() {
 
     }
 
+.botao onclick function()[
+    alert 'ola;'
+]
     let listaUser = JSON.parse(localStorage.getItem('listaUser') || '[]')
 }
 
