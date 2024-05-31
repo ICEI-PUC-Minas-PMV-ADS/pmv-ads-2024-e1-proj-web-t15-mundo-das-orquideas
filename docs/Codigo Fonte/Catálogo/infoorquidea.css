@@ -22,7 +22,7 @@ tml {
   #menu ul { 
     padding:0px;
     margin:0px;
-    background-color:#C9C3CB;
+    background-color:#c9c3cb;
     list-style:none;
     text-align: center;
   }
@@ -55,7 +55,9 @@ tml {
    left:15%;
    transform: translate(30%);
     max-width:50% ;
-    margin-top: 20%;
+    margin-top: 10%;
+    float: right;
+    
   }
   .coluna img:hover{
     transform: scale(1.5);
@@ -83,4 +85,62 @@ tml {
     width: 50%;
     margin-top: 50px;
     display: inline-block;
+    margin-right: 80px;
+    text-align: justify; /*Deixa o texto da explicação da planta justificado*/
+    max-width: 30%;
   }
+.forumbanner{
+  background-color: #564E5A;
+  width: 80%;
+  height: 200px;
+  position:static;
+  margin-top: 80px;
+  margin-bottom: 4%;
+ 
+}
+.forumbanner p{
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+.forumbanner button{
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent; /*Deixa da mesma cor do banner*/
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.37),
+      7px 7px 20px 0px rgb(78, 58, 85), /*sombra1*/
+      4px 4px 5px 0px rgb(201, 195, 203);/*sombra 2*/
+    outline: none;
+    position: relative;
+    left: 43%; /*tarefa:deixar responsivo*/
+ 
+   }
+   
+   .btn-1 {
+    background: rgb(50, 6, 131);
+    background: linear-gradient(0deg, rgb(162, 163, 185) 0%, rgba(12,25,180,1) 100%);
+    border: none;
+   }
+   
+   .btn-1:hover {
+    background: rgb(201, 195, 203);
+    background: linear-gradient(0deg, rgb(73, 61, 77) 0%,rgb(84, 65, 90) 100%);
+   }
+
+.conteudoeforum{
+  display: flex; /*deixa o banner do forum abaixo das informações*/
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
