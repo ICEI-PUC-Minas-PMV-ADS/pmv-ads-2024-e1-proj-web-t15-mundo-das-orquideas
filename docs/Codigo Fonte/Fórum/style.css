@@ -6,12 +6,14 @@
 html{
     font-size: 14px;
     font-family: 'Titillium Web', sans-serif;
-    background-color:rgb(177, 224, 214);
+    background-color:#DEDBE0;
     color:#000000;
+  
 }
 
 a{
-    color:#FF0042;
+    color: #564E5A; /* Coloca os textos de títulos com a cor roxa escuro*/
+    font-family: Arial, Helvetica, URW Bookman L, serif; /*TM*/
     font-weight: bolder;
     text-decoration: none;
 }
@@ -35,15 +37,18 @@ h1{
 }
 
 .subforum-title{
-    background-color:rgb(12, 218, 173);
+    background-color:#867B8C; /*Muda a cor do fundo do subtitulo TM*/
     padding: 5px;
     border-radius: 5px;
     margin:4px;
+    text-align: center;
+    color:#ece7ee; /*Muda a cor da letra TM*/
 }
 
 .subforum-row{
     display: grid;
     grid-template-columns: 7% 60% 13% 20%;
+
 }
 
 .subforum-column{
@@ -51,10 +56,25 @@ h1{
     margin:4px;
     border-radius: 5px;
     background-color:#ffffff;
+    font-family:aquire;
+    
 }
-
+.subforum-column a{
+    color:#564E5A;/*Muda a cor do link chamado "Ultima postagem"*/
+    font-family:aquire;
+    font-size: medium;
+}
 .subforum-description *{
     margin-block: 0;
+    
+
+}
+.subforum-description  a{
+    color:#564E5A;
+    font-family:aquire;
+}
+.subforum-description  a:hover{
+    color:#867B8C;/*Muda a cor do link quando segura TM*/
 }
 
 .center{
@@ -65,6 +85,7 @@ h1{
 
 .subforum-icon i{
     font-size: 45px;
+    color:#564E5A;
 }
 
 .subforum-devider{
@@ -132,13 +153,14 @@ header{
     align-items: center;
 }
 .navigation{
-    background-color:rgb(177, 224, 214);
+    background-color:#C9C3CB; /*Cor do menu sanduiche TM*/
     padding: 10px;
     width: 65%;
     display: inline-block;
     border-radius: 5px;
     max-height: 80px;
     margin-right:10px;
+
 }
 
 .close-icon i{
@@ -174,7 +196,7 @@ header{
     font-size: 60px;
     display: inline-block;
     margin-right:10px;
-    color: #000000;
+    color: #564E5A;
     cursor: pointer;
 }
 
@@ -184,9 +206,10 @@ header{
 }
 
 .brand{
-    font-size:60px;
+    font-size:50px;
     display: inline-block;
-    font-family:aquire;
+    font-family:aquire; /*Fonte bonita escolida para título TM*/
+    color: #564E5A; /*TM*/
 }
 
 /*Navbar for the smartphones*/
@@ -214,35 +237,40 @@ header{
  
     .brand{
         font-size:20px;
+        
     }
 }
 
   /* Search Box styles */
 .search-box{
-    border: solid 1px rgb(177, 224, 214);
+    border: solid 1px #C9C3CB; /*Cor das bordas da caixa de pesquisa TM*/
     margin-top: 20px;
     padding: 40px;
     display:flex;
     justify-content: center;
-    box-shadow:1px 2px 3px rgb(177, 224, 214);
+    box-shadow:1px 2px 3px #C9C3CB; /*Sombra das bordas da caixa de pesquisa TM*/
+    border-radius: 5px; /*Arredonda a borda TM*/
 }
 
 .search-box select{
     padding: 10px;
+    border-radius: 5px; /*Arredonda a borda TM*/
 }
 
 .search-box input{
     padding: 10px;
+    border-radius: 5px; /*Arredonda a borda TM*/
 }
 
 .search-box button{
     padding: 10px;
     background-color:#fff;
-    color:#000000;
+    color:#564E5A; /*TM*/
+    border-radius: 5px;
 }
 
 .search-box button:hover{
-    background-color: #000000;
+    background-color:#564E5A; /*TM*/
     color: #fff;
     box-shadow: 1px 2px 3px #fff;
 }
@@ -259,7 +287,10 @@ header{
 /* forum info Styling */
 .forum-info{
     padding: 20px;
-    background-color: rgb(177, 224, 214);
+    background-color:#C9C3CB;; /*Cor dos status do forum TM*/
+    border-radius: 5px;  /*Arredonda a borda TM*/
+    box-shadow: 2px 2px 2px #867B8C ; /*XColoca uma sombra degrade no fundo TM*/
+
 }
 
 .chart{
@@ -271,9 +302,12 @@ header{
 footer{
     margin-top: 20px;
     padding: 20px;
-    background-color: rgb(177, 224, 214);
+    background-color: #C9C3CB; /*cor do rodapé TM*/
     display: block;
     text-align: center;
+    border-radius: 5px; /*Arredonda a borda TM*/
+    margin-bottom: 5px;
+    box-shadow: 2px 2px 2px #867B8C ; /*XColoca uma sombra degrade no fundo TM*/
 }
 
 /* ########################################### */
@@ -288,7 +322,7 @@ footer{
 .table-head div{
     padding: 5px;
     margin: 2px;
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
     font-weight: bold;
 }
 
@@ -317,7 +351,7 @@ footer{
 .table-row .status, .table-row .subjects, .table-row .replies, .table-row .last-reply{
     padding: 5px;
     margin: 2px;
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
 }
 
 .table-row .status{
@@ -373,7 +407,7 @@ footer{
 }
 
 .note{
-    background-color:rgb(177, 224, 214);
+    background-color:#ffffff;
     padding: 20px;
     display: block;
 }
