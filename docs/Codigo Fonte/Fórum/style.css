@@ -485,7 +485,31 @@ footer{
 .comment-area input:hover{
     border: solid 1px #000000;
 }
+/* Adicione o estilo para o botão "Novo Tópico" */
+#new-topic-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #564E5A;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
+#new-topic-btn:hover {
+    background-color: #867B8C;
+}
+
+.reply-button {
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: white; /* Cor do texto branco */
+    padding: 10px 20px; /* Espaçamento interno */
+    border: none; /* Remover borda */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Cursor ao passar por cima */
+}
 
 
 
