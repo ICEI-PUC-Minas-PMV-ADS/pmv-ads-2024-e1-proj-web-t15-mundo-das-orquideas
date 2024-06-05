@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="pt-br">
 
 <head>
@@ -8,7 +9,8 @@
         <meta name="viewport" content="width=device-width">
         <title>Cadastro</title>
         <link href="/docs/Codigo Fonte/cadastro/cadastroStyle.css" rel="stylesheet" type="text/css" />
-    <script> defer src="./cadastro.js" </script>
+        <script> defer src="./castro.js" </script>
+
     </head>
 </head>
 
@@ -28,34 +30,37 @@
 
     <div class="Pagina">
 
-        <div class="Login">
+        <div class="Login" id="register-form">
 
             <form action="/cadastro" method="get" class="formcadastro">
 
                 <h2>Cadastre-se</h2>
                 <p> Inserir os dados para cadastro:</p>
                 <label for="Nome"> Nome completo:</label>
-                <input id="camponome" class="campo" type="Telefone" placeholder="Digite seu nome" autofocus="true" />
+                <input id="nome" class="campo" type="Telefone" placeholder="Digite seu nome" autofocus="true" />
 
-                <label for="Telefone"> Telefone:</label>
-                <input id="campotelefone"class="campo" type="tel" required placeholder="(XX) XXXXX-XXXX" autofocus="true" />
+                <label for="telefone"> Telefone:</label>
+                <input id="telefone"class="campo" type="tel" required placeholder="(XX) XXXXX-XXXX" autofocus="true" />
 
                 <label for="email"> E-mail:</label>
-                <input id="campoemail" class="campo" type="email" placeholder="Digite seu e-mail" autofocus="true" />
+                <input id="email" class="campo" type="email" placeholder="Digite seu e-mail" autofocus="true" />
 
                 <label for="senha">Senha:</label>
-                <input id="camposenha" class="campo" type="password" id="senha" placeholder="Digite sua senha">
+                <input id="senha" class="campo" type="password" id="senha" placeholder="Digite sua senha">
 
                 <label for="senha">Confirmar Senha:</label>
-                <input id="campoconfsenha" class="campo" type="password" id="senha" placeholder="Digite sua senha">
+                <input id="confirmarsenha" class="campo" type="password" id="senha" placeholder="Digite sua senha">
 
+<<<<<<< HEAD
                 <input id="botao" type="submit" value="Enviar" class="botao" />
+=======
+                <input type="submit" value="Enviar" class="botao" id="btn-submit"/>
+>>>>>>> c13f76e9008fca13d4ec6a5dff22af57d80b0aae
 
             </form>
 
         </div>
     </div>
-
 
 
 </body>
