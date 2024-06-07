@@ -132,4 +132,8 @@ button:disabled {
 }
 img{
   border-radius: 50px;
+
+}
+#cuidados{
+  gap:100%
 }

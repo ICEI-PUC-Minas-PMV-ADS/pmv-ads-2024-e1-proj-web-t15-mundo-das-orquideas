@@ -72,7 +72,7 @@ tml {
     top:25%;
     left: 50%;
     transform: translate(-50%,-50%); /* Centraliza junto com as duas linha acima*/
-
+    color:#564E5A;
     margin-bottom: 70px;
     font-size: 1cm;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -86,11 +86,11 @@ tml {
     display: inline-block;
     margin-right: 80px;
     text-align: justify; /*Deixa o texto da explicação da planta justificado*/
-    max-width: 30%;
+    max-width: 40%;
   }
 .forumbanner{
   background-color: #564E5A;
-  width: 80%;
+  width: 100%;
   height: 200px;
   position:static;
   margin-top: 80px;
@@ -99,9 +99,10 @@ tml {
 }
 .forumbanner p{
   text-align: center;
-  margin-top: 40px;
+  padding-top: 50px;
   margin-bottom: 30px;
   color: #fff;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
 }
 .forumbanner button{
     width: 130px;
@@ -120,17 +121,18 @@ tml {
       4px 4px 5px 0px rgb(201, 195, 203);/*sombra 2*/
     outline: none;
     position: relative;
-    left: 43%; /*tarefa:deixar responsivo*/
- 
+    left: 45%; /*tarefa:deixar responsivo*/
+    justify-content: center;
+    border-width: 0px;
    }
    
-   .btn-1 {
+   .acessar {
     background: rgb(50, 6, 131);
     background: linear-gradient(0deg, rgb(162, 163, 185) 0%, rgba(12,25,180,1) 100%);
     border: none;
    }
    
-   .btn-1:hover {
+   .acessar:hover {
     background: rgb(201, 195, 203);
     background: linear-gradient(0deg, rgb(73, 61, 77) 0%,rgb(84, 65, 90) 100%);
    }
