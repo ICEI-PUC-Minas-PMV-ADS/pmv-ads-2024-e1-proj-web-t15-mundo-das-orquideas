@@ -12,13 +12,11 @@ function entrar() {
 
     let listaUser = [] //listaUser criada no código do cadastro
 
-
-
     let userValid = { //para validar e depois percorrer com Foreach
 
         email: "",
         senha: "",
-        nome: ""
+        nome: "",
 
     }
     //pega a listaUser do LocalStorage criada no cadastro e percorre essa lista para comparar os dados que eu insiro no login com os dados retirados ao fazer o cadastro
@@ -58,12 +56,12 @@ function entrar() {
 
 
     } else {
-        msgError.setAttribute('style', 'display: block')
-        msgError.innerHTML = "Usuário ou senha incorretos"
+        msgError.setAttribute('style', 'text-aling:center',)
+        msgError.innerHTML = "<h3>Usuário ou senha incorretos<h2>"
         emailLabel.setAttribute('style', 'color: red')
         email_login.setAttribute('style', 'border-color: red')
         senhaLabel.setAttribute('style', 'color: red')
-        senha.setAttribute('style', 'border-color: red')
+        senha_login.setAttribute('style', 'border-color: red')
 
     }
 
