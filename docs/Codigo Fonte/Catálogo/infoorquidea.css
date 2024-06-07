@@ -18,7 +18,9 @@ tml {
     margin: 0 auto;
     font-family: Arial, Helvetica, URW Bookman L, serif;
     border-top: 0px;
-}
+    padding-bottom: 30px;
+    width: 100%;
+  }
   #menu ul { 
     padding:0px;
     margin:0px;
