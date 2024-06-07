@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width">
         <title>Login</title>
         <link href="LoginStyle.css" rel="stylesheet" type="text/css" />
-
+        <script defer src="/docs/Codigo Fonte/cadastro/Login.js"></script>
     </head>
 </head>
 
@@ -19,7 +19,6 @@
             <li><a href="/docs/Codigo Fonte/Home Page/index.html">Início</a></li>
             <li><a href="/docs/Codigo Fonte/Catálogo/catalogo.HTML">Catálogo</a></li>
             <li><a href="/docs/Codigo Fonte/Fórum/forum.html">Fórum</a></li>
-            <li><a href="#">Contato</a></li>
         </ul>
 
 </header>
@@ -28,22 +27,24 @@
 
     <div class="Pagina">
 
+        <div id="msgError"></div>
+
         <div class="Login">
 
-            <form action="/submit" method="post" class="formLogin">
+            <form action="/submit" name="item" class="formLogin">
 
                 <h2>Login</h2>
                 <p> Digite os seus dados para acessar</p>
 
-                <label for="email"> E-mail:</label>
-                <input id="campoemail" class="campo" type="email" placeholder="Digite seu e-mail" autofocus="true" />
+                <label id= "emailLabelfor" for="email_login"> E-mail:</label>
+                <input id="email_login" name="email_login" class="campo" type="text" placeholder="Digite seu e-mail" autofocus="true" />
 
-                <label for="senha">Senha:</label>
-                <input id="camposenha" class="campo" type="password" id="senha" placeholder="Digite sua senha">
+                <label id="senhaLabel" for="senha_login">Senha:</label>
+                <input id="senha_login" name="senha_login" class="campo" type="password" id="senha" placeholder="Digite sua senha">
 
-                <a href="/">Esqueci minha senha</a>
+                <!-- <a href="/">Esqueci minha senha</a> -->
 
-                <input type="submit" value="Acessar" class="botao" />
+                <button onclick="entrar()" type="button" class="botao"> Entrar </button>
 
                 <p>Para criar conta:<a href="/docs/Codigo Fonte/cadastro/Cadastro.html">Clique Aqui!</a></p>
 

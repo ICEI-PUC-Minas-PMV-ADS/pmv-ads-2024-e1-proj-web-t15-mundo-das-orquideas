@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,10 +18,10 @@
             <nav class="navigation hide" id="navigation">
                 <span class="close-icon" id="close-icon" onclick="showIconBar()"><i class="fa fa-close"></i></span>
                 <ul class="nav-list">
-                    
-                    <li class="nav-item"><a href="home novo.html">Nova Postagem</a></li>
-                    <li class="nav-item"><a href="home novo.html">Voltar</a></li>
-                   
+
+
+                    <li class="nav-item"><a href="homeNovo.html">Voltar</a></li>
+
                 </ul>
             </nav>
             <a class="bar-icon" id="iconBar" onclick="hideIconBar()"><i class="fa fa-bars"></i></a>
@@ -43,13 +44,16 @@
         <!--NAVEGAÇÃO-->
         <div class="navigate">
             <span><a href="">Forum</a> >> <a href="">Subforum</a></span>
+            <button id="new-topic-btn">Novo Tópico</button>
         </div>
+
         <!--TABELA DE POSTAGENS-->
-        <div class="posts-table">
+        <div class="posts-table" id="tabela-postagem">
             <div class="table-head">
                 <div class="status">Status</div>
                 <div class="subjects">Assuntos</div>
-                <div class="replies">Respostas</div>
+                <div class="replies">
+                </div>
                 <div class="last-reply">Ultima resposta</div>
             </div>
             <div class="table-row">
@@ -58,9 +62,10 @@
                     <a href="">Dúvidas sobre Orquideas</a>
                     <br>
                     <span>Iniciado por<b><a href="">Usuario</a></b> .</span>
+
                 </div>
                 <div class="replies">
-                    0 resposta <br> 0 visualizações
+                    <button class="reply-button">Responder</button>
                 </div>
 
                 <div class="last-reply">
@@ -77,7 +82,7 @@
                     <span>Iniciado por <b><a href="">Usuario</a></b> .</span>
                 </div>
                 <div class="replies">
-                    0 respostas <br> 0 visualizações
+                    <button class="reply-button">Responder</button>
                 </div>
 
                 <div class="last-reply">
@@ -94,7 +99,7 @@
                     <span>Iniciado por <b><a href="">Usuario</a></b> .</span>
                 </div>
                 <div class="replies">
-                    0 respostas <br> 0 visualizações
+                    <button class="reply-button">Responder</button>
                 </div>
 
                 <div class="last-reply">
@@ -103,7 +108,7 @@
                 </div>
             </div>
 
-            <div class="table-row">
+            <div class="table-row" id="question-row">
                 <div class="status"><i class="fa fa-book"></i></div>
                 <div class="subjects">
                     <a href="">Dúvidas Sobre Orquideas</a>
@@ -111,7 +116,7 @@
                     <span>Iniciado por<b><a href="">Usuario</a></b> .</span>
                 </div>
                 <div class="replies">
-                    0 resposta <br> 0 visualizações
+                    <button class="reply-button">Responder</button>
                 </div>
 
                 <div class="last-reply">
@@ -128,7 +133,7 @@
                     <span>Iniciado por <b><a href="">Usuario</a></b> .</span>
                 </div>
                 <div class="replies">
-                    0 resposta <br> 0 visualizações
+                    <button class="reply-button">Responder</button>
                 </div>
 
                 <div class="last-reply">
@@ -145,7 +150,7 @@
                     <span>Iniciado por<b><a href="">Usuario</a></b> .</span>
                 </div>
                 <div class="replies">
-                    0 resposta <br> 0 visualizações
+                    <button class="reply-button">Responder</button>
                 </div>
 
                 <div class="last-reply">
@@ -163,7 +168,7 @@
                     <span>Iniciado por<b><a href="">Usuario</a></b> .</span>
                 </div>
                 <div class="replies">
-                    0 resposta <br> 0 visualizações
+                    <button class="reply-button">Responder</button>
                 </div>
 
                 <div class="last-reply">
@@ -180,7 +185,7 @@
                     <span>Iniciado por<b><a href="">Usuario</a></b> .</span>
                 </div>
                 <div class="replies">
-                    0 repsostas <br> 0 visualizações
+                    <button class="reply-button">Responder</button>
                 </div>
 
                 <div class="last-reply">
@@ -197,7 +202,7 @@
                     <span>Iniciado por<b><a href="">Usuario</a></b> .</span>
                 </div>
                 <div class="replies">
-                    0 resposta <br> 0 visualizações
+                    <button class="reply-button">Responder</button>
                 </div>
 
                 <div class="last-reply">
@@ -214,7 +219,7 @@
                     <span>Iniciado por<b><a href="">Usuario</a></b> .</span>
                 </div>
                 <div class="replies">
-                    0 respostas <br> 0 visualizações
+                    <button class="reply-button">Responder</button>
                 </div>
 
                 <div class="last-reply">
@@ -225,23 +230,29 @@
             <!--FINAL-->
         </div>
         <!--COMEÇO DA PAGINA NAVEGAÇÃO-->
-            <div class="pagination">
-                paginas: <a href="">1</a><a href="">2</a><a href="">3</a>
-            </div>
+        <div class="pagination">
+            paginas: <a href="">1</a><a href="">2</a><a href="">3</a>
+        </div>
         <!--FINAL DA PAGINA NAVEGAÇÃO-->
     </div>
 
     <div class="note">
-        <span><i class="fa fa-frown-o"></i>&nbsp; 0 Engajamento do Tópico</span>&nbsp;&nbsp;&nbsp;<a href=""><i class="fa fa-share-square"></i></a><br>
-        <span><i class="fa fa-book"></i>&nbsp; Baixo Engajamento</span>&nbsp;&nbsp;&nbsp;<a href=""><i class="fa fa-share-square"></i></a><br>
-        <span><i class="fa fa-fire"></i>&nbsp; Tópico polular</span>&nbsp;&nbsp;&nbsp;<a href=""><i class="fa fa-share-square"></i></a><br>
-        <span><i class="fa fa-rocket"></i>&nbsp; Alto Engajamento</span>&nbsp;&nbsp;&nbsp;<a href=""><i class="fa fa-share-square"></i></a><br>
-        <span><i class="fa fa-lock"></i>&nbsp; Tópico fechado</span>&nbsp;&nbsp;&nbsp;<a href=""><i class="fa fa-share-square"></i></a><br>
+        <span><i class="fa fa-frown-o"></i>&nbsp; 0 Engajamento do Tópico</span>&nbsp;&nbsp;&nbsp;<a href=""><i
+                class="fa fa-share-square"></i></a><br>
+        <span><i class="fa fa-book"></i>&nbsp; Baixo Engajamento</span>&nbsp;&nbsp;&nbsp;<a href=""><i
+                class="fa fa-share-square"></i></a><br>
+        <span><i class="fa fa-fire"></i>&nbsp; Tópico polular</span>&nbsp;&nbsp;&nbsp;<a href=""><i
+                class="fa fa-share-square"></i></a><br>
+        <span><i class="fa fa-rocket"></i>&nbsp; Alto Engajamento</span>&nbsp;&nbsp;&nbsp;<a href=""><i
+                class="fa fa-share-square"></i></a><br>
+        <span><i class="fa fa-lock"></i>&nbsp; Tópico fechado</span>&nbsp;&nbsp;&nbsp;<a href=""><i
+                class="fa fa-share-square"></i></a><br>
     </div>
 
     <footer>
-        <span>&copy;  Mundo das Orquideas</span>
+        <span>&copy; Mundo das Orquideas</span>
     </footer>
     <script src="main.js"></script>
 </body>
+
 </html>
