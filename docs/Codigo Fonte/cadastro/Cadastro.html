@@ -9,20 +9,19 @@
         <meta name="viewport" content="width=device-width">
         <title>Cadastro</title>
         <link href="/docs/Codigo Fonte/cadastro/cadastroStyle.css" rel="stylesheet" type="text/css" />
-        <script> defer src="./castro.js" </script>
+        <script defer src="/docs/Codigo Fonte/cadastro/Cadastro.js"></script>
 
     </head>
 </head>
 
 <header class="header">
-    
-    <nav id="menu"> 
-        <ul> 
-          <li><a href="/docs/Codigo Fonte/Home Page/index.html">Início</a></li>
-          <li><a href="#">Catálogo</a></li>
-          <li><a href="/docs/Codigo Fonte/Fórum/forum.html">Fórum</a></li>
-          <li><a href="#">Contato</a></li>
-        </ul> 
+
+    <nav id="menu">
+        <ul>
+            <li><a href="/docs/Codigo Fonte/Home Page/index.html">Início</a></li>
+            <li><a href="/docs/Codigo Fonte/Catálogo/catalogo.HTML">Catálogo</a></li>
+            <li><a href="/docs/Codigo Fonte/Fórum/forum.html">Fórum</a></li>
+        </ul>
 
 </header>
 
@@ -32,30 +31,33 @@
 
         <div class="Login" id="register-form">
 
-            <form action="/cadastro" method="get" class="formcadastro">
+            <form onsubmit="return false" name="formulario" class="formcadastro">
 
                 <h2>Cadastre-se</h2>
                 <p> Inserir os dados para cadastro:</p>
-                <label for="Nome"> Nome completo:</label>
-                <input id="nome" class="campo" type="Telefone" placeholder="Digite seu nome" autofocus="true" />
+                <label for="nome"> Nome completo:</label>
+                <input name="nome" id="nome" class="campo" type="Telefone" placeholder="Digite seu nome"
+                    autofocus="true" minlength="4" />
 
                 <label for="telefone"> Telefone:</label>
-                <input id="telefone"class="campo" type="tel" required placeholder="(XX) XXXXX-XXXX" autofocus="true" />
+                <input id="telefone" name="telefone" class="campo" type="tel" required placeholder="(XX) XXXXX-XXXX"
+                    autofocus="true" minlength="11" />
 
                 <label for="email"> E-mail:</label>
-                <input id="email" class="campo" type="email" placeholder="Digite seu e-mail" autofocus="true" />
+                <input id="email" name="email" class="campo" type="email" required placeholder="Digite seu e-mail"
+                    autofocus="true" />
 
                 <label for="senha">Senha:</label>
-                <input id="senha" class="campo" type="password" id="senha" placeholder="Digite sua senha">
+                <input id="senha" name="senha" class="campo" type="password" id="senha" placeholder="Digite sua senha"
+                    minlength="6">
 
-                <label for="senha">Confirmar Senha:</label>
-                <input id="confirmarsenha" class="campo" type="password" id="senha" placeholder="Digite sua senha">
+                <label for="ConfirmeSenha">Confirmar Senha:</label>
+                <input id="ConfirmeSenha" class="campo" type="password" id="ConfirmeSenha"
+                    placeholder="Confirme sua senha" minlength="6">
 
-<<<<<<< HEAD
-                <input id="botao" type="submit" value="Enviar" class="botao" />
-=======
-                <input type="submit" value="Enviar" class="botao" id="btn-submit"/>
->>>>>>> c13f76e9008fca13d4ec6a5dff22af57d80b0aae
+                <button onclick=" return cadastrar()" id="botao" class="botao">Cadastrar</button>
+
+
 
             </form>
 
