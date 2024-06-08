@@ -68,7 +68,7 @@
 | RF-06 | A aplicação deve conter informações de cultivo e cuidados de orquídeas; | Alta |
 | RF-07 | A aplicação deve mostrar uma imagem para cada tipo de orquídea cadastrada; | Média |
 | RF-08 | A aplicação deve permitir ao usuário verificar as informações de cadastro na página Perfil, após fazer seu login; | Baixa |
-| RF-09 | A aplicação deve ter um formulário de pesquisa vinculado ao google lens para pesquisar via foto qual é a orquídea dele; | Média |
+| RF-09 | A aplicação deve ter um link de pesquisa vinculado ao google lens para pesquisar via foto qual é a orquídea dele; | Média |
 | RF-10 | Classificação do usuário a partir de um formulário quando for feito o cadastro. Cuidado iniciante, cuidador especialista; | Médio |
 
  **Prioridade: Alta / Média / Baixa. 
