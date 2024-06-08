@@ -29,5 +29,7 @@ function submitForm() {
 
     // Display the result
     document.querySelector('.nivel').innerText = `Você é: ${level}`;
-}
+    
+    // window.location.href = "/";
 
+}
