@@ -17,12 +17,12 @@ O código utilizado para a construção dos elementos citados, incluindo a respo
 
 <p> Na tela principal é exibido as principais orquídeas, tópicos do fórum e o menu de navegação.
 <figure>   
-<img src="">
+<img src="../docs/img/Home.jpg">
 <figcaption> Figura 1 - Principais Orquídeas e menu navegação.
 </figure>
 
 <figure>   
-<img src="">
+<img src="img/HomeForum.jpg">
 <figcaption> Figura 2 - Tópicos do fórum
 </figure>
 
@@ -31,7 +31,7 @@ O código utilizado para a construção dos elementos citados, incluindo a respo
 <p>A tela do fórum é possivel interação entre os usuários do site.
 
 <figure>   
-<img src="">
+<img src="img/Forum.jpg">
 <figcaption> Figura 3 - Fórum
 </figure>
 
@@ -40,6 +40,6 @@ O código utilizado para a construção dos elementos citados, incluindo a respo
 <p> Dentro do catálogo é possivel verificar alguns tipos de orquídeas e informações adicionais.
 
 <figure>   
-<img src="">
+<img src="img/Catalogo.jpg">
 <figcaption> Figura 4 - Catálogo de Orquídeas
 </figure>

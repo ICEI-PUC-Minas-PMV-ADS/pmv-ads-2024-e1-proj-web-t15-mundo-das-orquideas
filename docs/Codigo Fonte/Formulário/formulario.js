@@ -13,7 +13,7 @@ function submitForm() {
         }
     }
 
-    let level = totalScore > 10 ? 'Especialista' : 'Iniciante';
+    let level = totalScore > 10 ? 'Cuidador Especialista' : 'Cuidador Iniciante';
 
     // Atualiza o objeto userLogado com a avaliação
     const userLogado = JSON.parse(localStorage.getItem('userLogado'));
