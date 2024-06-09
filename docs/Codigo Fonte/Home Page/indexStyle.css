@@ -34,6 +34,7 @@ body {
     /*border: 1px dashed #ccc;*/
     margin: 0 auto;
     font-family: Arial, Helvetica, URW Bookman L, serif;
+    position: relative;
 }
 
 #menu ul {
@@ -79,9 +80,80 @@ body {
     /* background-color: white; */
     margin-left: 100px;
     margin-right: 100px;
-    transform: (-50px; -50px);
+    transform: (-50px, -50px);
 }
 
+.coluna img{
+  margin-top: 40px; /*distancia dos elementos da parte de cima para as imagens*/
+  border-radius: 10px; /*arredonda a imagem*/
+
+
+}
+.coluna img:hover{ /*Quando passa o mouse acima da imagem*/
+  border: 2px solid #867B8C;
+  transform: scale(1.1); /*aumenta a imagem quando o mouse passa por cima*/
+
+}
+
+.coluna p{
+  max-width: 225px;
+ 
+}
+
+.coluna{
+  width: 500px;
+}
+#subtitulo{
+  color: #564E5A; 
+  margin-left: auto;
+  margin-right: auto; 
+  text-align: center;
+  padding: 0px  50px ;
+  /*margin: 10px 500px;*/
+  font-size: 30px;
+}
+.conteudo{
+
+  padding-top: 50px;
+}
+
+.imagemelink a{
+  text-align: center;
+  max-width: 225px;
+  text-decoration: none;
+  color:#564E5A;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*botão de ver mais*/
+button {
+ margin-left: 30px;
+ background-color: #eee;
+ border: none;
+ padding: 1rem;
+ font-size: 1rem;
+ width: 10em;
+ border-radius: 1rem;
+ color: #564E5A;
+ box-shadow: 0 0.4rem #dfd9d9;
+ cursor: pointer;
+}
+
+button:active {
+ color: white;
+ box-shadow: 0 0.2rem #dfd9d9;
+ transform: translateY(0.2rem);
+}
+
+button:hover:not(:disabled) {
+ background: #564E5A;
+ color: white;
+ text-shadow: 0 0.0.2rem #bcb4b4;
+}
+
+button:disabled {
+ cursor: auto;
+ color: grey;
+}
 .box img {
 
     display: flex;
@@ -92,16 +164,16 @@ body {
 
 
 }
-
-.destaque {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 400px;
-
+.linha{ /*Mexer apenas se for para responsividade TM*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 155px; /*Deixar centralizado junto com o subtítulo*/
+  padding-bottom: 50px;
+  
 }
+
+
 
 .bot {
     margin: auto;
@@ -117,14 +189,14 @@ body {
     text-align: center;
 }
 
-.forum-destaque {
+.forumbanner {
 
     height: 500px;
     background-color: #867B8C;
 }
 
 .dest {
-    color: rgba(83, 83, 83, 0.932);
+    color:#867B8C;
     position: relative;
     left: calc(50%);
     transform: translateX(-50%);
@@ -133,5 +205,56 @@ body {
     width: 250px;
     /* border: 2px solid; */
     border-radius: 10px;
-    /* background-color: #000000; */
+    border-width: 3px;
+    border-style:solid;
+    margin-top: 100px;
+}
+.forumbanner p{
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 30px;
+  color: #fff;
+  position: relative;
+  left: calc(50%);
+  transform: translateX(-50%);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+.forumbanner button{
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent; /*Deixa da mesma cor do banner*/
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.37),
+      7px 7px 20px 0px rgb(78, 58, 85), /*sombra1*/
+      4px 4px 5px 0px rgb(201, 195, 203);/*sombra 2*/
+    outline: none;
+    position: relative;
+    left: 45%; /*tarefa:deixar responsivo*/
+    justify-content: center;
+    border-width: 0px;
+    position: relative;
+    left: calc(47%);
+    transform: translateX(-48%);
+   }
+   
+   .btn-1 {
+    background: rgb(50, 6, 131);
+    background: linear-gradient(0deg, rgb(162, 163, 185) 0%, rgba(12,25,180,1) 100%);
+    border: none;
+   }
+   
+   .btn-1:hover {
+    background: rgb(201, 195, 203);
+    background: linear-gradient(0deg, rgb(73, 61, 77) 0%,rgb(84, 65, 90) 100%);
+   }
+   strong{ /*Arrumando as palavras em negrito*/
+  font-size: medium;
+  color: #564E5A;
 }
