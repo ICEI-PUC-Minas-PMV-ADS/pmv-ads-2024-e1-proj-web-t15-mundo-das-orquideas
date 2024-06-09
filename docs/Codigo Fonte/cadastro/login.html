@@ -1,68 +1,40 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
-        <title>Login</title>
-        <link href="LoginStyle.css" rel="stylesheet" type="text/css" />
-        <script defer src="/docs/Codigo Fonte/cadastro/Login.js"></script>
-    
-    </head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Login</title>
+    <link href="LoginStyle.css" rel="stylesheet" type="text/css" />
+    <script defer src="/docs/Codigo Fonte/cadastro/Login.js"></script>
 </head>
-
-<header class="header">
-
-    <nav id="menu">
-        <ul>
-            <li><a href="/docs/Codigo Fonte/Home Page/index.html">Início</a></li>
-            <li><a href="/docs/Codigo Fonte/Catálogo/catalogo.HTML">Catálogo</a></li>
-            <li><a href="/docs/Codigo Fonte/Fórum/forum.html">Fórum</a></li>
-        </ul>
-
-</header>
-
 <body>
-
+    <header class="header">
+        <nav id="menu">
+            <ul>
+                <li><a href="/docs/Codigo Fonte/Home Page/index.html">Início</a></li>
+                <li><a href="/docs/Codigo Fonte/Catálogo/catalogo.HTML">Catálogo</a></li>
+                <li><a href="/docs/Codigo Fonte/Fórum/forum.html">Fórum</a></li>
+            </ul>
+        </nav>
+    </header>
     <div class="Pagina">
-
         <div class="Login">
-
             <div id="msgError"></div>
-
-            <form action="/submit" name="item" class="formLogin">
-
+            <form name="item" class="formLogin" onsubmit="entrar(event)">
                 <h2>Login</h2>
-                <p> Digite os seus dados para acessar</p>
+                <p>Digite os seus dados para acessar</p>
 
                 <label id="emailLabel" for="email_login">E-mail:</label>
-                <input id="email_login" name="email_login" class="campo" required="required" type="text" placeholder="Digite seu e-mail"
-                    autofocus="true" />
+                <input id="email_login" name="email_login" class="campo" required="required" type="text" placeholder="Digite seu e-mail" autofocus="true" />
 
                 <label id="senhaLabel" for="senha_login">Senha:</label>
-                <input id="senha_login" name="senha_login" class="campo" required="required" type="password" id="senha"
-                    placeholder="Digite sua senha">
+                <input id="senha_login" name="senha_login" class="campo" required="required" type="password" placeholder="Digite sua senha">
 
-                <!-- <a href="/">Esqueci minha senha</a> -->
-
-                <button onclick="entrar()" type="button" class="botao"> Entrar </button>
-
+                <button type="submit" class="botao">Entrar</button>
                 <p>Para criar conta:<a href="/docs/Codigo Fonte/cadastro/Cadastro.html">Clique Aqui!</a></p>
-
             </form>
-
         </div>
     </div>
-
-
-
+    <footer class="Footer"></footer>
 </body>
-
-<footer class="Footer">
-
-
-</footer>
-
 </html>

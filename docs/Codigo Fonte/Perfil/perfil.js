@@ -5,7 +5,6 @@ if (userLogado) {
     document.getElementById("nome").innerHTML = userLogado.nome;
     document.getElementById("email").innerHTML = userLogado.email;
     document.getElementById("telefone").innerHTML = userLogado.telefone;
-
     if (evaluationForm && evaluationForm.level) {
         document.getElementById("level").innerHTML = evaluationForm.level;
     } else {
@@ -13,6 +12,7 @@ if (userLogado) {
     }
 } else {
     console.error("Usuário não encontrado no localStorage");
+    window.location.href = "../cadastro/login.html";
 }
 
 // Verifica se o token está presente no localStorage
@@ -29,32 +29,24 @@ function sair() {
 }
 
 // Função para lidar com o clique no botão de editar
-document.getElementById("editar").addEventListener("click", function() {
-    // Preencher o modal com os dados atuais do usuário
-    document.getElementById("editNome").value = userLogado.nome;
-    document.getElementById("editTelefone").value = userLogado.telefone;
-
-    // Exibir o modal
+document.getElementById("editar").addEventListener("click", function () {
+    document.getElementById("editNome").value = userLogado.nome || '';
+    document.getElementById("editTelefone").value = userLogado.telefone || '';
     document.getElementById("modal").style.display = "block";
 });
 
 // Função para lidar com o envio do formulário de edição
-document.getElementById("editForm").addEventListener("submit", function(event) {
-    event.preventDefault(); // Evitar o comportamento padrão do formulário
+document.getElementById("editForm").addEventListener("submit", function (event) {
+    event.preventDefault();
 
-    // Obter os novos valores dos campos de edição
     let editedNome = document.getElementById("editNome").value;
     let editedTelefone = document.getElementById("editTelefone").value;
 
-    // Atualizar os dados do usuário no localStorage
     userLogado.nome = editedNome;
     userLogado.telefone = editedTelefone;
     localStorage.setItem("userLogado", JSON.stringify(userLogado));
 
-    // Atualizar os dados na interface do usuário
     document.getElementById("nome").innerHTML = editedNome;
     document.getElementById("telefone").innerHTML = editedTelefone;
-
-    // Fechar o modal
     document.getElementById("modal").style.display = "none";
 });
