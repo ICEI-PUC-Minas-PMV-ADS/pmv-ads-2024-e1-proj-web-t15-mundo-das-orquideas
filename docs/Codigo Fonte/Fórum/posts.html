@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forum</title>
+    <title>Posts</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -13,20 +13,15 @@
 
 <body>
     <header>
-        <!--SEÇÃO DE BARRA DE NAVEGAÇÃO-->
-        <div class="navbar">
-            <nav class="navigation hide" id="navigation">
-                <span class="close-icon" id="close-icon" onclick="showIconBar()"><i class="fa fa-close"></i></span>
-                <ul class="nav-list">
-
-
-                    <li class="nav-item"><a href="homeNovo.html">Voltar</a></li>
-
-                </ul>
-            </nav>
-            <a class="bar-icon" id="iconBar" onclick="hideIconBar()"><i class="fa fa-bars"></i></a>
-            <div class="brand">Sub-Forum</div>
-        </div>
+        <nav id="menu">     
+            <ul> 
+              <li><a href="../Home Page/index.html">Início</a></li>
+              <li><a href="../Catálogo/catalogo.HTML">Catálogo</a></li>
+              <li><a href="/docs/Codigo Fonte/Fórum/forum.html">Forum</a></li>
+              <li><a href="../contato/contato.html">Contato</a></li>
+            </ul> 
+        </nav>
+    </header>
         <!--SEÇÃO DE PESQUISA-->
         <div class="search-box">
             <div>
@@ -227,27 +222,6 @@
                     <br>Por <b><a href="">Usuario</a></b>
                 </div>
             </div>
-            <!--FINAL-->
-        </div>
-        <!--COMEÇO DA PAGINA NAVEGAÇÃO-->
-        <div class="pagination">
-            paginas: <a href="">1</a><a href="">2</a><a href="">3</a>
-        </div>
-        <!--FINAL DA PAGINA NAVEGAÇÃO-->
-    </div>
-
-    <div class="note">
-        <span><i class="fa fa-frown-o"></i>&nbsp; 0 Engajamento do Tópico</span>&nbsp;&nbsp;&nbsp;<a href=""><i
-                class="fa fa-share-square"></i></a><br>
-        <span><i class="fa fa-book"></i>&nbsp; Baixo Engajamento</span>&nbsp;&nbsp;&nbsp;<a href=""><i
-                class="fa fa-share-square"></i></a><br>
-        <span><i class="fa fa-fire"></i>&nbsp; Tópico polular</span>&nbsp;&nbsp;&nbsp;<a href=""><i
-                class="fa fa-share-square"></i></a><br>
-        <span><i class="fa fa-rocket"></i>&nbsp; Alto Engajamento</span>&nbsp;&nbsp;&nbsp;<a href=""><i
-                class="fa fa-share-square"></i></a><br>
-        <span><i class="fa fa-lock"></i>&nbsp; Tópico fechado</span>&nbsp;&nbsp;&nbsp;<a href=""><i
-                class="fa fa-share-square"></i></a><br>
-    </div>
 
     <footer>
         <span>&copy; Mundo das Orquideas</span>

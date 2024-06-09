@@ -59,7 +59,8 @@ body {
     background-color: #FFFFFFBB;
     padding: 60px;
     border-radius: 28px;
-    box-shadow: 0 20px 20px 0px rgba(138, 138, 138, 0.671)
+    box-shadow: 0 20px 20px 0px rgba(138, 138, 138, 0.671);
+    margin-top:100px;
 }
 
 form {
