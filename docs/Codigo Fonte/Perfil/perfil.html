@@ -4,13 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário de Avaliação</title>
+    <title>Perfil do Usuário</title>
     <link rel="stylesheet" href="./perfil.css">
     <script defer src="./perfil.js"></script>
 </head>
 
 <body>
-
     <nav id="menu" class="aa">
         <ul>
             <li><a href="/docs/Codigo Fonte/Home Page/index.html">Início</a></li>
@@ -27,24 +26,40 @@
                         <tbody>
                             <tr>
                                 <th class="info">Nome completo</th>
-                                <td id="nome" value=""></td>
+                                <td id="nome"></td>
                             </tr>
                             <tr>
                                 <th class="info">E-mail</th>
-                                <td id="email" value=""></td>
+                                <td id="email"></td>
                             </tr>
                             <tr>
                                 <th class="info">Telefone</th>
-                                <td id="telefone" value=""></td>
+                                <td id="telefone"></td>
                             </tr>
                             <tr>
                                 <th class="info">Classificação</th>
-                                <td id="level" value=""></td>
-                            </tr>
+                                <td id="level"></td>
                             </tr>
                         </tbody>
                     </table>
+                    <button class="botao" onclick="sair()">Sair</button>
+                    <button class="botao" id="editar">Editar</button>
+                    <!-- Modal -->
+
+                    <div id="modal" style="display:none;">
+                        <form id="editForm">
+                            <label for="editNome">Nome:</label>
+                            <input type="text" id="editNome" name="editNome"><br>
+                            <label for="editTelefone">Telefone:</label>
+                            <input type="text" id="editTelefone" name="editTelefone"><br>
+                            <button type="submit">Salvar</button>
+                            
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
     </main>
+</body>
+
+</html>

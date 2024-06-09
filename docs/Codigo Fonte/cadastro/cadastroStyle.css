@@ -122,3 +122,10 @@ font-weight: 600;
 text-align: center;
 color:#2c2c2c
 }
+
+.logo{
+    top: -75px;
+    position: relative;
+    height: 80px;
+}
+
