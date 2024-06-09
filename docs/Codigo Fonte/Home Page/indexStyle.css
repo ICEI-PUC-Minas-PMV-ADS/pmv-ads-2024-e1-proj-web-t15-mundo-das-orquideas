@@ -124,7 +124,7 @@ body {
 }
 
 .dest {
-    color: white;
+    color: rgba(83, 83, 83, 0.932);
     position: relative;
     left: calc(50%);
     transform: translateX(-50%);
@@ -133,5 +133,5 @@ body {
     width: 250px;
     /* border: 2px solid; */
     border-radius: 10px;
-    background-color: #000000;
+    /* background-color: #000000; */
 }
