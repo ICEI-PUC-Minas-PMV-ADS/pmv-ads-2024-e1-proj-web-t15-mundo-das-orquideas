@@ -48,7 +48,9 @@ p{
   border-bottom:3px solid#867B8C;
 
 }
-
+.nomeOrquidea {
+  text-align: center;
+}
 .coluna img{
   margin-top: 40px; /*distancia dos elementos da parte de cima para as imagens*/
   border-radius: 10px; /*arredonda a imagem*/
