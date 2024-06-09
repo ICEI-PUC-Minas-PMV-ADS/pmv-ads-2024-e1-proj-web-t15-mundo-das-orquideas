@@ -5,7 +5,9 @@ html {
     margin: 0;
 }
 
-
+p, H2, H4{
+  font-family: Arial, Helvetica, URW Bookman L, serif;
+}
 
 .cabecalho {
 
@@ -266,7 +268,7 @@ button:disabled {
   width: 70%;
   text-align: center;
   position: relative;
-  border-radius: 5px;
+  border-radius: 15px;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
