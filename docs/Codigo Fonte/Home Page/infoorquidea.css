@@ -1,0 +1,147 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  body{
+    background-color:#DEDBE0;
+    margin:0;
+  }
+  p{
+    font-family: Arial, Helvetica, URW Bookman L, serif;
+  }
+  #menu{
+    width: 100%; /*largura do menu todo*/
+    height: 73px;/*tem que ser desse tamanho para não deixar um espaço em branco abaixo do menu*/
+    line-height: 50px; /* centraliza na vertical */
+    background-color: #f1f1f1;
+    /*border: 1px dashed #ccc;*/
+    margin: 0 auto;
+    font-family: Arial, Helvetica, URW Bookman L, serif;
+    border-top: 0px;
+}
+  #menu ul { 
+    padding:0px;
+    margin:0px;
+    background-color:#c9c3cb;
+    list-style:none;
+    text-align: center;
+  }
+  #menu ul li { 
+    margin-left: 35px; /*distancia entre os botões*/
+    margin-right: 35px;
+    display: inline; }
+  
+  #menu ul li a { 
+      padding: 2px 10px; 
+      display: inline-block; /* visual do link */ 
+      background-color:#C9C3CB; 
+      color: #564E5A; 
+      text-decoration: none; 
+      border-bottom:3px solid #C9C3CB; 
+      border-radius: 6px;
+      padding: 10px 70px; /*distancia entre os botões *Não mexer */
+  }
+  #menu ul li a:hover { 
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom:3px solid#867B8C;
+  
+  }
+
+  .coluna img{
+    /*distancia dos elementos da parte de cima para as imagens*/
+    position: absolute;
+   border-radius: 10px; /*arredonda a imagem*/
+   left:15%;
+   transform: translate(30%);
+    max-width:50% ;
+    margin-top: 10%;
+    float: right;
+    
+  }
+  .coluna img:hover{
+    transform: scale(1.5);
+    position: absolute; /*Não mexer pois impede que a imagem aumente para a esquerda*/
+  }
+  .conteudo{
+    margin-top: 150px; /*distancia dos elementos da parte de cima*/
+  }
+
+  #nomeOrquidea{
+    position:absolute;
+    top:25%;
+    left: 50%;
+    transform: translate(-50%,-50%); /* Centraliza junto com as duas linha acima*/
+    color:#564E5A;
+    margin-bottom: 70px;
+    font-size: 1cm;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: c
+  }
+  aside{
+    position:relative;
+    float: right;
+    width: 50%;
+    margin-top: 50px;
+    display: inline-block;
+    margin-right: 80px;
+    text-align: justify; /*Deixa o texto da explicação da planta justificado*/
+    max-width: 40%;
+  }
+.forumbanner{
+  background-color: #564E5A;
+  width: 100%;
+  height: 200px;
+  position:static;
+  margin-top: 80px;
+  margin-bottom: 4%;
+ 
+}
+.forumbanner p{
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 30px;
+  color: #fff;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+.forumbanner button{
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent; /*Deixa da mesma cor do banner*/
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.37),
+      7px 7px 20px 0px rgb(78, 58, 85), /*sombra1*/
+      4px 4px 5px 0px rgb(201, 195, 203);/*sombra 2*/
+    outline: none;
+    position: relative;
+    left: 45%; /*tarefa:deixar responsivo*/
+    justify-content: center;
+    border-width: 0px;
+   }
+   
+   .acessar {
+    background: rgb(50, 6, 131);
+    background: linear-gradient(0deg, rgb(162, 163, 185) 0%, rgba(12,25,180,1) 100%);
+    border: none;
+   }
+   
+   .acessar:hover {
+    background: rgb(201, 195, 203);
+    background: linear-gradient(0deg, rgb(73, 61, 77) 0%,rgb(84, 65, 90) 100%);
+   }
+
+.conteudoeforum{
+  display: flex; /*deixa o banner do forum abaixo das informações*/
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}

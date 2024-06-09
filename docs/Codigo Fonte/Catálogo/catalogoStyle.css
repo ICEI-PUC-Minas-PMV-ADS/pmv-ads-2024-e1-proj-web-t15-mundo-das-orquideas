@@ -128,7 +128,7 @@ button:disabled {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-left: 200px;
+  padding-left: 180px;
   padding-bottom: 50px;
   
 }
