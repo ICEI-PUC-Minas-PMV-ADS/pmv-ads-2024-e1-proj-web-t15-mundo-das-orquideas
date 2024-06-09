@@ -1,10 +1,5 @@
-
-*{
-    box-sizing: border-box;
-}
-
 html{
-    font-size: 14px;
+    font-size: 17px;
     font-family: 'Titillium Web', sans-serif;
     background-color:#DEDBE0;
     color:#000000;
@@ -429,6 +424,12 @@ footer{
     cursor: pointer; /* Cursor ao passar por cima */
 }
 
+.search-box{
+
+    text-align: center;
+    padding-top: 50px;
+
+}
 
 
 
