@@ -113,6 +113,7 @@ body {
   padding: 0px  50px ;
   /*margin: 10px 500px;*/
   font-size: 30px;
+
 }
 .conteudo{
 
@@ -209,12 +210,13 @@ button:disabled {
     transform: translateX(-50%);
     text-align: center;
     font-size: 35px;
-    width: 250px;
+
     /* border: 2px solid; */
     border-radius: 10px;
     border-width: 2px;
     border-style:solid;
-    margin-top: 100px;
+    margin-top: 70px;
+    margin-bottom: 50PX;
 }
 .forumbanner p{
   text-align: center;
