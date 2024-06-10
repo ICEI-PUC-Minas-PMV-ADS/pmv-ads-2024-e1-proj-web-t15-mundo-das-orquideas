@@ -240,7 +240,7 @@ button:disabled {
     transition: all 0.3s ease;
     display: inline-block;
     box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.37),
-      7px 7px 20px 0px rgb(78, 58, 85), /*sombra1*/
+      7px 7px 20px 0px #4e3a55, /*sombra1*/
       4px 4px 5px 0px rgb(201, 195, 203);/*sombra 2*/
     outline: none;
     position: relative;
@@ -260,7 +260,7 @@ button:disabled {
    
    .btn-1:hover {
     background: rgb(201, 195, 203);
-    background: linear-gradient(0deg, rgb(73, 61, 77) 0%,rgb(84, 65, 90) 100%);
+    background: linear-gradient(0deg, #493d4d 0%,#54415a 100%);
    }
    strong{ /*Arrumando as palavras em negrito*/
   font-size: medium;
@@ -290,6 +290,7 @@ padding-bottom: 50px;
   display: inline-block;/*Centraliza o conteúdo dentro da div TM*/
   text-align: left;
   padding-bottom: 0px;
+  color: #564E5A;
 }
 
 .container{
@@ -443,6 +444,29 @@ header{
     padding: 10px;
     }
 
+    .sobre{
+      background-color: #808080;
+      border-radius: 5px;
+      color:#dfd9d9;
+      margin-top: 50px;
+      padding: 30px;
+      text-align: center;
+
+      justify-content: center;
+      display: flex;
+      
+    }
+    .sobre p{
+      text-align: center;
+      width: 75%;  
+      font-family: Arial, Helvetica, URW Bookman L, serif;
+
+    }
+    strong{
+      font-size: medium;
+      color: #564E5A;
+    }
+    
     /* Estilo da barra de pesquisa */
 /* 
     .search-container {
