@@ -575,8 +575,29 @@ footer{
 .like-button:hover {
     background-color: #0056b3;
 }
+.sobre{
+    background-color: #808080;
+    border-radius: 5px;
+    color:#dfd9d9;
+    margin-top: 50px;
+    padding: 30px;
+    text-align: center;
 
+    justify-content: center;
+    display: flex;
+    
+  }
+  .sobre p{
+    text-align: center;
+    width: 75%;  
+    font-family: Arial, Helvetica, URW Bookman L, serif;
 
+  }
+  
+  strong{
+    font-size: medium;
+    color: #564E5A;
+  }
 
 
 
