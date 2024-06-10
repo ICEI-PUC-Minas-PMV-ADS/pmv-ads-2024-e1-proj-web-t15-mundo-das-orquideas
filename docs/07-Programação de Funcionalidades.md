@@ -178,4 +178,48 @@
 </ul>
 
 
+## RF-09 - Pesquisa externa
 
+<p><b>Responsável:</b> Kaue</p>
+
+<p>Ter um link que direciona para o Google Lenas, ferramenta de pesquisa por meio de um imagem.</p>
+
+<figure>
+<img src="">
+<figcaption>Figura 11: Perfil do Usuário</figcaption>
+</figure>
+
+
+### Requisto atendido
+
+<p>A aplicação deve ter um link de pesquisa vinculado ao google lens para pesquisar via foto qual é a orquídea dele </p>
+
+### Artefatos da funcionabilidade
+<ul>
+<li>perfil.html
+<li>perfil.js
+<li>perfil.css
+</ul>
+
+## RF-10 - Nível de Conhecimento
+
+<p><b>Responsável:</b> Kaue</p>
+
+<p>Preencher um formulário que dirá qual é o nível que seu conhecimento está, se é Iniciante ou Especialista. Essa classificação será realizada após fazer o login pela primeira vez no site</p>
+
+<figure>
+<img src="">
+<figcaption>Figura 12: Formulário de classificação</figcaption>
+</figure>
+
+
+### Requisto atendido
+
+<p>Classificação do usuário a partir de um formulário quando for feito o cadastro. Cuidador iniciante, cuidador especialista;</p>
+
+### Artefatos da funcionabilidade
+<ul>
+<li>perfil.html
+<li>perfil.js
+<li>perfil.css
+</ul>

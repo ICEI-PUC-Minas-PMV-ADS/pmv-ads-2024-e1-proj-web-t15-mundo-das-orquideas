@@ -1,352 +1,395 @@
-
-
-*{
+* {
     box-sizing: border-box;
 }
 
-html{
+html {
     font-size: 14px;
     font-family: 'Titillium Web', sans-serif;
-    background-color:#DEDBE0;
-    color:#000000;
-  
+    background-color: #DEDBE0;
+    color: #000000;
+
 }
 
-a{
-    color: #564E5A; /* Coloca os textos de títulos com a cor roxa escuro*/
-    font-family: Arial, Helvetica, URW Bookman L, serif; /*TM*/
+a {
+    color: #564E5A;
+    /* Coloca os textos de títulos com a cor roxa escuro*/
+    font-family: Arial, Helvetica, URW Bookman L, serif;
+    /*TM*/
     font-weight: bolder;
     text-decoration: none;
 }
 
-h1{
-    font-size:16px;
+h1 {
+    font-size: 16px;
     font-weight: bolder;
 }
-#menu{
-  width: 100%; /*largura do menu todo*/
-  height: 73px;/*tem que ser desse tamanho para não deixar um espaço em branco abaixo do menu*/
-  line-height: 50px; /* centraliza na vertical */
-  background-color: #f1f1f1;
-  /*border: 1px dashed #ccc;*/
-  margin: 0 auto;
-  font-family: Arial, Helvetica, URW Bookman L, serif;
 
+#menu {
+    width: 100%;
+    /*largura do menu todo*/
+    height: 73px;
+    /*tem que ser desse tamanho para não deixar um espaço em branco abaixo do menu*/
+    line-height: 50px;
+    /* centraliza na vertical */
+    background-color: #f1f1f1;
+    /*border: 1px dashed #ccc;*/
+    margin: 0 auto;
+    font-family: Arial, Helvetica, URW Bookman L, serif;
+    font-size: 25px;
 
 }
-#menu ul { 
-  padding:0px;
-  margin:0px;
-  background-color:#C9C3CB;
-  list-style:none;
-  text-align: center;
-}
-#menu ul li { 
-  margin-left: 35px; /*distancia entre os botões*/
-  margin-right: 35px;
-  display: inline; }
 
-#menu ul li a { 
-    padding: 2px 10px; 
-    display: inline-block; /* visual do link */ 
-    background-color:#C9C3CB; 
-    color: #564E5A; 
-    text-decoration: none; 
-    border-bottom:3px solid #C9C3CB; 
+#menu ul {
+    padding: 0px;
+    margin: 0px;
+    background-color: #C9C3CB;
+    list-style: none;
+    text-align: center;
+}
+
+#menu ul li {
+    margin-left: 35px;
+    /*distancia entre os botões*/
+    margin-right: 35px;
+    display: inline;
+}
+
+#menu ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+    /* visual do link */
+    background-color: #C9C3CB;
+    color: #564E5A;
+    text-decoration: none;
+    border-bottom: 3px solid #C9C3CB;
     border-radius: 6px;
-    padding: 10px 70px; /*distancia entre os botões *Não mexer */
+    padding: 10px 70px;
+    /*distancia entre os botões *Não mexer */
 }
-#menu ul li a:hover { 
-  background-color:#D6D6D6;
-  color: #6D6D6D;
-  border-bottom:3px solid#867B8C;
+
+#menu ul li a:hover {
+    background-color: #D6D6D6;
+    color: #6D6D6D;
+    border-bottom: 3px solid#867B8C;
 
 }
 
 /* ########################################### */
 /*           Forums.html                       */
 /* ########################################### */
-.container{
+.container {
     margin: 20px;
     padding: 20px;
 }
 
-.subforum{
-    margin-top:20px;
+.subforum {
+    margin-top: 20px;
 }
 
-.subforum-title{
-    background-color:#867B8C; /*Muda a cor do fundo do subtitulo TM*/
+.subforum-title {
+    background-color: #867B8C;
+    /*Muda a cor do fundo do subtitulo TM*/
     padding: 5px;
     border-radius: 5px;
-    margin:4px;
+    margin: 4px;
     text-align: center;
-    color:#ece7ee; /*Muda a cor da letra TM*/
+    color: #ece7ee;
+    /*Muda a cor da letra TM*/
 }
 
-.subforum-row{
+.subforum-row {
     display: grid;
     grid-template-columns: 7% 60% 13% 20%;
 
 }
 
-.subforum-column{
+.subforum-column {
     padding: 10px;
-    margin:4px;
+    margin: 4px;
     border-radius: 5px;
-    background-color:#ffffff;
-    font-family:aquire;
-    
+    background-color: #ffffff;
+    font-family: aquire;
+
 }
-.subforum-column a{
-    color:#564E5A;/*Muda a cor do link chamado "Ultima postagem"*/
-    font-family:aquire;
+
+.subforum-column a {
+    color: #564E5A;
+    /*Muda a cor do link chamado "Ultima postagem"*/
+    font-family: aquire;
     font-size: medium;
 }
-.subforum-description *{
+
+.subforum-description * {
     margin-block: 0;
-    
+
 
 }
-.subforum-description  a{
-    color:#564E5A;
-    font-family:aquire;
-}
-.subforum-description  a:hover{
-    color:#867B8C;/*Muda a cor do link quando segura TM*/
+
+.subforum-description a {
+    color: #564E5A;
+    font-family: aquire;
 }
 
-.center{
+.subforum-description a:hover {
+    color: #867B8C;
+    /*Muda a cor do link quando segura TM*/
+}
+
+.center {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.subforum-icon i{
+.subforum-icon i {
     font-size: 45px;
-    color:#564E5A;
+    color: #564E5A;
 }
 
-.subforum-devider{
-    display: none;   
+.subforum-devider {
+    display: none;
 }
 
 
 /* SMARTPHONE */
 @media screen and (max-width: 460px) {
-    .container{
+    .container {
         margin: 10px;
         padding: 10px;
     }
 
-    .subforum-row{
+    .subforum-row {
         display: grid;
         grid-template-columns: 25% 75%;
         grid-template-rows: 65% 35%;
     }
 
-    .subforum-devider{
+    .subforum-devider {
         display: block;
         border: 0;
         height: 1px;
         background-image: linear-gradient(to right, rgba(190, 190, 190, 0), rgba(255, 255, 255, 0.75), rgba(190, 190, 190, 0));
     }
 
-    
 
-  }
+
+}
 
 /* TABLETS */
 @media screen and (min-width: 460px) and (max-width: 1024px) {
-    .container{
+    .container {
         margin: 15px;
         padding: 15px;
     }
 
-    .subforum-row{
+    .subforum-row {
         display: grid;
         grid-template-columns: 10% 60% 10% 20%;
     }
 
-    .subforum-icon i{
+    .subforum-icon i {
         font-size: 35px;
     }
 
-    html{
+    html {
         font-size: 14px;
     }
 
-    h1{
+    h1 {
         font-size: 16px;
     }
 
-  }
+}
+
 /*   Header */
 
-header{
+header {
     margin-inline: 10px;
 }
-  /* Nav Bar styles */
-.navbar{
-    display:flex;
+
+/* Nav Bar styles */
+.navbar {
+    display: flex;
     align-items: center;
 }
-.navigation{
-    background-color:#C9C3CB; /*Cor do menu sanduiche TM*/
+
+.navigation {
+    background-color: #C9C3CB;
+    /*Cor do menu sanduiche TM*/
     padding: 10px;
     width: 65%;
     display: inline-block;
     border-radius: 5px;
     max-height: 80px;
-    margin-right:10px;
+    margin-right: 10px;
 
 }
 
-.close-icon i{
-    font-size:60px;
+.close-icon i {
+    font-size: 60px;
     float: left;
     cursor: pointer;
 }
 
-.nav-list{
-    list-style-type:none;
+.nav-list {
+    list-style-type: none;
     overflow: hidden;
 }
 
-.nav-item a{
+.nav-item a {
     float: right;
-    display:block;
+    display: block;
     text-align: center;
     margin-inline: 20px;
     font-size: 20px;
     padding: 10px;
-    color:#050000;
+    color: #050000;
 }
 
-.nav-item a:hover{
-    background-color: rgb(0,0,0,0.1);
+.nav-item a:hover {
+    background-color: rgb(0, 0, 0, 0.1);
 }
 
-.hide{
+.hide {
     display: none;
 }
 
-.bar-icon{
+.bar-icon {
     font-size: 60px;
     display: inline-block;
-    margin-right:10px;
+    margin-right: 10px;
     color: #564E5A;
     cursor: pointer;
 }
 
 @font-face {
-    font-family:aquire;
-    src:url(aquire.otf);
+    font-family: aquire;
+    src: url(aquire.otf);
 }
 
-.brand{
-    font-size:50px;
+.brand {
+    font-size: 50px;
     display: inline-block;
-    font-family:aquire; /*Fonte bonita escolida para título TM*/
-    color: #564E5A; /*TM*/
+    font-family: aquire;
+    /*Fonte bonita escolida para título TM*/
+    color: #564E5A;
+    /*TM*/
 }
 
 /*Navbar for the smartphones*/
-@media screen and (max-width: 460px){
-    .navigation{
+@media screen and (max-width: 460px) {
+    .navigation {
         max-height: auto;
     }
-    
-    .close-icon i{
-        font-size:30px;
+
+    .close-icon i {
+        font-size: 30px;
     }
-    
-    .nav-item a{
-        float:left;
-        display:inline;
+
+    .nav-item a {
+        float: left;
+        display: inline;
         margin-inline: 3px;
         font-size: 10px;
         padding: 5px;
     }
-    
-    
-    .bar-icon{
+
+
+    .bar-icon {
         font-size: 30px;
     }
- 
-    .brand{
-        font-size:20px;
-        
+
+    .brand {
+        font-size: 20px;
+
     }
 }
 
-  /* Search Box styles */
-.search-box{
-    border: solid 1px #C9C3CB; /*Cor das bordas da caixa de pesquisa TM*/
+/* Search Box styles */
+.search-box {
+    border: solid 1px #C9C3CB;
+    /*Cor das bordas da caixa de pesquisa TM*/
     margin-top: 20px;
     padding: 40px;
-    display:flex;
+    display: flex;
     justify-content: center;
-    box-shadow:1px 2px 3px #C9C3CB; /*Sombra das bordas da caixa de pesquisa TM*/
-    border-radius: 5px; /*Arredonda a borda TM*/
+    box-shadow: 1px 2px 3px #C9C3CB;
+    /*Sombra das bordas da caixa de pesquisa TM*/
+    border-radius: 5px;
+    /*Arredonda a borda TM*/
 }
 
-.search-box select{
+.search-box select {
     padding: 10px;
-    border-radius: 5px; /*Arredonda a borda TM*/
+    border-radius: 5px;
+    /*Arredonda a borda TM*/
 }
 
-.search-box input{
+.search-box input {
     padding: 10px;
-    border-radius: 5px; /*Arredonda a borda TM*/
+    border-radius: 5px;
+    /*Arredonda a borda TM*/
 }
 
-.search-box button{
+.search-box button {
     padding: 10px;
-    background-color:#fff;
-    color:#564E5A; /*TM*/
+    background-color: #fff;
+    color: #564E5A;
+    /*TM*/
     border-radius: 5px;
 }
 
-.search-box button:hover{
-    background-color:#564E5A; /*TM*/
+.search-box button:hover {
+    background-color: #564E5A;
+    /*TM*/
     color: #fff;
     box-shadow: 1px 2px 3px #fff;
 }
 
 /* search box for smrtphones */
-@media screen and (max-width: 460px){
-    .search-box input, .search-box button, .search-box select{
+@media screen and (max-width: 460px) {
+
+    .search-box input,
+    .search-box button,
+    .search-box select {
         min-width: 300px;
         margin-top: 5px;
-    }    
+    }
 
 }
 
 /* forum info Styling */
-.forum-info{
+.forum-info {
     padding: 20px;
-    background-color:#C9C3CB;; /*Cor dos status do forum TM*/
-    border-radius: 5px;  /*Arredonda a borda TM*/
-    box-shadow: 2px 2px 2px #867B8C ; /*XColoca uma sombra degrade no fundo TM*/
+    background-color: #C9C3CB;
+    ;
+    /*Cor dos status do forum TM*/
+    border-radius: 5px;
+    /*Arredonda a borda TM*/
+    box-shadow: 2px 2px 2px #867B8C;
+    /*XColoca uma sombra degrade no fundo TM*/
 
 }
 
-.chart{
-    font-size:20px;
-    font-weight:bold;
+.chart {
+    font-size: 20px;
+    font-weight: bold;
 }
+
 /* Footer Styling */
 
-footer{
+footer {
     margin-top: 20px;
     padding: 20px;
-    background-color: #C9C3CB; /*cor do rodapé TM*/
+    background-color: #C9C3CB;
+    /*cor do rodapé TM*/
     display: block;
     text-align: center;
-    border-radius: 5px; /*Arredonda a borda TM*/
+    border-radius: 5px;
+    /*Arredonda a borda TM*/
     margin-bottom: 5px;
-    box-shadow: 2px 2px 2px #867B8C ; /*XColoca uma sombra degrade no fundo TM*/
+    box-shadow: 2px 2px 2px #867B8C;
+    /*XColoca uma sombra degrade no fundo TM*/
 }
 
 /* ########################################### */
@@ -354,104 +397,107 @@ footer{
 /* ########################################### */
 
 /* posts table's head  */
-.table-head{
+.table-head {
     display: flex;
 }
 
-.table-head div{
+.table-head div {
     padding: 5px;
     margin: 2px;
     background-color: #ffffff;
     font-weight: bold;
 }
 
-.table-head .status{
+.table-head .status {
     flex: 5%;
 }
 
-.table-head .subjects{
+.table-head .subjects {
     flex: 70%;
 }
 
-.table-head .replies{
+.table-head .replies {
     flex: 10%;
 }
 
-.table-head .last-reply{
+.table-head .last-reply {
     flex: 15%;
 }
 
 /* posts body */
 
-.table-row{
+.table-row {
     display: flex;
 }
 
-.table-row .status, .table-row .subjects, .table-row .replies, .table-row .last-reply{
+.table-row .status,
+.table-row .subjects,
+.table-row .replies,
+.table-row .last-reply {
     padding: 5px;
     margin: 2px;
     background-color: #ffffff;
 }
 
-.table-row .status{
+.table-row .status {
     flex: 5%;
     font-size: 30px;
     text-align: center;
 }
 
-.table-row .subjects{
+.table-row .subjects {
     flex: 70%;
 }
 
-.table-row .replies{
+.table-row .replies {
     flex: 10%;
 }
 
-.table-row .last-reply{
+.table-row .last-reply {
     flex: 15%;
 }
 
 /* caminho navegação*/
-.navigate{
+.navigate {
     margin-block: 20px;
     font-weight: lighter;
     font-size: 24px;
 }
 
-.navigate a{
+.navigate a {
     color: #030000;
 }
 
-.navigate a:hover{
-    color:#101010;
+.navigate a:hover {
+    color: #101010;
     font-weight: bolder;
 }
 
 /* Paginação*/
 
-.pagination{
+.pagination {
     padding: 20px;
     font-size: 15px;
 }
 
-.pagination a{
+.pagination a {
     color: #050000;
     margin-inline: 5px;
     padding: 5px 10px;
     border: solid 0.5px #000000;
 }
 
-.pagination a:hover{
+.pagination a:hover {
     opacity: 0.5;
 }
 
-.note{
-    background-color:#ffffff;
+.note {
+    background-color: #ffffff;
     padding: 20px;
     display: block;
 }
 
-.note span{
+.note span {
     font-size: 20px;
     margin-block: 5px;
 }
@@ -461,7 +507,7 @@ footer{
 /*            detalhes              */
 /* ########################################### */
 
-.head{
+.head {
     display: flex;
     background-color: #2C2C2C;
     padding: 5px;
@@ -469,33 +515,33 @@ footer{
     font-size: 15px;
 }
 
-.authors{
+.authors {
     flex: 20%;
 }
 
-.content{
+.content {
     flex: 80%;
 }
 
-.body{
+.body {
     display: flex;
     background-color: #131415;
     padding: 10px;
     margin-top: 5px;
 }
 
-.body .authors .username{
+.body .authors .username {
     font-size: 20px;
 }
 
-.body .authors img{
+.body .authors img {
     max-width: 50px;
     max-height: 80px;
 }
 
-.body .content .comment button{
-    border:none;
-    padding:10px;
+.body .content .comment button {
+    border: none;
+    padding: 10px;
     font-weight: bolder;
     box-shadow: 4px 6px #fff;
     cursor: pointer;
@@ -503,27 +549,28 @@ footer{
 }
 
 /* comment section */
-.comment-area{
-    margin-bottom:50px;
+.comment-area {
+    margin-bottom: 50px;
 }
 
-.comment-area textarea{
+.comment-area textarea {
     width: 100%;
     min-height: 100px;
     padding: 10px;
     margin-block: 10px;
 }
 
-.comment-area input{
+.comment-area input {
     float: right;
     padding: 10px;
     border-radius: 10px;
     cursor: pointer;
 }
 
-.comment-area input:hover{
+.comment-area input:hover {
     border: solid 1px #000000;
 }
+
 /* Adicione o estilo para o botão "Novo Tópico" */
 #new-topic-btn {
     display: block;
@@ -542,12 +589,18 @@ footer{
 }
 
 .reply-button {
-    background-color: #4CAF50; /* Cor de fundo verde */
-    color: white; /* Cor do texto branco */
-    padding: 10px 20px; /* Espaçamento interno */
-    border: none; /* Remover borda */
-    border-radius: 5px; /* Borda arredondada */
-    cursor: pointer; /* Cursor ao passar por cima */
+    background-color: #4CAF50;
+    /* Cor de fundo verde */
+    color: white;
+    /* Cor do texto branco */
+    padding: 10px 20px;
+    /* Espaçamento interno */
+    border: none;
+    /* Remover borda */
+    border-radius: 5px;
+    /* Borda arredondada */
+    cursor: pointer;
+    /* Cursor ao passar por cima */
 }
 
 .reply-container {
@@ -575,10 +628,3 @@ footer{
 .like-button:hover {
     background-color: #0056b3;
 }
-
-
-
-
-
-
-

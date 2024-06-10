@@ -38,6 +38,7 @@ body {
     font-family: Arial, Helvetica, URW Bookman L, serif;
     position: relative;
     font-size: 25px;
+    font-weight: bolder;
 }
 
 #menu ul {
