@@ -2,7 +2,26 @@
 
 ## RF-01 - Pesquisa dentro do site
 
-<hr>
+<hr><p><b>Responsável:</b> André</p>
+
+
+<p>Barra de pesquisa dentro do site.
+
+<figure>
+<img src="">
+<figcaption>Figura 1: Menu de Login</figcaption>
+</figure>
+
+### Requisto atendido
+
+<p>O usuário deve ser capaz de fazer cadastro dentro do site
+
+### Artefatos da funcionabilidade
+<ul>
+<li>index.html
+<li>index.js
+<li>indexStyle.css
+</ul>
 
 ## RF-02 - Página de Cadastro
 
@@ -13,11 +32,11 @@
 
 <figure>
 <img src="">
-<figcaption>Figura 1: Menu de Login</figcaption>
+<figcaption>Figura 2: Menu de Login</figcaption>
 </figure>
 <figure>
 <img src="">
-<figcaption>Figura 2: Menu de Cadastro</figcaption>
+<figcaption>Figura 3: Menu de Cadastro</figcaption>
 </figure>
 
 ### Requisto atendido
@@ -41,11 +60,11 @@
 
 <figure>
 <img src="">
-<figcaption>Figura 3: Fórum</figcaption>
+<figcaption>Figura 4: Fórum</figcaption>
 </figure>
 <figure>
 <img src="">
-<figcaption>Figura 4: Posts</figcaption>
+<figcaption>Figura 5: Posts</figcaption>
 </figure>
 
 ### Requisto atendido
@@ -69,7 +88,7 @@
 
 <figure>
 <img src="">
-<figcaption>Figura 5: Responder</figcaption>
+<figcaption>Figura 6: Responder</figcaption>
 </figure>
 
 ### Requisto atendido
@@ -83,7 +102,7 @@
 <li>style.css
 </ul>
 
-<!-- ## RF-05 - Classificação do post com like	
+## RF-05 - Classificação do post com like	
 
 <p><b>Responsável:</b> Gustavo e Vinícius</p>
 
@@ -91,7 +110,7 @@
 
 <figure>
 <img src="">
-<figcaption>Figura 5: Responder</figcaption>
+<figcaption>Figura 7: Responder</figcaption>
 </figure>
 
 ### Requisto atendido
@@ -103,7 +122,7 @@
 <li>post.html
 <li>main.js
 <li>style.css
-</ul> -->
+</ul>
 
 ## RF-06 - Informações sobre Orquídeas
 
@@ -113,11 +132,11 @@
 
 <figure>
 <img src="">
-<figcaption>Figura 7: Catálogo</figcaption>
+<figcaption>Figura 8: Catálogo</figcaption>
 </figure>
 <figure>
 <img src="">
-<figcaption>Figura 8: Informação</figcaption>
+<figcaption>Figura 9: Informação</figcaption>
 </figure>
 
 ### Requisto atendido
@@ -139,7 +158,7 @@
 
 <figure>
 <img src="">
-<figcaption>Figura 9: Catálogo</figcaption>
+<figcaption>Figura 10: Catálogo</figcaption>
 </figure>
 
 
@@ -162,7 +181,7 @@
 
 <figure>
 <img src="">
-<figcaption>Figura 10: Perfil do Usuário</figcaption>
+<figcaption>Figura 11: Perfil do Usuário</figcaption>
 </figure>
 
 
@@ -186,7 +205,7 @@
 
 <figure>
 <img src="">
-<figcaption>Figura 11: Perfil do Usuário</figcaption>
+<figcaption>Figura 12: Perfil do Usuário</figcaption>
 </figure>
 
 
@@ -209,7 +228,7 @@
 
 <figure>
 <img src="">
-<figcaption>Figura 12: Formulário de classificação</figcaption>
+<figcaption>Figura 13: Formulário de classificação</figcaption>
 </figure>
 
 
