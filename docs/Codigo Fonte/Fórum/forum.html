@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Posts</title>
+    <title>Fórum</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -13,41 +13,221 @@
 
 <body>
     <header>
-        <nav id="menu">
-            <ul>
-                <li><a href="../Home Page/index.html">Início</a></li>
-                <li><a href="../Catálogo/catalogo.HTML">Catálogo</a></li>
-                <li><a href="/docs/Codigo Fonte/Fórum/forum.html">Forum</a></li>
-                <li><a href="../contato/contato.html">Contato</a></li>
-            </ul>
+        <nav id="menu">     
+            <ul> 
+              <li><a href="../Home Page/index.html"><B>Início</a></li>
+              <li><a href="../Catálogo/catalogo.HTML">Catálogo</a></li>
+              <li><a href="/docs/Codigo Fonte/Fórum/forum.html">Forum</a></li>
+              <li><a href="../cadastro/login.html">Login</B></a></li>
+            </ul> 
         </nav>
     </header>
-    <!--SEÇÃO DE PESQUISA-->
-    <div class="search-box">
-        <div>
-            <select name="" id="">
-                <option value="Everything">Tudo</option>
-                <option value="Titles">Titulos</option>
-                <option value="Descriptions">Descrições</option>
-            </select>
-            <input type="text" name="q" placeholder="pesquisar">
-            <button><i class="fa fa-search"></i></button>
+        <!--SEÇÃO DE PESQUISA-->
+        <div class="search-box">
+            <div>
+                <select name="" id="">
+                    <option value="Everything">Tudo</option>
+                    <option value="Titles">Titulos</option>
+                    <option value="Descriptions">Descrições</option>
+                </select>
+                <input type="text" name="q" placeholder="pesquisar">
+                <button><i class="fa fa-search"></i></button>
+            </div>
         </div>
-    </div>
-
+    </header>
     <div class="container">
-        <!--NAVEGAÇÃO-->
         <div class="navigate">
-            <span><a href="">Forum</a> >> <a href="">Subforum</a></span>
             <button id="new-topic-btn">Novo Tópico</button>
         </div>
-
+        <div>
+            <div class="tituloForum"></div>
+            <h1>Tópicos Principais</h1>
+        </div>
         <!--TABELA DE POSTAGENS-->
         <div class="posts-table" id="tabela-postagem">
-            <!-- Aqui serão adicionados os novos tópicos -->
-        </div>
-    </div>
+            <div class="table-head">
+                <div class="status">Status</div>
+                <div class="subjects">Assuntos</div>
+                <div class="replies">
+                </div>
+                <div class="last-reply">Ultima resposta</div>
+            </div>
+            <div class="table-row">
+                <div class="status"><i class="fa fa-fire"></i></div>
+                <div class="subjects">
+                    <a href="">Dúvidas sobre Orquideas</a>
+                    <br>
+                    <span>Iniciado por<b><a href="">Usuario</a></b> .</span>
 
+                </div>
+                <div class="replies">
+                    <button class="reply-button">Responder</button>
+                </div>
+
+                <div class="last-reply">
+                    30 abril de 2024
+                    <br>por <b><a href="">Usuario</a></b>
+                </div>
+            </div>
+            <!--COMEÇO-->
+            <div class="table-row">
+                <div class="status"><i class="fa fa-fire"></i></div>
+                <div class="subjects">
+                    <a href="">Dúvidas sobre Orquideas</a>
+                    <br>
+                    <span>Iniciado por <b><a href="">Usuario</a></b> .</span>
+                </div>
+                <div class="replies">
+                    <button class="reply-button">Responder</button>
+                </div>
+
+                <div class="last-reply">
+                    30 abril 2024
+                    <br>por <b><a href="">Usuario</a></b>
+                </div>
+            </div>
+
+            <div class="table-row">
+                <div class="status"><i class="fa fa-fire"></i></div>
+                <div class="subjects">
+                    <a href="">Dúvidas sobre Orquideas</a>
+                    <br>
+                    <span>Iniciado por <b><a href="">Usuario</a></b> .</span>
+                </div>
+                <div class="replies">
+                    <button class="reply-button">Responder</button>
+                </div>
+
+                <div class="last-reply">
+                    30 abril 2024
+                    <br>por <b><a href="">Usuario</a></b>
+                </div>
+            </div>
+
+            <div class="table-row" id="question-row">
+                <div class="status"><i class="fa fa-book"></i></div>
+                <div class="subjects">
+                    <a href="">Dúvidas Sobre Orquideas</a>
+                    <br>
+                    <span>Iniciado por<b><a href="">Usuario</a></b> .</span>
+                </div>
+                <div class="replies">
+                    <button class="reply-button">Responder</button>
+                </div>
+
+                <div class="last-reply">
+                    30 abril 2024
+                    <br>por <b><a href="">Usuario</a></b>
+                </div>
+            </div>
+
+            <div class="table-row">
+                <div class="status"><i class="fa fa-rocket"></i></div>
+                <div class="subjects">
+                    <a href="">Dúvidas sobre Orquideas</a>
+                    <br>
+                    <span>Iniciado por <b><a href="">Usuario</a></b> .</span>
+                </div>
+                <div class="replies">
+                    <button class="reply-button">Responder</button>
+                </div>
+
+                <div class="last-reply">
+                    30 abril 2024
+                    <br>por <b><a href="">Usuario</a></b>
+                </div>
+            </div>
+
+            <div class="table-row">
+                <div class="status"><i class="fa fa-frown-o"></i></div>
+                <div class="subjects">
+                    <a href="">Dúvidas sobre Orquideas</a>
+                    <br>
+                    <span>Iniciado por<b><a href="">Usuario</a></b> .</span>
+                </div>
+                <div class="replies">
+                    <button class="reply-button">Responder</button>
+                </div>
+
+                <div class="last-reply">
+                    30 abril 2024
+                    <br>por <b><a href="">Usuario</a></b>
+                </div>
+            </div>
+
+
+            <div class="table-row">
+                <div class="status"><i class="fa fa-fire"></i></div>
+                <div class="subjects">
+                    <a href="">Dúvidas sobre Orquideas</a>
+                    <br>
+                    <span>Iniciado por<b><a href="">Usuario</a></b> .</span>
+                </div>
+                <div class="replies">
+                    <button class="reply-button">Responder</button>
+                </div>
+
+                <div class="last-reply">
+                    30 abril 2024
+                    <br>por <b><a href="">Usuario</a></b>
+                </div>
+            </div>
+
+            <div class="table-row">
+                <div class="status"><i class="fa fa-fire"></i></div>
+                <div class="subjects">
+                    <a href="">Dúvidas sobre Orquideas</a>
+                    <br>
+                    <span>Iniciado por<b><a href="">Usuario</a></b> .</span>
+                </div>
+                <div class="replies">
+                    <button class="reply-button">Responder</button>
+                </div>
+
+                <div class="last-reply">
+                    30 abril 2024
+                    <br>por <b><a href="">Usuario</a></b>
+                </div>
+            </div>
+
+            <div class="table-row">
+                <div class="status"><i class="fa fa-lock"></i></div>
+                <div class="subjects">
+                    <a href="">Dúvidas sobre Orquideas</a>
+                    <br>
+                    <span>Iniciado por<b><a href="">Usuario</a></b> .</span>
+                </div>
+                <div class="replies">
+                    <button class="reply-button">Responder</button>
+                </div>
+
+                <div class="last-reply">
+                    30 abril 2024
+                    <br>por <b><a href="">Usuario</a></b>
+                </div>
+            </div>
+
+            <div class="table-row">
+                <div class="status"><i class="fa fa-fire"></i></div>
+                <div class="subjects">
+                    <a href="">Dúvidas sobre Orquideas</a>
+                    <br>
+                    <span>Iniciado por<b><a href="">Usuario</a></b> .</span>
+                </div>
+                <div class="replies">
+                    <button class="reply-button">Responder</button>
+                </div>
+
+                <div class="last-reply">
+                    30 abril 2024
+                    <br>Por <b><a href="">Usuario</a></b>
+                </div>
+            </div>
+            <div class="sobre">
+                <p><strong>Quem Somos nós:</strong> 
+                  Somos apaixonados por orquídeas. No coração do nosso site, cultivamos mais do que flores; cultivamos uma comunidade de amantes e entusiastas dessas belas plantas. Nossa missão é compartilhar conhecimento, inspiração e cuidados especializados para que todos possam desfrutar da magia das orquídeas em suas vidas.
+                  <br><br>Somos mais do que um site; somos uma comunidade comprometida em promover a beleza e o cuidado das orquídeas em todo o mundo. Junte-se a nós nessa jornada floral e descubra o encanto duradouro dessas maravilhas botânicas.</p>
+                </div>
     <footer>
         <span>&copy; Mundo das Orquideas</span>
     </footer>
