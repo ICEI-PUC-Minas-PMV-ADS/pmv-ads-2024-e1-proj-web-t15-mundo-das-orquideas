@@ -5,7 +5,9 @@ html {
     margin: 0;
 }
 
-
+p, H2, H4{
+  font-family: Arial, Helvetica, URW Bookman L, serif;
+}
 
 .cabecalho {
 
@@ -35,6 +37,7 @@ body {
     margin: 0 auto;
     font-family: Arial, Helvetica, URW Bookman L, serif;
     position: relative;
+    font-size: 25px;
 }
 
 #menu ul {
@@ -111,6 +114,7 @@ body {
   padding: 0px  50px ;
   /*margin: 10px 500px;*/
   font-size: 30px;
+
 }
 .conteudo{
 
@@ -190,12 +194,16 @@ button:disabled {
 }
 
 .forumbanner {
-
+    padding-top: 1px;
     height: 500px;
     background-color: #867B8C;
     border-radius: 10px;
+    padding-bottom: 10%;
+    
 }
-
+#acessarforum{
+  padding-top: 0.5cm;
+}
 .dest {
     color:#867B8C;
     position: relative;
@@ -203,17 +211,16 @@ button:disabled {
     transform: translateX(-50%);
     text-align: center;
     font-size: 35px;
-    width: 250px;
+
     /* border: 2px solid; */
     border-radius: 10px;
     border-width: 2px;
     border-style:solid;
-    margin-top: 100px;
+    margin-top: 70px;
+    margin-bottom: 50PX;
 }
 .forumbanner p{
   text-align: center;
-  padding-top: 50px;
-  margin-bottom: 30px;
   color: #fff;
   position: relative;
   left: calc(50%);
@@ -264,11 +271,11 @@ button:disabled {
   width: 70%;
   text-align: center;
   position: relative;
-  border-radius: 5px;
+  border-radius: 15px;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
-margin-top: 150px;
+margin-top: 20%;
 padding-bottom: 50px;
 }
 .googleleans h4{
@@ -282,5 +289,181 @@ padding-bottom: 50px;
   max-width: 80%;
   display: inline-block;/*Centraliza o conteúdo dentro da div TM*/
   text-align: left;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
 }
+
+.container{
+  margin: 20px;
+  padding: 20px;
+}
+
+.subforum{
+  margin-top:20px;
+}
+
+.subforum-title{
+  background-color:#867B8C; /*Muda a cor do fundo do subtitulo TM*/
+  padding: 5px;
+  border-radius: 5px;
+  margin:4px;
+  text-align: center;
+  color:#ece7ee; /*Muda a cor da letra TM*/
+}
+
+.subforum-row{
+  display: grid;
+  grid-template-columns: 7% 60% 13% 20%;
+
+}
+
+.subforum-column{
+  padding: 10px;
+  margin:4px;
+  border-radius: 5px;
+  background-color:#ffffff;
+  font-family:aquire;
+  
+}
+.subforum-column a{
+  color:#564E5A;/*Muda a cor do link chamado "Ultima postagem"*/
+  font-family:aquire;
+  font-size: medium;
+}
+.subforum-description *{
+  margin-block: 0;
+  
+
+}
+.subforum-description  a{
+  color:#564E5A;
+  font-family:aquire;
+}
+.subforum-description  a:hover{
+  color:#867B8C;/*Muda a cor do link quando segura TM*/
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subforum-icon i{
+  font-size: 45px;
+  color:#564E5A;
+}
+
+.subforum-devider{
+  display: none;   
+}
+
+
+/* SMARTPHONE */
+.container{
+  margin: 20px;
+  padding: 20px;
+}
+
+.subforum{
+  margin-top:20px;
+
+}
+
+.subforum-title{
+  background-color:#867B8C; /*Muda a cor do fundo do subtitulo TM*/
+  padding: 5px;
+  border-radius: 5px;
+  margin:4px;
+  text-align: center;
+  color:#ece7ee; /*Muda a cor da letra TM*/
+}
+
+.subforum-row{
+  display: grid;
+  grid-template-columns: 7% 60% 13% 20%;
+
+}
+
+.subforum-column{
+  padding: 10px;
+  margin:4px;
+  border-radius: 5px;
+  background-color:#ffffff;
+  font-family:aquire;
+  
+}
+.subforum-column a{
+  color:#564E5A;/*Muda a cor do link chamado "Ultima postagem"*/
+  font-family:aquire;
+  font-size: medium;
+}
+.subforum-description *{
+  margin-block: 0;
+  
+
+}
+.subforum-description  a{
+  color:#564E5A;
+  font-family:aquire;
+}
+.subforum-description  a:hover{
+  color:#867B8C;/*Muda a cor do link quando segura TM*/
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subforum-icon i{
+  font-size: 45px;
+  color:#564E5A;
+}
+
+.subforum-devider{
+  display: none;   
+}
+
+header{
+  margin-inline: 10px;
+}
+.dest-forum{
+  color:#ffffff;
+    position: relative;
+    left: calc(50%);
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 35px;
+    width: 250px;
+    /* border: 2px solid; */
+    border-radius: 10px;
+    border-width: 1px;
+    border-style:solid;
+    padding: 10px;
+    }
+
+    /* Estilo da barra de pesquisa */
+/* 
+    .search-container {
+      text-align: center;
+      margin-top: 20px;
+    }
+    
+    input[type="text"] {
+      padding: 10px;
+      width: 300px;
+    } */
+    
+    /* button {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    
+    button:hover {
+      background-color: #0056b3;
+    } */
+    /* Termina aqui */

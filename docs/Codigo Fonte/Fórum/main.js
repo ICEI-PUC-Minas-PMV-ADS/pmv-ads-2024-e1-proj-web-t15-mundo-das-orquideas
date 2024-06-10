@@ -1,32 +1,65 @@
-//NavBar
-function hideIconBar() {
-  var iconBar = document.getElementById("iconBar");
-  var navigation = document.getElementById("navigation");
-  iconBar.setAttribute("style", "display:none;");
-  navigation.classList.remove("hide");
+// Funcionalidade ao botão "Responder" para as linhas existentes
+document.querySelectorAll(".reply-button").forEach(button => {
+  button.addEventListener("click", function () {
+    toggleReplyArea(this);
+  });
+});
+
+// Função para criar funcionalidade de "Responder" para novas linhas
+function createReplyFunctionality(replyButton) {
+  replyButton.addEventListener("click", function () {
+    toggleReplyArea(this);
+  });
 }
 
-function showIconBar() {
-  var iconBar = document.getElementById("iconBar");
-  var navigation = document.getElementById("navigation");
-  iconBar.setAttribute("style", "display:block;");
-  navigation.classList.add("hide");
+// Função para alternar a área de resposta
+function toggleReplyArea(button) {
+  var replyArea = button.parentElement.nextElementSibling;
+  replyArea.classList.toggle("hide");
+  if (!replyArea.classList.contains("hide")) {
+    var replyInput = document.createElement("input");
+    replyInput.setAttribute("type", "text");
+    replyInput.setAttribute("placeholder", "Digite sua resposta...");
+    var replyButton = document.createElement("button");
+    replyButton.textContent = "Enviar";
+    replyButton.addEventListener("click", function () {
+      var replyText = this.previousElementSibling.value;
+      if (replyText) {
+        var replyRow = document.createElement("div");
+        replyRow.classList.add("table-row");
+        var emptyDiv = document.createElement("div");
+        emptyDiv.classList.add("status");
+        var replySubject = document.createElement("div");
+        replySubject.classList.add("subjects");
+        replySubject.innerHTML = `<p>${replyText}</p><br><span>Respondido por <b><a href="">Usuario</a></b>.</span>`;
+        var emptyReplies = document.createElement("div");
+        emptyReplies.classList.add("replies");
+        var lastReply = document.createElement("div");
+        lastReply.classList.add("last-reply");
+        var currentDate = new Date().toLocaleDateString("pt-BR");
+        lastReply.innerHTML = `${currentDate} <br>por <b><a href="">Usuario</a></b>`;
+        replyRow.appendChild(emptyDiv);
+        replyRow.appendChild(replySubject);
+        replyRow.appendChild(emptyReplies);
+        replyRow.appendChild(lastReply);
+        button.parentElement.parentElement.parentElement.insertBefore(replyRow, button.parentElement.parentElement.nextElementSibling);
+        this.previousElementSibling.value = "";
+        // Adiciona funcionalidade de "Responder" para a nova linha
+        createReplyFunctionality(replyRow.querySelector(".reply-button"));
+      }
+    });
+    replyArea.innerHTML = "";
+    replyArea.appendChild(replyInput);
+    replyArea.appendChild(replyButton);
+  } else {
+    replyArea.innerHTML = "";
+  }
 }
 
-//COMENTARIOS
-function showComment() {
-  var commentArea = document.getElementById("comment-area");
-  commentArea.classList.remove("hide");
-}
-
-//RESPONDER
-function showReply() {
-  var replyArea = document.getElementById("reply-area");
-  replyArea.classList.remove("hide");
-}
-
-
-let topics = [];
+// Adiciona funcionalidade de "Responder" para as linhas existentes
+document.querySelectorAll(".reply-button").forEach(button => {
+  createReplyFunctionality(button);
+});
 
 // Funcionalidade ao botão "Novo Tópico"
 document.getElementById("new-topic-btn").addEventListener("click", function () {
@@ -47,11 +80,16 @@ document.getElementById("new-topic-btn").addEventListener("click", function () {
     divSubjects.innerHTML = `<a href="">${question}</a><br><span>Iniciado por<b><a href="">Usuario</a></b> .</span>`
     divSubjects.classList.add("subjects")
 
-    divReplies.innerHTML = `<button class="reply-button">Responder</button>`
+    let replyButton = document.createElement("button");
+    replyButton.classList.add("reply-button");
+    replyButton.textContent = "Responder";
+    // Adiciona funcionalidade de "Responder" para a nova linha
+    createReplyFunctionality(replyButton);
+
+    divReplies.appendChild(replyButton);
     divReplies.classList.add("replies")
 
-    divLastReply.innerHTML = `30 abril de 2024 <br>por <b><a href="">Usuario</a></b>`
-    divLastReply.classList.add("last-reply")
+    
 
     divTableRow.appendChild(divStatus)
     divTableRow.appendChild(divSubjects)
@@ -60,9 +98,9 @@ document.getElementById("new-topic-btn").addEventListener("click", function () {
     divTableRow.classList.add("table-row")
     tabelaDeTopicos.appendChild(divTableRow)
 
-  
   }
-});
+})
+
 
 
 
