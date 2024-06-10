@@ -1,470 +1,517 @@
 html {
-    height: 100%;
-    width: 100%;
-    padding: 0;
-    margin: 0;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
-p, H2, H4{
+p,
+H2,
+H4 {
   font-family: Arial, Helvetica, URW Bookman L, serif;
 }
 
 .cabecalho {
 
-    text-align: center;
-    padding: 10px;
-    background: linear-gradient(to right, #000000, #9b9896);
-    font-size: large;
-    font-size: 60px;
+  text-align: center;
+  padding: 10px;
+  background: linear-gradient(to right, #000000, #9b9896);
+  font-size: large;
+  font-size: 60px;
 
 }
 
 body {
-    background-color: #DEDBE0;
+  background-color: #DEDBE0;
 
 }
 
 
 #menu {
-    width: 100%;
-    /*largura do menu todo*/
-    height: 73px;
-    /*tem que ser desse tamanho para não deixar um espaço em branco abaixo do menu*/
-    line-height: 50px;
-    /* centraliza na vertical */
-    background-color: #f1f1f1;
-    /*border: 1px dashed #ccc;*/
-    margin: 0 auto;
-    font-family: Arial, Helvetica, URW Bookman L, serif;
-    position: relative;
-    font-size: 25px;
-    font-weight: bolder;
+  width: 100%;
+  /*largura do menu todo*/
+  height: 73px;
+  /*tem que ser desse tamanho para não deixar um espaço em branco abaixo do menu*/
+  line-height: 50px;
+  /* centraliza na vertical */
+  background-color: #f1f1f1;
+  /*border: 1px dashed #ccc;*/
+  margin: 0 auto;
+  font-family: Arial, Helvetica, URW Bookman L, serif;
+  position: relative;
+  font-size: 25px;
+  font-weight: bolder;
 }
 
 #menu ul {
-    padding: 0px;
-    margin: 0px;
-    background-color: #C9C3CB;
-    list-style: none;
-    text-align: center;
+  padding: 0px;
+  margin: 0px;
+  background-color: #C9C3CB;
+  list-style: none;
+  text-align: center;
 }
 
 #menu ul li {
-    margin-left: 35px;
-    /*distancia entre os botões*/
-    margin-right: 35px;
-    display: inline;
+  margin-left: 35px;
+  /*distancia entre os botões*/
+  margin-right: 35px;
+  display: inline;
 }
 
 #menu ul li a {
-    padding: 2px 10px;
-    display: inline-block;
-    /* visual do link */
-    background-color: #C9C3CB;
-    color: #564E5A;
-    text-decoration: none;
-    border-bottom: 3px solid #C9C3CB;
-    border-radius: 6px;
-    padding: 10px 70px;
-    /*distancia entre os botões *Não mexer* */
+  padding: 2px 10px;
+  display: inline-block;
+  /* visual do link */
+  background-color: #C9C3CB;
+  color: #564E5A;
+  text-decoration: none;
+  border-bottom: 3px solid #C9C3CB;
+  border-radius: 6px;
+  padding: 10px 70px;
+  /*distancia entre os botões *Não mexer* */
 }
 
 #menu ul li a:hover {
-    background-color: #D6D6D6;
-    color: #6D6D6D;
-    border-bottom: 3px solid#867B8C;
+  background-color: #D6D6D6;
+  color: #6D6D6D;
+  border-bottom: 3px solid#867B8C;
 }
 
 .box {
-    display: inline-block;
-    width: calc(33, 33%-16px);
-    padding: 8px;
-    vertical-align: auto;
-    text-align: center;
-    /* background-color: white; */
-    margin-left: 100px;
-    margin-right: 100px;
-    transform: (-50px, -50px);
+  display: inline-block;
+  width: calc(33, 33%-16px);
+  padding: 8px;
+  vertical-align: auto;
+  text-align: center;
+  /* background-color: white; */
+  margin-left: 100px;
+  margin-right: 100px;
+  transform: (-50px, -50px);
 }
 
-.coluna img{
-  margin-top: 40px; /*distancia dos elementos da parte de cima para as imagens*/
-  border-radius: 10px; /*arredonda a imagem*/
+.coluna img {
+  margin-top: 40px;
+  /*distancia dos elementos da parte de cima para as imagens*/
+  border-radius: 10px;
+  /*arredonda a imagem*/
 
 
 }
-.coluna img:hover{ /*Quando passa o mouse acima da imagem*/
+
+.coluna img:hover {
+  /*Quando passa o mouse acima da imagem*/
   border: 2px solid #867B8C;
-  transform: scale(1.1); /*aumenta a imagem quando o mouse passa por cima*/
+  transform: scale(1.1);
+  /*aumenta a imagem quando o mouse passa por cima*/
 
 }
 
-.coluna p{
+.coluna p {
   max-width: 225px;
- 
+
 }
 
-.coluna{
+.coluna {
   width: 500px;
 }
-#subtitulo{
-  color: #564E5A; 
+
+#subtitulo {
+  color: #564E5A;
   margin-left: auto;
-  margin-right: auto; 
+  margin-right: auto;
   text-align: center;
-  padding: 0px  50px ;
+  padding: 0px 50px;
   /*margin: 10px 500px;*/
   font-size: 30px;
 
 }
-.conteudo{
+
+.conteudo {
 
   padding-top: 50px;
 }
 
-.imagemelink a{
+.imagemelink a {
   text-align: center;
   max-width: 225px;
   text-decoration: none;
-  color:#564E5A;
+  color: #564E5A;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 /*botão de ver mais*/
 button {
- margin-left: 30px;
- background-color: #eee;
- border: none;
- padding: 1rem;
- font-size: 1rem;
- width: 10em;
- border-radius: 1rem;
- color: #564E5A;
- box-shadow: 0 0.4rem #dfd9d9;
- cursor: pointer;
+  margin-left: 30px;
+  background-color: #eee;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  width: 10em;
+  border-radius: 1rem;
+  color: #564E5A;
+  box-shadow: 0 0.4rem #dfd9d9;
+  cursor: pointer;
 }
 
 button:active {
- color: white;
- box-shadow: 0 0.2rem #dfd9d9;
- transform: translateY(0.2rem);
+  color: white;
+  box-shadow: 0 0.2rem #dfd9d9;
+  transform: translateY(0.2rem);
 }
 
 button:hover:not(:disabled) {
- background: #564E5A;
- color: white;
- text-shadow: 0 0.0.2rem #bcb4b4;
+  background: #564E5A;
+  color: white;
+  text-shadow: 0 0.0.2rem #bcb4b4;
 }
 
 button:disabled {
- cursor: auto;
- color: grey;
+  cursor: auto;
+  color: grey;
 }
+
 .box img {
 
-    display: flex;
-    justify-content: space-between;
-    max-width: 225px;
-    margin-bottom: 30px;
-    border-radius: 10px;
-
+  display: flex;
+  justify-content: space-between;
+  max-width: 225px;
+  margin-bottom: 30px;
+  border-radius: 10px;
 
 }
-.linha{ /*Mexer apenas se for para responsividade TM*/
+
+.linha {
+  /*Mexer apenas se for para responsividade TM*/
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-left: 155px; /*Deixar centralizado junto com o subtítulo*/
+  padding-left: 155px;
+  /*Deixar centralizado junto com o subtítulo*/
   padding-bottom: 50px;
-  
+
 }
 
-
-
 .bot {
-    margin: auto;
-    background-color: #eee;
-    border: none;
-    padding: 1rem;
-    font-size: 1rem;
-    width: 10em;
-    border-radius: 1rem;
-    color: #564E5A;
-    box-shadow: 0 0.4rem #dfd9d9;
-    cursor: pointer;
-    text-align: center;
+  margin: auto;
+  background-color: #eee;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  width: 10em;
+  border-radius: 1rem;
+  color: #564E5A;
+  box-shadow: 0 0.4rem #dfd9d9;
+  cursor: pointer;
+  text-align: center;
 }
 
 .forumbanner {
-    padding-top: 1px;
-    height: 500px;
-    background-color: #867B8C;
-    border-radius: 10px;
-    padding-bottom: 10%;
-    
-}
-#acessarforum{
-  padding-top: 0.5cm;
-}
-.dest {
-    color:#867B8C;
-    position: relative;
-    left: calc(50%);
-    transform: translateX(-50%);
-    text-align: center;
-    font-size: 35px;
+  padding-top: 1px;
+  height: 500px;
+  background-color: #867B8C;
+  border-radius: 10px;
+  padding-bottom: 10%;
 
-    /* border: 2px solid; */
-    border-radius: 10px;
-    border-width: 2px;
-    border-style:solid;
-    margin-top: 70px;
-    margin-bottom: 50PX;
 }
-.forumbanner p{
+
+.dest {
+  color: #867B8C;
+  position: relative;
+  left: calc(50%);
+  transform: translateX(-50%);
+  text-align: center;
+  font-size: 35px;
+
+  /* border: 2px solid; */
+  border-radius: 10px;
+  border-width: 2px;
+  border-style: solid;
+  margin-top: 70px;
+  margin-bottom: 50PX;
+}
+
+.forumbanner p {
   text-align: center;
   color: #fff;
   position: relative;
   left: calc(50%);
   transform: translateX(-50%);
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.forumbanner button{
-    width: 130px;
-    height: 40px;
-    color: #fff;
-    border-radius: 5px;
-    padding: 10px 25px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 500;
-    background: transparent; /*Deixa da mesma cor do banner*/
-    cursor: pointer;
-    transition: all 0.3s ease;
-    display: inline-block;
-    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.37),
-      7px 7px 20px 0px rgb(78, 58, 85), /*sombra1*/
-      4px 4px 5px 0px rgb(201, 195, 203);/*sombra 2*/
-    outline: none;
-    position: relative;
-    left: 45%; /*tarefa:deixar responsivo*/
-    justify-content: center;
-    border-width: 0px;
-    position: relative;
-    left: calc(47%);
-    transform: translateX(-48%);
-   }
-   
-   .btn-1 {
-    background: rgb(50, 6, 131);
-    background: linear-gradient(0deg, rgb(162, 163, 185) 0%, rgba(12,25,180,1) 100%);
-    border: none;
-   }
-   
-   .btn-1:hover {
-    background: rgb(201, 195, 203);
-    background: linear-gradient(0deg, rgb(73, 61, 77) 0%,rgb(84, 65, 90) 100%);
-   }
-   strong{ /*Arrumando as palavras em negrito*/
+
+.forumbanner button {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  /*Deixa da mesma cor do banner*/
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.37),
+    7px 7px 20px 0px rgb(78, 58, 85),
+    /*sombra1*/
+    4px 4px 5px 0px rgb(201, 195, 203);
+  /*sombra 2*/
+  outline: none;
+  position: relative;
+  left: 45%;
+  /*tarefa:deixar responsivo*/
+  justify-content: center;
+  border-width: 0px;
+  position: relative;
+  left: calc(47%);
+  transform: translateX(-48%);
+}
+
+#acessarforum {
+  position: relative;
+  transform: translateX(-50%);
+}
+
+.btn-1 {
+  background: rgb(50, 6, 131);
+  background: linear-gradient(0deg, rgb(162, 163, 185) 0%, rgba(12, 25, 180, 1) 100%);
+  border: none;
+  position: relative;
+  transform: translateX(50%);
+}
+
+.btn-1:hover {
+  background: rgb(201, 195, 203);
+  background: linear-gradient(0deg, rgb(73, 61, 77) 0%, rgb(84, 65, 90) 100%);
+}
+
+strong {
+  /*Arrumando as palavras em negrito*/
   font-size: medium;
   color: #564E5A;
 }
-.googleleans{
+
+.googleleans {
   background-color: #C9C3CB;
   width: 70%;
   text-align: center;
   position: relative;
   border-radius: 15px;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-margin-top: 20%;
-padding-bottom: 50px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 20%;
+  padding-bottom: 50px;
 }
-.googleleans h4{
+
+.googleleans h4 {
   color: #564E5A;
   font-size: large;
   padding-top: 30px;
 
- font-size: 0.5cm;
+  font-size: 0.5cm;
 }
-.googleleans p{
+
+.googleleans p {
   max-width: 80%;
-  display: inline-block;/*Centraliza o conteúdo dentro da div TM*/
+  display: inline-block;
+  /*Centraliza o conteúdo dentro da div TM*/
   text-align: left;
   padding-bottom: 0px;
 }
 
-.container{
+.container {
   margin: 20px;
   padding: 20px;
 }
 
-.subforum{
-  margin-top:20px;
+.subforum {
+  margin-top: 20px;
 }
 
-.subforum-title{
-  background-color:#867B8C; /*Muda a cor do fundo do subtitulo TM*/
+.subforum-title {
+  background-color: #867B8C;
+  /*Muda a cor do fundo do subtitulo TM*/
   padding: 5px;
   border-radius: 5px;
-  margin:4px;
+  margin: 4px;
   text-align: center;
-  color:#ece7ee; /*Muda a cor da letra TM*/
+  color: #ece7ee;
+  /*Muda a cor da letra TM*/
 }
 
-.subforum-row{
+.subforum-row {
   display: grid;
   grid-template-columns: 7% 60% 13% 20%;
 
 }
 
-.subforum-column{
+.subforum-column {
   padding: 10px;
-  margin:4px;
+  margin: 4px;
   border-radius: 5px;
-  background-color:#ffffff;
-  font-family:aquire;
-  
+  background-color: #ffffff;
+  font-family: aquire;
+
 }
-.subforum-column a{
-  color:#564E5A;/*Muda a cor do link chamado "Ultima postagem"*/
-  font-family:aquire;
+
+.subforum-column a {
+  color: #564E5A;
+  /*Muda a cor do link chamado "Ultima postagem"*/
+  font-family: aquire;
   font-size: medium;
 }
-.subforum-description *{
+
+.subforum-description * {
   margin-block: 0;
-  
+
 
 }
-.subforum-description  a{
-  color:#564E5A;
-  font-family:aquire;
-}
-.subforum-description  a:hover{
-  color:#867B8C;/*Muda a cor do link quando segura TM*/
+
+.subforum-description a {
+  color: #564E5A;
+  font-family: aquire;
 }
 
-.center{
+.subforum-description a:hover {
+  color: #867B8C;
+  /*Muda a cor do link quando segura TM*/
+}
+
+.center {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.subforum-icon i{
+.subforum-icon i {
   font-size: 45px;
-  color:#564E5A;
+  color: #564E5A;
 }
 
-.subforum-devider{
-  display: none;   
+.subforum-devider {
+  display: none;
 }
 
 
 /* SMARTPHONE */
-.container{
+.container {
   margin: 20px;
   padding: 20px;
 }
 
-.subforum{
-  margin-top:20px;
+.subforum {
+  margin-top: 20px;
 
 }
 
-.subforum-title{
-  background-color:#867B8C; /*Muda a cor do fundo do subtitulo TM*/
+.subforum-title {
+  background-color: #867B8C;
+  /*Muda a cor do fundo do subtitulo TM*/
   padding: 5px;
   border-radius: 5px;
-  margin:4px;
+  margin: 4px;
   text-align: center;
-  color:#ece7ee; /*Muda a cor da letra TM*/
+  color: #ece7ee;
+  /*Muda a cor da letra TM*/
 }
 
-.subforum-row{
+.subforum-row {
   display: grid;
   grid-template-columns: 7% 60% 13% 20%;
 
 }
 
-.subforum-column{
+.subforum-column {
   padding: 10px;
-  margin:4px;
+  margin: 4px;
   border-radius: 5px;
-  background-color:#ffffff;
-  font-family:aquire;
-  
+  background-color: #ffffff;
+  font-family: aquire;
+
 }
-.subforum-column a{
-  color:#564E5A;/*Muda a cor do link chamado "Ultima postagem"*/
-  font-family:aquire;
+
+.subforum-column a {
+  color: #564E5A;
+  /*Muda a cor do link chamado "Ultima postagem"*/
+  font-family: aquire;
   font-size: medium;
 }
-.subforum-description *{
+
+.subforum-description * {
   margin-block: 0;
-  
+
 
 }
-.subforum-description  a{
-  color:#564E5A;
-  font-family:aquire;
-}
-.subforum-description  a:hover{
-  color:#867B8C;/*Muda a cor do link quando segura TM*/
+
+.subforum-description a {
+  color: #564E5A;
+  font-family: aquire;
 }
 
-.center{
+.subforum-description a:hover {
+  color: #867B8C;
+  /*Muda a cor do link quando segura TM*/
+}
+
+.center {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.subforum-icon i{
+.subforum-icon i {
   font-size: 45px;
-  color:#564E5A;
+  color: #564E5A;
 }
 
-.subforum-devider{
-  display: none;   
+.subforum-devider {
+  display: none;
 }
 
-header{
+header {
   margin-inline: 10px;
 }
-.dest-forum{
-  color:#ffffff;
-    position: relative;
-    left: calc(50%);
-    transform: translateX(-50%);
-    text-align: center;
-    font-size: 35px;
-    width: 250px;
-    /* border: 2px solid; */
-    border-radius: 10px;
-    border-width: 1px;
-    border-style:solid;
-    padding: 10px;
-    }
 
-    /* Estilo da barra de pesquisa */
-/* 
-    .search-container {
-      text-align: center;
-      margin-top: 20px;
-    }
-    
-    input[type="text"] {
-      padding: 10px;
-      width: 300px;
-    } */
-    
-    /* button {
-      padding: 10px 20px;
-      background-color: #007bff;
-      color: white;
-      border: none;
-      cursor: pointer;
-    }
-    
-    button:hover {
-      background-color: #0056b3;
-    } */
-    /* Termina aqui */
+.dest-forum {
+  color: #ffffff;
+  position: relative;
+  left: calc(50%);
+  transform: translateX(-50%);
+  text-align: center;
+  font-size: 35px;
+  width: 250px;
+  /* border: 2px solid; */
+  border-radius: 10px;
+  border-width: 1px;
+  border-style: solid;
+  padding: 10px;
+}
+
+/* Estilo da barra de pesquisa */
+
+.search-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 300px;
+}
+
+
+#searchInput {
+  border-radius: 10px;
+  height: 25px;
+  position: relative;
+  transform: translateY(50%);
+}
+
+.b1 {
+  position: relative;
+  transform: translateY(50%);
+}
+
+/* Termina aqui */
