@@ -1,5 +1,11 @@
+
+
+*{
+    box-sizing: border-box;
+}
+
 html{
-    font-size: 17px;
+    font-size: 14px;
     font-family: 'Titillium Web', sans-serif;
     background-color:#DEDBE0;
     color:#000000;
@@ -9,7 +15,7 @@ html{
 a{
     color: #564E5A; /* Coloca os textos de títulos com a cor roxa escuro*/
     font-family: Arial, Helvetica, URW Bookman L, serif; /*TM*/
-    /* font-weight: bolder; */
+    font-weight: bolder;
     text-decoration: none;
 }
 
@@ -25,7 +31,6 @@ h1{
   /*border: 1px dashed #ccc;*/
   margin: 0 auto;
   font-family: Arial, Helvetica, URW Bookman L, serif;
-  font-size: 25px;
 
 
 }
@@ -128,73 +133,194 @@ h1{
 
 
 /* SMARTPHONE */
-.container{
-    margin: 20px;
-    padding: 20px;
-}
+@media screen and (max-width: 460px) {
+    .container{
+        margin: 10px;
+        padding: 10px;
+    }
 
-.subforum{
-    margin-top:20px;
-}
+    .subforum-row{
+        display: grid;
+        grid-template-columns: 25% 75%;
+        grid-template-rows: 65% 35%;
+    }
 
-.subforum-title{
-    background-color:#867B8C; /*Muda a cor do fundo do subtitulo TM*/
-    padding: 5px;
-    border-radius: 5px;
-    margin:4px;
-    text-align: center;
-    color:#ece7ee; /*Muda a cor da letra TM*/
-}
+    .subforum-devider{
+        display: block;
+        border: 0;
+        height: 1px;
+        background-image: linear-gradient(to right, rgba(190, 190, 190, 0), rgba(255, 255, 255, 0.75), rgba(190, 190, 190, 0));
+    }
 
-.subforum-row{
-    display: grid;
-    grid-template-columns: 7% 60% 13% 20%;
-
-}
-
-.subforum-column{
-    padding-top: 10px;
-    margin:4px;
-    border-radius: 5px;
-    background-color:#ffffff;
-    font-family:aquire;
-    
-}
-.subforum-column a{
-    color:#564E5A;/*Muda a cor do link chamado "Ultima postagem"*/
-    font-family:aquire;
-    font-size: medium;
-}
-.subforum-description *{
-    margin-block: 0;
     
 
-}
-.subforum-description  a{
-    color:#564E5A;
-    font-family:aquire;
-}
-.subforum-description  a:hover{
-    color:#867B8C;/*Muda a cor do link quando segura TM*/
-}
+  }
 
-.center{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+/* TABLETS */
+@media screen and (min-width: 460px) and (max-width: 1024px) {
+    .container{
+        margin: 15px;
+        padding: 15px;
+    }
 
-.subforum-icon i{
-    font-size: 45px;
-    color:#564E5A;
-}
+    .subforum-row{
+        display: grid;
+        grid-template-columns: 10% 60% 10% 20%;
+    }
 
-.subforum-devider{
-    display: none;   
-}
+    .subforum-icon i{
+        font-size: 35px;
+    }
+
+    html{
+        font-size: 14px;
+    }
+
+    h1{
+        font-size: 16px;
+    }
+
+  }
+/*   Header */
 
 header{
     margin-inline: 10px;
+}
+  /* Nav Bar styles */
+.navbar{
+    display:flex;
+    align-items: center;
+}
+.navigation{
+    background-color:#C9C3CB; /*Cor do menu sanduiche TM*/
+    padding: 10px;
+    width: 65%;
+    display: inline-block;
+    border-radius: 5px;
+    max-height: 80px;
+    margin-right:10px;
+
+}
+
+.close-icon i{
+    font-size:60px;
+    float: left;
+    cursor: pointer;
+}
+
+.nav-list{
+    list-style-type:none;
+    overflow: hidden;
+}
+
+.nav-item a{
+    float: right;
+    display:block;
+    text-align: center;
+    margin-inline: 20px;
+    font-size: 20px;
+    padding: 10px;
+    color:#050000;
+}
+
+.nav-item a:hover{
+    background-color: rgb(0,0,0,0.1);
+}
+
+.hide{
+    display: none;
+}
+
+.bar-icon{
+    font-size: 60px;
+    display: inline-block;
+    margin-right:10px;
+    color: #564E5A;
+    cursor: pointer;
+}
+
+@font-face {
+    font-family:aquire;
+    src:url(aquire.otf);
+}
+
+.brand{
+    font-size:50px;
+    display: inline-block;
+    font-family:aquire; /*Fonte bonita escolida para título TM*/
+    color: #564E5A; /*TM*/
+}
+
+/*Navbar for the smartphones*/
+@media screen and (max-width: 460px){
+    .navigation{
+        max-height: auto;
+    }
+    
+    .close-icon i{
+        font-size:30px;
+    }
+    
+    .nav-item a{
+        float:left;
+        display:inline;
+        margin-inline: 3px;
+        font-size: 10px;
+        padding: 5px;
+    }
+    
+    
+    .bar-icon{
+        font-size: 30px;
+    }
+ 
+    .brand{
+        font-size:20px;
+        
+    }
+}
+
+  /* Search Box styles */
+.search-box{
+    border: solid 1px #C9C3CB; /*Cor das bordas da caixa de pesquisa TM*/
+    margin-top: 20px;
+    padding: 40px;
+    display:flex;
+    justify-content: center;
+    box-shadow:1px 2px 3px #C9C3CB; /*Sombra das bordas da caixa de pesquisa TM*/
+    border-radius: 5px; /*Arredonda a borda TM*/
+}
+
+.search-box select{
+    padding: 10px;
+    border-radius: 5px; /*Arredonda a borda TM*/
+}
+
+.search-box input{
+    padding: 10px;
+    border-radius: 5px; /*Arredonda a borda TM*/
+}
+
+.search-box button{
+    padding: 10px;
+    background-color:#fff;
+    color:#564E5A; /*TM*/
+    border-radius: 5px;
+}
+
+.search-box button:hover{
+    background-color:#564E5A; /*TM*/
+    color: #fff;
+    box-shadow: 1px 2px 3px #fff;
+}
+
+/* search box for smrtphones */
+@media screen and (max-width: 460px){
+    .search-box input, .search-box button, .search-box select{
+        min-width: 300px;
+        margin-top: 5px;
+    }    
+
 }
 
 /* forum info Styling */
@@ -424,12 +550,33 @@ footer{
     cursor: pointer; /* Cursor ao passar por cima */
 }
 
-.search-box{
-
-    text-align: center;
-    padding-top: 50px;
-
+.reply-container {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #F9F9F9;
+    border-radius: 5px;
 }
+
+.reply-content {
+    margin-bottom: 10px;
+}
+
+.like-button {
+    margin-right: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    width: 05%;
+}
+
+.like-button:hover {
+    background-color: #0056b3;
+}
+
+
 
 
 
