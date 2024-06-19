@@ -23,15 +23,19 @@ h1 {
     font-size: 16px;
     font-weight: bolder;
 }
-#menu{
-  width: 100%; /*largura do menu todo*/
-  height: 73px;/*tem que ser desse tamanho para não deixar um espaço em branco abaixo do menu*/
-  line-height: 50px; /* centraliza na vertical */
-  background-color: #f1f1f1;
-  /*border: 1px dashed #ccc;*/
-  margin: 0 auto;
-  font-family: Arial, Helvetica, URW Bookman L, serif;
-font-size: 25px;
+
+#menu {
+    width: 100%;
+    /*largura do menu todo*/
+    height: 73px;
+    /*tem que ser desse tamanho para não deixar um espaço em branco abaixo do menu*/
+    line-height: 50px;
+    /* centraliza na vertical */
+    background-color: #f1f1f1;
+    /*border: 1px dashed #ccc;*/
+    margin: 0 auto;
+    font-family: Arial, Helvetica, URW Bookman L, serif;
+    font-size: 25px;
 
 }
 
