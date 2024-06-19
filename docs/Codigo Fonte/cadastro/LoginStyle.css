@@ -147,3 +147,23 @@ h3 {
     border:solid;
     
 }
+.sobre{
+    background-color: #808080;
+    border-radius: 5px;
+    color:#dfd9d9;
+    padding: 30px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 50px;
+  }
+.sobre p{
+    text-align: center;
+    width: 75%;  
+    font-family: Arial, Helvetica, URW Bookman L, serif;
+
+  }
+strong{
+    font-size: medium;
+    color: #564E5A;
+  }
