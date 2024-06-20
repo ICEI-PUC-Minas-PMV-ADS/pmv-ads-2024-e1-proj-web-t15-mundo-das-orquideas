@@ -26,6 +26,26 @@ body {
 
 }
 
+.b1 {
+  margin-left: 35px;
+  /*distancia entre os botões*/
+  margin-right: 35px;
+  border: none;
+  background-color: transparent;
+  font-size: 25px;
+  padding: 22px 70px;
+  color: #564E5A;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 6px;
+
+}
+
+.b1:hover {
+
+  background-color: #D6D6D6;
+  color: #6D6D6D;
+  border-bottom: 3px solid#867B8C;
+}
 
 #menu {
   width: 100%;
@@ -76,6 +96,7 @@ body {
   color: #6D6D6D;
   border-bottom: 3px solid#867B8C;
 }
+
 
 .box {
   display: inline-block;
@@ -140,7 +161,7 @@ body {
 }
 
 /*botão de ver mais*/
-button {
+.button1 {
   margin-left: 30px;
   background-color: #eee;
   border: none;
@@ -153,19 +174,19 @@ button {
   cursor: pointer;
 }
 
-button:active {
+.button1:active {
   color: white;
   box-shadow: 0 0.2rem #dfd9d9;
   transform: translateY(0.2rem);
 }
 
-button:hover:not(:disabled) {
+.button1:hover:not(:disabled) {
   background: #564E5A;
   color: white;
   text-shadow: 0 0.0.2rem #bcb4b4;
 }
 
-button:disabled {
+.button1:disabled {
   cursor: auto;
   color: grey;
 }
@@ -490,26 +511,28 @@ header {
   padding: 10px;
 }
 
-  .sobre{
-      background-color: #808080;
-      border-radius: 5px;
-      color:#dfd9d9;
-      padding: 30px;
-      text-align: center;
-      justify-content: center;
-      display: flex;
-      margin-top: 50px;
-    }
-  .sobre p{
-      text-align: center;
-      width: 75%;  
-      font-family: Arial, Helvetica, URW Bookman L, serif;
-    }
-  strong{
-      font-size: medium;
-      color: #564E5A;
-    }
-    
+.sobre {
+  background-color: #808080;
+  border-radius: 5px;
+  color: #dfd9d9;
+  padding: 30px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 50px;
+}
+
+.sobre p {
+  text-align: center;
+  width: 75%;
+  font-family: Arial, Helvetica, URW Bookman L, serif;
+}
+
+strong {
+  font-size: medium;
+  color: #564E5A;
+}
+
 /* Estilo da barra de pesquisa */
 
 .search-container {
@@ -534,5 +557,7 @@ input[type="text"] {
   position: relative;
   transform: translateY(50%);
 }
+
+.btn-1 {}
 
 /* Termina aqui */

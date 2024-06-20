@@ -18,6 +18,8 @@ html {
     margin: 0 auto;
     font-family: Arial, Helvetica, URW Bookman L, serif;
     border-top: 0px;
+    font-size: 25px;
+  font-weight: bolder;
 }
   #menu ul { 
     padding:0px;
@@ -40,6 +42,7 @@ html {
       border-bottom:3px solid #C9C3CB; 
       border-radius: 6px;
       padding: 10px 70px; /*distancia entre os botões *Não mexer */
+
   }
   #menu ul li a:hover { 
     background-color:#D6D6D6;
@@ -144,4 +147,24 @@ html {
   flex-direction: row;
   flex-wrap: wrap;
 
+}
+.b1 {
+  margin-left: 35px;
+  /*distancia entre os botões*/
+  margin-right: 35px;
+  border: none;
+  background-color: transparent;
+  font-size: 25px;
+  padding: 22px 70px;
+  color: #564E5A;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 6px;
+
+}
+
+.b1:hover {
+
+  background-color: #D6D6D6;
+  color: #6D6D6D;
+  border-bottom: 3px solid#867B8C;
 }
