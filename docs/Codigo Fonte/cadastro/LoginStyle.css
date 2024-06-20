@@ -167,3 +167,19 @@ strong{
     font-size: medium;
     color: #564E5A;
   }
+  .sobre {
+    background-color: black;
+    border-radius: 5px;
+    color: #dfd9d9;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+  }
+  
+  .sobre p {
+    text-align: center;
+    width: 75%;
+    font-family: Arial, Helvetica, URW Bookman L, serif;
+  }

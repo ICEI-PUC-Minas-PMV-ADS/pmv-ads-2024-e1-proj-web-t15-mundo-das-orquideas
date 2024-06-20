@@ -21,6 +21,7 @@ H4 {
 
 }
 
+
 body {
   background-color: #DEDBE0;
 
@@ -242,13 +243,11 @@ body {
   transform: translateX(-50%);
   text-align: center;
   font-size: 35px;
-
-  /* border: 2px solid; */
   border-radius: 10px;
   border-width: 2px;
   border-style: solid;
-  margin-top: 70px;
-  margin-bottom: 50PX;
+  margin-top: 55px;
+  
 }
 
 .forumbanner p {
@@ -512,10 +511,10 @@ header {
 }
 
 .sobre {
-  background-color: #808080;
+  background-color: black;
   border-radius: 5px;
   color: #dfd9d9;
-  padding: 30px;
+  padding: 20px;
   text-align: center;
   justify-content: center;
   display: flex;
@@ -526,6 +525,7 @@ header {
   text-align: center;
   width: 75%;
   font-family: Arial, Helvetica, URW Bookman L, serif;
+  
 }
 
 strong {
@@ -537,7 +537,8 @@ strong {
 
 .search-container {
   text-align: center;
-  margin-top: 20px;
+  position: relative;
+  transform: translateY(50%);
 }
 
 input[type="text"] {
@@ -550,7 +551,7 @@ input[type="text"] {
   border-radius: 10px;
   height: 25px;
   position: relative;
-  transform: translateY(50%);
+  border: none;
 }
 
 .b1 {
@@ -558,6 +559,9 @@ input[type="text"] {
   transform: translateY(50%);
 }
 
-.btn-1 {}
+.b2{
+  position: relative;
+  top: 100px;
+}
 
 /* Termina aqui */

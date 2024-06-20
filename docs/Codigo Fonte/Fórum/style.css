@@ -377,20 +377,20 @@ header {
 }
 
 /* Footer Styling */
-
+/* 
 footer {
     margin-top: 20px;
     padding: 20px;
     background-color: #C9C3CB;
     /*cor do rodapé TM*/
-    display: block;
+    /* display: block;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 5px; */
     /*Arredonda a borda TM*/
-    margin-bottom: 5px;
-    box-shadow: 2px 2px 2px #867B8C;
+    /* margin-bottom: 5px;
+    box-shadow: 2px 2px 2px #867B8C; */
     /*XColoca uma sombra degrade no fundo TM*/
-}
+
 
 /* ########################################### */
 /*           POSTS                 */
@@ -656,3 +656,19 @@ footer {
 
 
 
+.sobre {
+    background-color: black;
+    border-radius: 5px;
+    color: #dfd9d9;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+  }
+  
+  .sobre p {
+    text-align: center;
+    width: 75%;
+    font-family: Arial, Helvetica, URW Bookman L, serif;
+  }
