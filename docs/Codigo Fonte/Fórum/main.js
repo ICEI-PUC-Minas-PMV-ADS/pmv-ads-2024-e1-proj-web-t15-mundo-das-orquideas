@@ -10,7 +10,13 @@ document.addEventListener("DOMContentLoaded", function () {
                 emptyDiv.classList.add("status");
                 var replySubject = document.createElement("div");
                 replySubject.classList.add("subjects");
-                replySubject.innerHTML = `<p>${replyText}</p><br><span>Respondido por <b><a href="">Usuario</a></b>.</span>`;
+                replySubject.innerHTML = `
+                    <a href="">${replyText}</a>
+                    <div class="reply-rating">
+                        <button class="rating-button" data-rating="bom">Bom</button>
+                        <button class="rating-button" data-rating="ruim">Ruim</button>
+                    </div>
+                    <span>Respondido por <b><a href="">Usuario</a></b>.</span>`;
                 var emptyReplies = document.createElement("div");
                 emptyReplies.classList.add("replies");
                 var lastReply = document.createElement("div");
@@ -59,7 +65,13 @@ document.addEventListener("DOMContentLoaded", function () {
             divStatus.innerHTML = `<i class="fa fa-fire"></i>`;
             divStatus.classList.add("status");
 
-            divSubjects.innerHTML = `<a href="">${question}</a><br><span>Iniciado por<b><a href="">Usuario</a></b>.</span>`;
+            divSubjects.innerHTML = `
+                <a href="">${question}</a>
+                <div class="reply-rating">
+                    <button class="rating-button" data-rating="bom">Bom</button>
+                    <button class="rating-button" data-rating="ruim">Ruim</button>
+                </div>
+                <span>Iniciado por <b><a href="">Usuario</a></b>.</span>`;
             divSubjects.classList.add("subjects");
 
             let replyButton = document.createElement("button");
@@ -81,6 +93,17 @@ document.addEventListener("DOMContentLoaded", function () {
             let footer = document.querySelector("footer");
             // Inserir antes da div "sobre"
             tabelaDeTopicos.insertBefore(divTableRow, sobreDiv);
+        }
+    });
+
+    // Event listener para classificação de resposta
+    document.addEventListener("click", function (event) {
+        if (event.target.classList.contains("rating-button")) {
+            var rating = event.target.getAttribute("data-rating");
+            var replyRow = event.target.closest(".table-row");
+            var replyRating = replyRow.querySelector(".reply-rating");
+            // Remove os botões de classificação após a seleção
+            replyRating.innerHTML = `<p><b>Classificação:</b> ${rating}</p>`;
         }
     });
 
