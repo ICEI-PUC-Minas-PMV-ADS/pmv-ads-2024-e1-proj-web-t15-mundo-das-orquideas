@@ -147,11 +147,11 @@ body {
   font-size: 30px;
 
 }
-
+/* 
 .conteudo {
 
   padding-top: 50px;
-}
+} */
 
 .imagemelink a {
   text-align: center;
@@ -552,7 +552,7 @@ input[type="text"] {
   height: 25px;
   position: relative;
   border: none;
-  margin-top: 4%;
+  margin-top: 4px;
 }
 
 .b1 {
