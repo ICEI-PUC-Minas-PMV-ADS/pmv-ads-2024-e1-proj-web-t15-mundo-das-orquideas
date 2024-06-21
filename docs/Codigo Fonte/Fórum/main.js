@@ -5,11 +5,11 @@ document.addEventListener("DOMContentLoaded", function () {
             var replyText = prompt("Digite sua resposta:");
             if (replyText) {
                 var replyRow = document.createElement("div");
-                replyRow.classList.add("table-row");
+                replyRow.classList.add("table-row", "resposta");
                 var emptyDiv = document.createElement("div");
-                emptyDiv.classList.add("status");
+                emptyDiv.classList.add("status","coluna-resposta");
                 var replySubject = document.createElement("div");
-                replySubject.classList.add("subjects");
+                replySubject.classList.add("subjects","coluna-resposta");
                 replySubject.innerHTML = `
                     <a href="">${replyText}</a>
                     <div class="reply-rating">
@@ -18,11 +18,18 @@ document.addEventListener("DOMContentLoaded", function () {
                     </div>
                     <span>Respondido por <b><a href="">Usuario</a></b>.</span>`;
                 var emptyReplies = document.createElement("div");
-                emptyReplies.classList.add("replies");
+                emptyReplies.classList.add("replies","coluna-resposta");
                 var lastReply = document.createElement("div");
-                lastReply.classList.add("last-reply");
+                lastReply.classList.add("last-reply","coluna-resposta");
                 var currentDate = new Date().toLocaleDateString("pt-BR");
                 lastReply.innerHTML = `${currentDate} <br>por <b><a href="">Usuario</a></b>`;
+
+
+
+                let divLikes = document.createElement("div")
+                divLikes.classList.add("div-like","coluna-resposta")
+
+
                 var likeButton = document.createElement("button");
                 likeButton.textContent = "Like";
                 likeButton.classList.add("like-button");
@@ -33,12 +40,25 @@ document.addEventListener("DOMContentLoaded", function () {
                     var currentCount = parseInt(likeCount.textContent);
                     likeCount.textContent = currentCount + 1;
                 });
+
+
+                divLikes.appendChild(likeButton)
+                divLikes.appendChild(likeCount)
+
+
+
+
+
+
                 replyRow.appendChild(emptyDiv);
                 replyRow.appendChild(replySubject);
-                replyRow.appendChild(emptyReplies);
+                //replyRow.appendChild(emptyReplies);
                 replyRow.appendChild(lastReply);
-                replyRow.appendChild(likeButton);
-                replyRow.appendChild(likeCount);
+                //replyRow.appendChild(likeButton);
+                //replyRow.appendChild(likeCount);
+
+                replyRow.appendChild(divLikes)
+
                 // Adiciona a nova resposta logo após o botão clicado
                 replyButton.parentElement.parentElement.parentElement.insertBefore(replyRow, replyButton.parentElement.parentElement.nextElementSibling);
             }
@@ -82,6 +102,9 @@ document.addEventListener("DOMContentLoaded", function () {
             divReplies.appendChild(replyButton);
             divReplies.classList.add("replies");
 
+
+            divLastReply.classList.add("last-reply")
+            divLastReply.innerHTML = "-"
             divTableRow.appendChild(divStatus);
             divTableRow.appendChild(divSubjects);
             divTableRow.appendChild(divReplies);
