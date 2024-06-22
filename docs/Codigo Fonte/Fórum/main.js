@@ -28,11 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
         divStatus.classList.add("status");
 
         divSubjects.innerHTML = `
-            <a href="">${question}</a>
-            <div class="reply-rating">
-                <button class="rating-button" data-rating="bom">Bom</button>
-                <button class="rating-button" data-rating="ruim">Ruim</button>
-            </div>
+            <a href="">${question}</a>          
             <span>Iniciado por <b><a href="">${user}</a></b>.</span>`; // <=== ALTERADO PARA USAR nomeUser
         divSubjects.classList.add("subjects");
 

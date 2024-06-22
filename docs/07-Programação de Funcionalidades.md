@@ -1,4 +1,4 @@
-# Programação de Funcionalidades
+# Programação das Funcionabilidades
 
 ## RF-01 - Pesquisa dentro do site
 
@@ -197,7 +197,7 @@
 </ul>
 
 
-## RF-09 - Pesquisa externa
+## RF-09 - Link para Google Leans
 
 <p><b>Responsável:</b> Kaue</p>
 

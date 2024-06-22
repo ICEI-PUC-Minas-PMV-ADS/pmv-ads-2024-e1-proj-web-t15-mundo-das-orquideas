@@ -64,7 +64,7 @@
 | RF-02 | O usuário deve ser capaz de fazer cadastro para acesso no fórum; | Alta |
 | RF-03 | A aplicação deve permitir o usuário fazer perguntas no fórum; | Alta |
 | RF-04 | A aplicação deve permitir o usuário fazer respostas no fórum; | Alta |
-| RF-05 | No fórum será possível classificar as respostas e ser clasificado com likes | Média|
+| RF-05 | No fórum será possível classificar as respostas,  ter como dar like | Média|
 | RF-06 | A aplicação deve conter informações de cultivo e cuidados de orquídeas; | Alta |
 | RF-07 | A aplicação deve mostrar uma imagem para cada tipo de orquídea cadastrada; | Média |
 | RF-08 | A aplicação deve permitir ao usuário verificar as informações de cadastro na página Perfil, após fazer seu login; | Baixa |
