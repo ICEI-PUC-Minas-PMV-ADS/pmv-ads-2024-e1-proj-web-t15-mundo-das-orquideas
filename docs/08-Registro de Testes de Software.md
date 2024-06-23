@@ -5,9 +5,9 @@
 Os testes funcionais realizados na aplicação web são descritos a seguir.
 
 <ol>
-  <li> CT-01: Verificar a funcionalidade de pesquisa.
+ <h2><li> CT-01: Verificar a funcionalidade de pesquisa.</h2>
 
-  Responsável: Kaue.
+  Responsável: André.
 
 inserir imagem e comentario 
 
@@ -17,7 +17,8 @@ inserir resulta sem correspondencia de busca.
   </li>
   <hr>
 
-  <li> CT - 02: Verificar a funcionalidade do cadastro.
+  <h2><li> CT - 02: Verificar a funcionalidade do cadastro.</h2>
+    
   Responsável: André.
 
 inserir imagem e comentario
@@ -35,7 +36,7 @@ imagem
   </li>
   <hr>
 
-<li> CT - 03: Verificar a função "NOVO TÓPICO" pra realizar perguntas.
+<h2><li> CT - 03: Verificar a função "NOVO TÓPICO" pra realizar perguntas.</h2>
     
   Responsável: Gustavo / Vinícius
 
@@ -51,7 +52,7 @@ imagem inclusao nova Pergunta no fórum.
   <hr>
 
 
-<li> CT - 04: Verificar a função "RESPONDER" para realizar uma resposta.
+<h2><li> CT - 04: Verificar a função "RESPONDER" para realizar uma resposta.</h2>
   
    Responsável: Gustavo / Vinícius
 
@@ -65,7 +66,7 @@ imagem da resposta incluida.
   </li>
   <hr>
 
-<li> CT - 05: Verificar o botão "LIKE" nas respostas postadas.
+<h2><li> CT - 05: Verificar o botão "LIKE" nas respostas postadas.</h2>
   
    Responsável: Gustavo / Vinícius
 
@@ -76,7 +77,7 @@ imagem da responsa e do contador de like.
   </li>
   <hr>
 
-<li> CT - 06: Verificar o cadastro e informações de cultivo e cuidados das plantas.
+<h2><li> CT - 06: Verificar o cadastro e informações de cultivo e cuidados das plantas.</h2>
   
    Responsável: Tamires / Kaue
 
@@ -91,7 +92,7 @@ imagem da planta e informaçoes de cultivo e cuidados.
   <hr>
 
 
-<li> CT - 07: Verificar a presença da imagem correspondente ao tipo de orquídea cadastrada.
+<h2><li> CT - 07: Verificar a presença da imagem correspondente ao tipo de orquídea cadastrada.</h2>
   
    Responsável: Tamires / Kaue
 
@@ -101,7 +102,7 @@ inserir imagem e comentario
   <hr>
 
 
-<li> CT - 08: Verificar os dados do usuário após login.
+<h2><li> CT - 08: Verificar os dados do usuário após login.</h2>
   
    Responsável: André.
 
@@ -114,7 +115,7 @@ imagem dos dados do cadastro do usuário.
   <hr>
 
 
-<li> CT - 09: Verificar a funcionalidade do link de pesquisa pelo Google Leans.
+<h2><li> CT - 09: Verificar a funcionalidade do link de pesquisa pelo Google Leans.</h2>
   
    Responsável: Kaue.
 
@@ -128,7 +129,7 @@ imagem da pesquisa no site do Google Leans.
   <hr>
 
 
-<li> CT - 10: Verificar o formulário e a classificação do usuário.
+<h2><li> CT - 10: Verificar o formulário e a classificação do usuário.</h2>
   
    Responsável: André.
 
