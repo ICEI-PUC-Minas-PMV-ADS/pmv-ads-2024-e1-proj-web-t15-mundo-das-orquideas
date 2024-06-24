@@ -1,19 +1,203 @@
 # Plano de Testes de Software
+Requisitos Associados:
+RF - 01:  O usuário deve ser capaz de pesquisar tipos de orquídeas;
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
+Objetivo de Teste:
+O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar
 
-Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
+Passos:
+1 - Acessar o navegador   
+2 - Informar o endereço do site               
+3 - Visualizar a pagina HOME              
+4 - Digitar no filtro de pesquisa alguma orquídea
 
-Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
- 
-## Ferramentas de Testes (Opcional)
+Critérios de Êxito:
+Os dados inseridos no filtro de pesquisa devem mostras os tipos de orquídeas
 
-Comente sobre as ferramentas de testes utilizadas.
- 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+Responsável:
+Kaue
+
+Requisitos Associados:
+RF - 02: O usuário deve ser capaz de fazer cadastro para acesso no fórum;
+
+Objetivo de Teste:
+Verificar a opção CADASTRO, para realizar o mesmo.
+
+Passos:
+1 - Acessar o navegador,                 
+2 - Informar o endereço do site    
+3 - Visualizar a pagina HOME                                                                        
+4- Clicar no botão Cadastro.
+
+
+Critérios de Êxito:
+Ao final da etapa o usuário será capaz de ser cadastrado no site
+
+Responsável:
+André
+
+Requisitos Associados:
+RF - 03: A aplicação deve permitir o usuário faça perguntas no fórum;
+
+Objetivo de Teste:
+Verificar se é possível fazer um nova pergunta dentro do fórum
+
+
+Passos:
+1 - Acessar o navegador,                 
+ 2 - Informar o endereço do site         
+3 - Visualizar a pagina HOME         
+4 - Fazer o Login                                    
+5 - Acessar o MENU FORUM.                           
+ 6 - Clicar em "NOVO TÓPICO" para realizar uma nova pergunta.
+
+
+Critérios de Êxito:
+O usuário será capaz de confirmar a pergunta postada
+
+Responsável:
+Gustavo/Vinícius
+
+Requisitos Associados:
+RF - 04: A aplicação deve permitir que o usuário  possa postar respostas no fórum;
+
+Objetivo de Teste:
+Verificar a opção responder para cada pergunta postada.
+
+Passos:
+1 - Acessar o navegador,                   
+2 - Informar o endereço do site  
+ 3 - Visualizar a pagina HOME                  
+4 - Fazer o Login                                      
+5 - Acessar o MENU FORUM.                                
+ 6 - Clicar em "RESPONDER". No tópico desejado.
+
+Critérios de Êxito:
+O usuário será capaz de responder as perguntas postadas.
+
+Responsável:
+Gustavo/Vinícius
+
+Requisitos Associados:
+RF - 05: No fórum será possível classificar as respostas e ser classificado com likes
+
+Objetivo de Teste:
+Verificar a opção de classificar e dar like nas respostas
+
+Passos:
+1 - Acessar o navegador,                   
+2 - Informar o endereço do site           
+3 - Visualizar a pagina HOME                  
+ 4 - Fazer o Login                                     
+ 5 - Acessar o MENU FORUM.                                 
+6 - Clicar em "NOVO TÓPICO" para realizar uma nova pergunta. 6 - Clicar em "LIKE" para cada resposta
+
+Critérios de Êxito:
+O usuário será capaz de classificar e dar like em cada resposta
+
+Responsável:
+Gustavo/Vinícius
+
+Requisitos Associados:
+RF - 06: A aplicação deve conter informações de cultivo e cuidados de orquídeas;
+
+Objetivo de Teste:
+Verificar as informações de cada orquídea
+
+Passos:
+1 - Acessar o navegador,                   
+2 - Informar o endereço do site           
+3 - Visualizar a pagina HOME                   
+4 - Clicar na orquídea desejada                               
+
+Critérios de Êxito:
+O usuário será capaz de obter as informações de cultivos e cuidados das plantas
+
+Responsável:
+Kaue/Tamires
+
+Requisitos Associados:
+RF - 07: A aplicação deve mostrar uma imagem para cada tipo de orquídea cadastrada;
+
+Objetivo de Teste:
+Verificar a imagem de cada orquídea
+
+Passos:
+1 - Acessar o navegador,                   
+2 - Informar o endereço do site          
+ 3 - Visualizar a pagina HOME                                                
+
+Critérios de Êxito:
+O usuário será capaz de visualizar na página home a imagem de cada orquídea
+
+
+Responsável:
+Kaue/Tamires
+
+
+
+Requisitos Associados:
+ RF - 08: A aplicação deve permitir ao usuário verificar as informações de cadastro na página Perfil, após fazer seu login;
+
+
+Objetivo de Teste:
+Verificar os dados no perfil do usuário cadastrado
+
+
+Passos:
+1 - Acessar o navegador,                   
+2 - Informar o endereço do site          
+3 - Visualizar a página HOME                   
+4 - Fazer o Login                                      
+5 - Verificar os dados do login
+
+Critérios de Êxito:
+O usuário será capaz de ter as informações de cadastro após o login
+
+Responsável:
+André
+
+
+Requisitos Associados:
+RF - 09: A aplicação deve ter um link de pesquisa vinculado ao google leans para pesquisar via foto qual é a orquídea dele;
+
+
+Objetivo de Teste:
+Verificar se o site está vinculado ao google leans
+
+
+Passos:
+1 - Acessar o navegador,                   
+2 - Informar o endereço do site           
+3 - Visualizar a pagina HOME      
+4 - Acessar o link google leans                                           
+
+
+Critérios de Êxito:
+O usuário será capaz de pesquisar a orquídea através do google leans
+
+
+Responsável:
+Kaue
+
+Requisitos Associados:
+RF - 10: Classificação do usuário a partir de um formulário quando for feito o cadastro. Cuidador iniciante, cuidador especialista;
+
+
+Objetivo de Teste:
+Verificar a classificação logo após o login 
+
+
+Passos:
+1 - Acessar o navegador,                   
+2 - Informar o endereço do site          
+ 3 - Visualizar a pagina HOME                   
+4 - Fazer o Login                                      
+5 - Responder o formulário de classificação 
+
+Critérios de Êxito:
+O usuário será capaz de realizar a classificação através de formulário
+
+Responsável:
+André
+
