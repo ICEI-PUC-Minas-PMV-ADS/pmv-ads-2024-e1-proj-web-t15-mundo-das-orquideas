@@ -1,8 +1,8 @@
 # Plano de Testes de Software
-Requisitos Associados:
+<h2>Requisitos Associados:</h2>
 RF - 01:  O usuário deve ser capaz de pesquisar tipos de orquídeas;
 
-Objetivo de Teste:
+<h2>Objetivo de Teste:</h2>
 O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar
 
 Passos:
@@ -17,10 +17,10 @@ Os dados inseridos no filtro de pesquisa devem mostras os tipos de orquídeas
 Responsável:
 Kaue
 
-Requisitos Associados:
+<h2>Requisitos Associados:</h2>
 RF - 02: O usuário deve ser capaz de fazer cadastro para acesso no fórum;
 
-Objetivo de Teste:
+<h2>Objetivo de Teste:</h2>
 Verificar a opção CADASTRO, para realizar o mesmo.
 
 Passos:
@@ -36,10 +36,10 @@ Ao final da etapa o usuário será capaz de ser cadastrado no site
 Responsável:
 André
 
-Requisitos Associados:
+<h2>Requisitos Associados:</h2>
 RF - 03: A aplicação deve permitir o usuário faça perguntas no fórum;
 
-Objetivo de Teste:
+<h2>Objetivo de Teste:</h2>
 Verificar se é possível fazer um nova pergunta dentro do fórum
 
 
@@ -58,10 +58,10 @@ O usuário será capaz de confirmar a pergunta postada
 Responsável:
 Gustavo/Vinícius
 
-Requisitos Associados:
+<h2>Requisitos Associados:</h2>
 RF - 04: A aplicação deve permitir que o usuário  possa postar respostas no fórum;
 
-Objetivo de Teste:
+<h2>Objetivo de Teste:</h2>
 Verificar a opção responder para cada pergunta postada.
 
 Passos:
@@ -78,10 +78,10 @@ O usuário será capaz de responder as perguntas postadas.
 Responsável:
 Gustavo/Vinícius
 
-Requisitos Associados:
+<h2>Requisitos Associados:</h2>
 RF - 05: No fórum será possível classificar as respostas e ser classificado com likes
 
-Objetivo de Teste:
+<h2>Objetivo de Teste:</h2>
 Verificar a opção de classificar e dar like nas respostas
 
 Passos:
@@ -98,10 +98,10 @@ O usuário será capaz de classificar e dar like em cada resposta
 Responsável:
 Gustavo/Vinícius
 
-Requisitos Associados:
+<h2>Requisitos Associados:</h2>
 RF - 06: A aplicação deve conter informações de cultivo e cuidados de orquídeas;
 
-Objetivo de Teste:
+<h2>Objetivo de Teste:</h2>
 Verificar as informações de cada orquídea
 
 Passos:
@@ -116,10 +116,10 @@ O usuário será capaz de obter as informações de cultivos e cuidados das plan
 Responsável:
 Kaue/Tamires
 
-Requisitos Associados:
+<h2>Requisitos Associados:</h2>
 RF - 07: A aplicação deve mostrar uma imagem para cada tipo de orquídea cadastrada;
 
-Objetivo de Teste:
+<h2>Objetivo de Teste:</h2>
 Verificar a imagem de cada orquídea
 
 Passos:
@@ -135,12 +135,10 @@ Responsável:
 Kaue/Tamires
 
 
-
-Requisitos Associados:
+<h2>Requisitos Associados:</h2>
  RF - 08: A aplicação deve permitir ao usuário verificar as informações de cadastro na página Perfil, após fazer seu login;
 
-
-Objetivo de Teste:
+<h2>Objetivo de Teste:</h2>
 Verificar os dados no perfil do usuário cadastrado
 
 
@@ -158,11 +156,11 @@ Responsável:
 André
 
 
-Requisitos Associados:
+<h2>Requisitos Associados:</h2>
 RF - 09: A aplicação deve ter um link de pesquisa vinculado ao google leans para pesquisar via foto qual é a orquídea dele;
 
 
-Objetivo de Teste:
+<h2>Objetivo de Teste:</h2>
 Verificar se o site está vinculado ao google leans
 
 
@@ -180,11 +178,11 @@ O usuário será capaz de pesquisar a orquídea através do google leans
 Responsável:
 Kaue
 
-Requisitos Associados:
+<h2>Requisitos Associados:</h2>
 RF - 10: Classificação do usuário a partir de um formulário quando for feito o cadastro. Cuidador iniciante, cuidador especialista;
 
 
-Objetivo de Teste:
+<h2>Objetivo de Teste:</h2>
 Verificar a classificação logo após o login 
 
 
