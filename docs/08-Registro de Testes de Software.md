@@ -9,10 +9,15 @@ Os testes funcionais realizados na aplicação web são descritos a seguir.
 
   Responsável: André.
 
-inserir imagem e comentario 
+<figure>
+ <img src= https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-mundo-das-orquideas/blob/ccbfd520b573ae3ba1362308f233b0fbbf6e9e5d/docs/img/pesquisar.png
+</figure>
 
-inserir resultado da busca 
-inserir resulta sem correspondencia de busca.
+
+<p> Resulta da busca </p>
+<figure>
+ <img src= https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-mundo-das-orquideas/blob/ed47ba6bbe35166db46b35c8dfde3b9e71442150/docs/img/resultado%20pesquisa.png
+</figure>
 
   </li>
   <hr>
@@ -21,16 +26,37 @@ inserir resulta sem correspondencia de busca.
     
   Responsável: André.
 
-inserir imagem e comentario
+<p> Página de acesso ao login e/ou realizaçao de cadastro </p>
 
-Usuário preenche os campos "Senha" e "Confirmaçāo de Senha" com valores diferentes.
+<figure>
+ <img src= https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-mundo-das-orquideas/blob/ed47ba6bbe35166db46b35c8dfde3b9e71442150/docs/img/Login.png 
+  
+</figure>
 
-imagem
 
-Verificar se o usuário foi cadastrado.
+<p> Página cadastro </p>
 
-imagem
+<figure>
+ <img src= https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-mundo-das-orquideas/blob/ed47ba6bbe35166db46b35c8dfde3b9e71442150/docs/img/cadastro.png
+  
+</figure>
 
+
+
+<p> Usuário preenche sem cadastro ou preenche os campos com dados inválidos. </p>
+
+<figure>
+ <img src= https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-mundo-das-orquideas/blob/ed47ba6bbe35166db46b35c8dfde3b9e71442150/docs/img/usuario%20nao%20cadastrado%20ou%20dados%20incorretos.png
+  
+</figure>
+
+
+
+<p> Verifica se o usuário foi cadastrado. </p>
+
+<figure>
+ <img src= https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-mundo-das-orquideas/blob/ed47ba6bbe35166db46b35c8dfde3b9e71442150/docs/img/usuario%20cadastrado.png
+</figure>
 
   
   </li>
@@ -40,12 +66,36 @@ imagem
     
   Responsável: Gustavo / Vinícius
 
-inserir pagina inicial forum
+<p> Página inicial Fórum. </p>
 
-imagem inclusáo novo forum, necessário que usuári seja previamente cadastrado.
+<figure>
+ <img src= https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-mundo-das-orquideas/blob/ed47ba6bbe35166db46b35c8dfde3b9e71442150/docs/img/forum.png
 
-imagem inclusao nova Pergunta no fórum.
+  
+</figure>
 
+
+<p> Inclusáo novo tópico no fórum, funcionalidade solicita que usuário seja previamente cadastrado.. </p>
+
+<figure>
+ <img src= https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-mundo-das-orquideas/blob/ed47ba6bbe35166db46b35c8dfde3b9e71442150/docs/img/forum%20erro%20usuario%20nao%20logado.png 
+
+</figure>
+
+
+<p> Após login, usuário inclui nova pergunta no fórum. </p>
+
+<figure>
+ <img src= https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-mundo-das-orquideas/blob/ed47ba6bbe35166db46b35c8dfde3b9e71442150/docs/img/inserir%20pergunta.png
+
+</figure>
+
+<p> Novo tópico incluído, nova pergunta registrada no fórum. </p>
+
+<figure>
+ <img src= https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-mundo-das-orquideas/blob/ed47ba6bbe35166db46b35c8dfde3b9e71442150/docs/img/pergunta%20incluida.png 
+
+</figure>
 
   
   </li>
@@ -56,11 +106,20 @@ imagem inclusao nova Pergunta no fórum.
   
    Responsável: Gustavo / Vinícius
 
-inserir imagem apos inclusao da pergunta, apresenta a pargutna criada no quadro de tópicos. 
+<p> Inserir uma respota no fórum. </p>
 
-imagem da funçao responder. 
+<figure>
+ <img src= https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-mundo-das-orquideas/blob/ed47ba6bbe35166db46b35c8dfde3b9e71442150/docs/img/inserir%20resposta%20forum.png
 
-imagem da resposta incluida. 
+</figure>
+
+
+<p> Resposta incluída no fórum. </p>
+
+<figure>
+ <img src= https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-mundo-das-orquideas/blob/ed47ba6bbe35166db46b35c8dfde3b9e71442150/docs/img/resposta%20forum.png
+
+</figure>
 
   
   </li>
@@ -70,10 +129,13 @@ imagem da resposta incluida.
   
    Responsável: Gustavo / Vinícius
 
-inserir imagem e comentario
+<p> Demonstra a funçao de classifiçao "Bom" e/ou "Ruim" abaixo da respota e da funçao "LIKE". </p>
 
-imagem da responsa e do contador de like.
-  
+<figure>
+ <img src= https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-mundo-das-orquideas/blob/5713f77da0e068e1e24be624d70a79ce7cb6f1a0/docs/img/like%20respota%20forum.png
+
+</figure>
+
   </li>
   <hr>
 
@@ -81,11 +143,20 @@ imagem da responsa e do contador de like.
   
    Responsável: Tamires / Kaue
 
-inserir imagem e comentario
+<p> Página Catálogo. </p>
 
-imagem pagina de inicio do catálogo de plantas
+<figure>
+ <img src= https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-mundo-das-orquideas/blob/7a0f4f37b237fa6344748bc0b4ee5a0aa2a68871/docs/img/pagina%20Catalogo.png
 
-imagem da planta e informaçoes de cultivo e cuidados.
+</figure>
+
+
+<p> Página com descriçao da planta, cuidados e cultivo. </p>
+
+<figure>
+ <img src= https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-mundo-das-orquideas/blob/7a0f4f37b237fa6344748bc0b4ee5a0aa2a68871/docs/img/descricao%20pagina%20orquidea.png 
+
+</figure>
 
   
   </li>
@@ -96,7 +167,14 @@ imagem da planta e informaçoes de cultivo e cuidados.
   
    Responsável: Tamires / Kaue
 
-inserir imagem e comentario
+
+<p> Catálogo de imagem  dos tipos de orquideas cadastradas. </p>
+
+<figure>
+ <img src= https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-mundo-das-orquideas/blob/7a0f4f37b237fa6344748bc0b4ee5a0aa2a68871/docs/img/pagina%20Catalogo.png
+
+</figure>
+
   
   </li>
   <hr>
@@ -106,24 +184,36 @@ inserir imagem e comentario
   
    Responsável: André.
 
-inserir imagem e comentario
+<p> Dados perfil do usuário. </p>
 
-imagem dos dados do cadastro do usuário. 
+<figure>
+ <img src= https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-mundo-das-orquideas/blob/7a0f4f37b237fa6344748bc0b4ee5a0aa2a68871/docs/img/perfil%20do%20usuario.png
+
+</figure>
 
   
   </li>
   <hr>
 
 
-<h2><li> CT - 09: Verificar a funcionalidade do link de pesquisa pelo Google Leans.</h2>
+<h2><li> CT - 09: Verificar a funcionalidade do link de pesquisa pelo Google Lens.</h2>
   
    Responsável: Kaue.
 
-inserir imagem e comentario
+<p> Link para utilizaçao da ferramento Google Leans. </p>
 
-imagem do link e site correspondente
+<figure>
+ <img src= https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-mundo-das-orquideas/blob/5d38aa36bad3728efec0abb9c61d46d900d906f8/docs/img/Link%20para%20o%20Google%20Lens.png
+  
+</figure>
 
-imagem da pesquisa no site do Google Leans.
+
+<p> Acesso a ferramenta do Google Lens, pesquisa por imagem. </p>
+
+<figure>
+ <img src= https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-mundo-das-orquideas/blob/5d38aa36bad3728efec0abb9c61d46d900d906f8/docs/img/Google%20Lens.png
+  
+</figure>
   
   </li>
   <hr>
@@ -133,17 +223,32 @@ imagem da pesquisa no site do Google Leans.
   
    Responsável: André.
 
-inserir imagem e comentario
+<p> Formulário de classificaçao do usuario. </p>
 
-imagem do preenchimento do formulário de classificaçao do usuario.
+<figure>
+ <img src= https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-mundo-das-orquideas/blob/7a0f4f37b237fa6344748bc0b4ee5a0aa2a68871/docs/img/Questionario.png
 
-imagem do resultado da classificaçao do usuario. 
-  
+</figure>
+
+<p> Preenchimento do formulário de classificaçao do usuario. </p>
+
+<figure>
+ <img src= https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-mundo-das-orquideas/blob/7a0f4f37b237fa6344748bc0b4ee5a0aa2a68871/docs/img/Questionario.png
+
+</figure>
+
+
+<p> Resultado da classificaçao do usuario. </p>
+
+<figure>
+ <img src= https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-mundo-das-orquideas/blob/7a0f4f37b237fa6344748bc0b4ee5a0aa2a68871/docs/img/perfil%20do%20usuario%20e%20classificacao%20.png
+
+</figure>
+
+
   </li>
   <hr>
   
-
-
 
 
   
