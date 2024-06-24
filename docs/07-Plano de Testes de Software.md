@@ -15,7 +15,7 @@ O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usu�
 Os dados inseridos no filtro de pesquisa devem mostras os tipos de orquídeas
 
 Responsável:
-Kaue
+<h2>Kaue<</h2>
 
 <h2>Requisitos Associados:</h2>
 RF - 02: O usuário deve ser capaz de fazer cadastro para acesso no fórum;
@@ -33,7 +33,7 @@ Verificar a opção CADASTRO, para realizar o mesmo.
 Critérios de Êxito:
 Ao final da etapa o usuário será capaz de ser cadastrado no site
 
-Responsável:
+<h2>Responsável:</h2>
 André
 
 <h2>Requisitos Associados:</h2>
@@ -55,7 +55,7 @@ Verificar se é possível fazer um nova pergunta dentro do fórum
 Critérios de Êxito:
 O usuário será capaz de confirmar a pergunta postada
 
-Responsável:
+<h2>Responsável:</h2>
 Gustavo/Vinícius
 
 <h2>Requisitos Associados:</h2>
@@ -75,7 +75,7 @@ Verificar a opção responder para cada pergunta postada.
 Critérios de Êxito:
 O usuário será capaz de responder as perguntas postadas.
 
-Responsável:
+<h2>Responsável:</h2>
 Gustavo/Vinícius
 
 <h2>Requisitos Associados:</h2>
@@ -95,7 +95,7 @@ Verificar a opção de classificar e dar like nas respostas
 Critérios de Êxito:
 O usuário será capaz de classificar e dar like em cada resposta
 
-Responsável:
+<h2>Responsável:</h2>
 Gustavo/Vinícius
 
 <h2>Requisitos Associados:</h2>
@@ -113,7 +113,7 @@ Verificar as informações de cada orquídea
 Critérios de Êxito:
 O usuário será capaz de obter as informações de cultivos e cuidados das plantas
 
-Responsável:
+<h2>Responsável:</h2>
 Kaue/Tamires
 
 <h2>Requisitos Associados:</h2>
@@ -131,7 +131,7 @@ Critérios de Êxito:
 O usuário será capaz de visualizar na página home a imagem de cada orquídea
 
 
-Responsável:
+<h2>Responsável:</h2>
 Kaue/Tamires
 
 
@@ -152,7 +152,7 @@ Verificar os dados no perfil do usuário cadastrado
 Critérios de Êxito:
 O usuário será capaz de ter as informações de cadastro após o login
 
-Responsável:
+<h2>Responsável:</h2>
 André
 
 <h2>Requisitos Associados:</h2>
@@ -170,7 +170,7 @@ Verificar se o site está vinculado ao google leans
 Critérios de Êxito:
 O usuário será capaz de pesquisar a orquídea através do google leans
 
-Responsável:
+<h2>Responsável:</h2>
 Kaue
 
 <h2>Requisitos Associados:</h2>
@@ -191,6 +191,18 @@ Verificar a classificação logo após o login
 Critérios de Êxito:
 O usuário será capaz de realizar a classificação através de formulário
 
-Responsável:
-André -->
+<h2>Responsável:</h2>
+André
 
+| Requisitos Associados | Objetivo de Teste | Passos | Critérios de Exito | Responsável |
+|------------------------|-------------------|--------|--------------------|-------------|
+| RF - 01: O usuário deve ser capaz de pesquisar tipos de orquídeas | O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar | 1 - Acessar o navegador<br>2 - Informar o endereço do site<br>3 - Visualizar a pagina HOME<br>4 - Digitar no filtro de pesquisa alguma orquídea | Os dados inseridos no filtro de pesquisa devem mostras os tipos de orquídeas | Kaue |
+| RF - 02: O usuário deve ser capaz de fazer cadastro para acesso no fórum | Verifcar a opção CADASTRO, para realizar o mesmo. | 1 - Acessar o navegador<br>2 - Informar o endereço do site<br>3 - Visualizar a pagina HOME<br>4- Clicar no botão Cadastro. | Ao final da etapa o usuário será capaz de ser cadastrado no site | André |
+| RF - 03: A aplicação deve permitir o usuário faça perguntas no fórum | Verificar se é possivel fazer um nova pergunta dentro do forum | 1 - Acessar o navegador<br>2 - Informar o endereço do site<br>3 - Visualizar a pagina HOME<br>4 - Fazer o Login<br>5 - Acessar o MENU FORUM.<br>6 - Clicar em "NOVO TÓPICO" para realizar uma nova pergunta. | O usuário será capaz de confirmar a pergunta postada | Gustavo/Vinícius |
+| RF - 04: A aplicação deve permitir que o usuário possa postar respostas no fórum | Verificar a opção responder para cada pergunta postada. | 1 - Acessar o navegador<br>2 - Informar o endereço do site<br>3 - Visualizar a pagina HOME<br>4 - Fazer o Login<br>5 - Acessar o MENU FORUM.<br>6 - Clicar em "RESPONDER". No tópico desejado. | O usuário será capaz de responder as perguntas postadas. | Gustavo/Vinícius |
+| RF - 05: No fórum será possível classificar as respostas e ser clasificado com likes | Verificar a opção de classificar e dar like nas respostas | 1 - Acessar o navegador<br>2 - Informar o endereço do site<br>3 - Visualizar a pagina HOME<br>4 - Fazer o Login<br>5 - Acessar o MENU FORUM.<br>6 - Clicar em "NOVO TÓPICO" para realizar uma nova pergunta.<br>6 - Clicar em "LIKE" para cada resposta | O usuário será capaz de classificar e dar like em cada resposta | Gustavo/Vinícius |
+| RF - 06: A aplicação deve conter informações de cultivo e cuidados de orquídeas | Verificar as informações de cada orquidea | 1 - Acessar o navegador<br>2 - Informar o endereço do site<br>3 - Visualizar a pagina HOME<br>4 - Clicar na orquídea desejada | O usuário será capaz de obter as infomações de cultidos e cuidados das plantas | Kaue/Tamires |
+| RF - 07: A aplicação deve mostrar uma imagem para cada tipo de orquídea cadastrada | Verificar a imagem de cada orquidea | 1 - Acessar o navegador<br>2 - Informar o endereço do site<br>3 - Visualizar a pagina HOME | O usuario será capaz de visualizar na pagina home a imagem de cada orquídea | Kaue/Tamires |
+| RF - 08: A aplicação deve permitir ao usuário verificar as informações de cadastro na página Perfil, após fazer seu login | Verificar os dados no perfil do usuário cadastrado | 1 - Acessar o navegador<br>2 - Informar o endereço do site<br>3 - Visualizar a pagina HOME<br>4 - Fazer o Login<br>5 - Verificar os dados do login | O usuário será capaz de ter as informações de cadastro após o login | Andre |
+| RF - 09: A aplicação deve ter um link de pesquisa vinculado ao google lens para pesquisar via foto qual é a orquídea dele | Verificar se o site está vinculado ao google leans | 1 - Acessar o navegador<br>2 - Informar o endereço do site<br>3 - Visualizar a pagina HOME<br>4 - Acessar o link google leans | O usuário será capaz de pesquisar a orquídea atraves do google leans | Kaue |
+| RF - 10: Classificação do usuário a partir de um formulário quando for feito o cadastro. Cuidador iniciante, cuidador especialista | Verificar a classificação logo após o login | 1 - Acessar o navegador<br>2 - Informar o endereço do site<br>3 - Visualizar a pagina HOME<br>4 - Fazer o Login<br>5 - Responder o formulário de classificação | O usuário será capaz de realizar a classificação atraves de formulário | Andre |
