@@ -15,7 +15,7 @@ O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usu�
 Os dados inseridos no filtro de pesquisa devem mostras os tipos de orquídeas
 
 Responsável:
-Kaue
+<h2>Kaue<</h2>
 
 <h2>Requisitos Associados:</h2>
 RF - 02: O usuário deve ser capaz de fazer cadastro para acesso no fórum;
@@ -33,7 +33,7 @@ Verificar a opção CADASTRO, para realizar o mesmo.
 Critérios de Êxito:
 Ao final da etapa o usuário será capaz de ser cadastrado no site
 
-Responsável:
+<h2>Responsável:</h2>
 André
 
 <h2>Requisitos Associados:</h2>
@@ -55,7 +55,7 @@ Verificar se é possível fazer um nova pergunta dentro do fórum
 Critérios de Êxito:
 O usuário será capaz de confirmar a pergunta postada
 
-Responsável:
+<h2>Responsável:</h2>
 Gustavo/Vinícius
 
 <h2>Requisitos Associados:</h2>
@@ -75,7 +75,7 @@ Verificar a opção responder para cada pergunta postada.
 Critérios de Êxito:
 O usuário será capaz de responder as perguntas postadas.
 
-Responsável:
+<h2>Responsável:</h2>
 Gustavo/Vinícius
 
 <h2>Requisitos Associados:</h2>
@@ -95,7 +95,7 @@ Verificar a opção de classificar e dar like nas respostas
 Critérios de Êxito:
 O usuário será capaz de classificar e dar like em cada resposta
 
-Responsável:
+<h2>Responsável:</h2>
 Gustavo/Vinícius
 
 <h2>Requisitos Associados:</h2>
@@ -113,7 +113,7 @@ Verificar as informações de cada orquídea
 Critérios de Êxito:
 O usuário será capaz de obter as informações de cultivos e cuidados das plantas
 
-Responsável:
+<h2>Responsável:</h2>
 Kaue/Tamires
 
 <h2>Requisitos Associados:</h2>
@@ -131,7 +131,7 @@ Critérios de Êxito:
 O usuário será capaz de visualizar na página home a imagem de cada orquídea
 
 
-Responsável:
+<h2>Responsável:</h2>
 Kaue/Tamires
 
 
@@ -152,7 +152,7 @@ Verificar os dados no perfil do usuário cadastrado
 Critérios de Êxito:
 O usuário será capaz de ter as informações de cadastro após o login
 
-Responsável:
+<h2>Responsável:</h2>
 André
 
 <h2>Requisitos Associados:</h2>
@@ -170,7 +170,7 @@ Verificar se o site está vinculado ao google leans
 Critérios de Êxito:
 O usuário será capaz de pesquisar a orquídea através do google leans
 
-Responsável:
+<h2>Responsável:</h2>
 Kaue
 
 <h2>Requisitos Associados:</h2>
@@ -191,6 +191,6 @@ Verificar a classificação logo após o login
 Critérios de Êxito:
 O usuário será capaz de realizar a classificação através de formulário
 
-Responsável:
+<h2>Responsável:</h2>
 André
 
