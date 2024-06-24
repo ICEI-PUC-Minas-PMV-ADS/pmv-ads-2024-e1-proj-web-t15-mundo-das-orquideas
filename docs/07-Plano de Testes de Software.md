@@ -5,13 +5,13 @@ RF - 01:  O usuário deve ser capaz de pesquisar tipos de orquídeas;
 <h2>Objetivo de Teste:</h2>
 O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar
 
-Passos:
+<h2>Passos:</h2>
 1 - Acessar o navegador   
 2 - Informar o endereço do site               
 3 - Visualizar a pagina HOME              
 4 - Digitar no filtro de pesquisa alguma orquídea
 
-Critérios de Êxito:
+<h2>Critérios de Êxito:</h2> 
 Os dados inseridos no filtro de pesquisa devem mostras os tipos de orquídeas
 
 Responsável:
@@ -23,7 +23,7 @@ RF - 02: O usuário deve ser capaz de fazer cadastro para acesso no fórum;
 <h2>Objetivo de Teste:</h2>
 Verificar a opção CADASTRO, para realizar o mesmo.
 
-Passos:
+<h2>Passos:</h2>
 1 - Acessar o navegador,                 
 2 - Informar o endereço do site    
 3 - Visualizar a pagina HOME                                                                        
@@ -43,7 +43,7 @@ RF - 03: A aplicação deve permitir o usuário faça perguntas no fórum;
 Verificar se é possível fazer um nova pergunta dentro do fórum
 
 
-Passos:
+<h2>Passos:</h2>
 1 - Acessar o navegador,                 
  2 - Informar o endereço do site         
 3 - Visualizar a pagina HOME         
@@ -64,7 +64,7 @@ RF - 04: A aplicação deve permitir que o usuário  possa postar respostas no f
 <h2>Objetivo de Teste:</h2>
 Verificar a opção responder para cada pergunta postada.
 
-Passos:
+<h2>Passos:</h2>
 1 - Acessar o navegador,                   
 2 - Informar o endereço do site  
  3 - Visualizar a pagina HOME                  
@@ -84,7 +84,7 @@ RF - 05: No fórum será possível classificar as respostas e ser classificado c
 <h2>Objetivo de Teste:</h2>
 Verificar a opção de classificar e dar like nas respostas
 
-Passos:
+<h2>Passos:</h2>
 1 - Acessar o navegador,                   
 2 - Informar o endereço do site           
 3 - Visualizar a pagina HOME                  
@@ -104,7 +104,7 @@ RF - 06: A aplicação deve conter informações de cultivo e cuidados de orquí
 <h2>Objetivo de Teste:</h2>
 Verificar as informações de cada orquídea
 
-Passos:
+<h2>Passos:</h2>
 1 - Acessar o navegador,                   
 2 - Informar o endereço do site           
 3 - Visualizar a pagina HOME                   
@@ -122,7 +122,7 @@ RF - 07: A aplicação deve mostrar uma imagem para cada tipo de orquídea cadas
 <h2>Objetivo de Teste:</h2>
 Verificar a imagem de cada orquídea
 
-Passos:
+<h2>Passos:</h2>
 1 - Acessar o navegador,                   
 2 - Informar o endereço do site          
  3 - Visualizar a pagina HOME                                                
@@ -142,7 +142,7 @@ Kaue/Tamires
 Verificar os dados no perfil do usuário cadastrado
 
 
-Passos:
+<h2>Passos:</h2>
 1 - Acessar o navegador,                   
 2 - Informar o endereço do site          
 3 - Visualizar a página HOME                   
@@ -155,25 +155,20 @@ O usuário será capaz de ter as informações de cadastro após o login
 Responsável:
 André
 
-
 <h2>Requisitos Associados:</h2>
 RF - 09: A aplicação deve ter um link de pesquisa vinculado ao google leans para pesquisar via foto qual é a orquídea dele;
-
 
 <h2>Objetivo de Teste:</h2>
 Verificar se o site está vinculado ao google leans
 
-
-Passos:
+<h2>Passos:</h2>
 1 - Acessar o navegador,                   
 2 - Informar o endereço do site           
 3 - Visualizar a pagina HOME      
 4 - Acessar o link google leans                                           
 
-
 Critérios de Êxito:
 O usuário será capaz de pesquisar a orquídea através do google leans
-
 
 Responsável:
 Kaue
@@ -186,7 +181,7 @@ RF - 10: Classificação do usuário a partir de um formulário quando for feito
 Verificar a classificação logo após o login 
 
 
-Passos:
+<h2>Passos:</h2>
 1 - Acessar o navegador,                   
 2 - Informar o endereço do site          
  3 - Visualizar a pagina HOME                   
