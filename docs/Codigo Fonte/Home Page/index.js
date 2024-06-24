@@ -74,6 +74,7 @@ function searchCatalog() {
         { name: "Orquídea Oncidium sharry baby", link: "../Catálogo/infoorquideaOncidium.html" },
         { name: "Orquídea Phalaenopsis", link: "../Catálogo/infoorquideaPhalaenopsis.html" },
         { name: "Orquídea Vanda", link: "../Catálogo/infoorquideaVanda.html" }
+        
     ];
 
     orchids.forEach(function(orchid) {
