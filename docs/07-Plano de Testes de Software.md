@@ -1,5 +1,5 @@
 # Plano de Testes de Software
-<h2>Requisitos Associados:</h2>
+<!-- <h2>Requisitos Associados:</h2>
 RF - 01:  O usuário deve ser capaz de pesquisar tipos de orquídeas;
 
 <h2>Objetivo de Teste:</h2>
@@ -192,5 +192,5 @@ Critérios de Êxito:
 O usuário será capaz de realizar a classificação através de formulário
 
 Responsável:
-André
+André -->
 
